@@ -1,0 +1,962 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<manifest filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/manifest.xml"/>
+<pcToLineNum>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQApp.mc" id="1" lineNum="4" parent="globals/GrappleIQApp" pc="268435457" symbol="&lt;init&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/grapple-iqApp.mc" id="2" lineNum="26" parent="globals" pc="268435469" symbol="getApp"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/grapple-iqApp.mc" id="2" lineNum="27" parent="globals" pc="268435479" symbol="getApp"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen" id="3" lineNum="7" parent="globals/Rez" pc="268435490" symbol="&lt;init&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="4" lineNum="9" parent="globals/GrappleIQView" pc="268435510" symbol="&lt;init&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" id="5" lineNum="10" parent="globals/GrappleIQViewSimple" pc="268435522" symbol="&lt;init&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/grapple-iqApp.mc" id="6" lineNum="5" parent="globals/grapple_iqApp" pc="268435534" symbol="&lt;init&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="7" lineNum="9" parent="globals/GrappleDataField" pc="268435546" symbol="&lt;init&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldMinimal.mc" id="8" lineNum="12" parent="globals/GrappleFieldMinimal" pc="268435558" symbol="&lt;init&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="9" lineNum="11" parent="globals/GrappleFieldComplete" pc="268435570" symbol="&lt;init&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/grapple-iqView.mc" id="10" lineNum="7" parent="globals/grapple_iqView" pc="268435582" symbol="&lt;init&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQApp.mc" id="12" lineNum="14" parent="globals/GrappleIQApp" pc="268435594" symbol="getInitialView"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQApp.mc" id="12" lineNum="15" parent="globals/GrappleIQApp" pc="268435596" symbol="getInitialView"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQApp.mc" id="13" lineNum="6" parent="globals/GrappleIQApp" pc="268435622" symbol="initialize"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQApp.mc" id="13" lineNum="7" parent="globals/GrappleIQApp" pc="268435624" symbol="initialize"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="15" lineNum="133" parent="globals/GrappleIQView" pc="268435637" symbol="onTimerLap"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="15" lineNum="135" parent="globals/GrappleIQView" pc="268435640" symbol="onTimerLap"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="15" lineNum="136" parent="globals/GrappleIQView" pc="268435650" symbol="onTimerLap"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="15" lineNum="138" parent="globals/GrappleIQView" pc="268435662" symbol="onTimerLap"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="15" lineNum="142" parent="globals/GrappleIQView" pc="268435670" symbol="onTimerLap"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="15" lineNum="145" parent="globals/GrappleIQView" pc="268435682" symbol="onTimerLap"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="15" lineNum="149" parent="globals/GrappleIQView" pc="268435759" symbol="onTimerLap"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="15" lineNum="152" parent="globals/GrappleIQView" pc="268435781" symbol="onTimerLap"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="15" lineNum="153" parent="globals/GrappleIQView" pc="268435790" symbol="onTimerLap"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="16" lineNum="60" parent="globals/GrappleIQView" pc="268435810" symbol="&lt;globals/GrappleIQView/&lt;&gt;createFitFields&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="16" lineNum="62" parent="globals/GrappleIQView" pc="268435812" symbol="&lt;globals/GrappleIQView/&lt;&gt;createFitFields&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="16" lineNum="70" parent="globals/GrappleIQView" pc="268435864" symbol="&lt;globals/GrappleIQView/&lt;&gt;createFitFields&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="16" lineNum="78" parent="globals/GrappleIQView" pc="268435917" symbol="&lt;globals/GrappleIQView/&lt;&gt;createFitFields&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="16" lineNum="86" parent="globals/GrappleIQView" pc="268435970" symbol="&lt;globals/GrappleIQView/&lt;&gt;createFitFields&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="17" lineNum="159" parent="globals/GrappleIQView" pc="268436024" symbol="compute"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="17" lineNum="161" parent="globals/GrappleIQView" pc="268436027" symbol="compute"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="17" lineNum="164" parent="globals/GrappleIQView" pc="268436043" symbol="compute"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="17" lineNum="165" parent="globals/GrappleIQView" pc="268436054" symbol="compute"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="17" lineNum="168" parent="globals/GrappleIQView" pc="268436063" symbol="compute"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="17" lineNum="169" parent="globals/GrappleIQView" pc="268436072" symbol="compute"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="17" lineNum="172" parent="globals/GrappleIQView" pc="268436091" symbol="compute"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="17" lineNum="173" parent="globals/GrappleIQView" pc="268436100" symbol="compute"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="17" lineNum="177" parent="globals/GrappleIQView" pc="268436119" symbol="compute"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="17" lineNum="181" parent="globals/GrappleIQView" pc="268436130" symbol="compute"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="17" lineNum="182" parent="globals/GrappleIQView" pc="268436155" symbol="compute"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="17" lineNum="184" parent="globals/GrappleIQView" pc="268436177" symbol="compute"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="21" lineNum="94" parent="globals/GrappleIQView" pc="268436189" symbol="onLayout"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="21" lineNum="96" parent="globals/GrappleIQView" pc="268436191" symbol="onLayout"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="22" lineNum="103" parent="globals/GrappleIQView" pc="268436230" symbol="onTimerStart"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="22" lineNum="105" parent="globals/GrappleIQView" pc="268436233" symbol="onTimerStart"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="22" lineNum="106" parent="globals/GrappleIQView" pc="268436258" symbol="onTimerStart"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="22" lineNum="107" parent="globals/GrappleIQView" pc="268436276" symbol="onTimerStart"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="22" lineNum="110" parent="globals/GrappleIQView" pc="268436280" symbol="onTimerStart"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="22" lineNum="111" parent="globals/GrappleIQView" pc="268436305" symbol="onTimerStart"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="22" lineNum="112" parent="globals/GrappleIQView" pc="268436323" symbol="onTimerStart"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="22" lineNum="115" parent="globals/GrappleIQView" pc="268436328" symbol="onTimerStart"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="22" lineNum="116" parent="globals/GrappleIQView" pc="268436337" symbol="onTimerStart"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="22" lineNum="119" parent="globals/GrappleIQView" pc="268436353" symbol="onTimerStart"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="22" lineNum="120" parent="globals/GrappleIQView" pc="268436362" symbol="onTimerStart"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="22" lineNum="124" parent="globals/GrappleIQView" pc="268436378" symbol="onTimerStart"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="23" lineNum="52" parent="globals/GrappleIQView" pc="268436386" symbol="&lt;globals/GrappleIQView/&lt;&gt;loadSettings&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="23" lineNum="54" parent="globals/GrappleIQView" pc="268436389" symbol="&lt;globals/GrappleIQView/&lt;&gt;loadSettings&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="23" lineNum="55" parent="globals/GrappleIQView" pc="268436414" symbol="&lt;globals/GrappleIQView/&lt;&gt;loadSettings&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="23" lineNum="56" parent="globals/GrappleIQView" pc="268436438" symbol="&lt;globals/GrappleIQView/&lt;&gt;loadSettings&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="27" lineNum="37" parent="globals/GrappleIQView" pc="268436448" symbol="initialize"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="27" lineNum="38" parent="globals/GrappleIQView" pc="268436450" symbol="initialize"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="27" lineNum="41" parent="globals/GrappleIQView" pc="268436462" symbol="initialize"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="27" lineNum="42" parent="globals/GrappleIQView" pc="268436487" symbol="initialize"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="27" lineNum="43" parent="globals/GrappleIQView" pc="268436512" symbol="initialize"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="27" lineNum="46" parent="globals/GrappleIQView" pc="268436537" symbol="initialize"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="27" lineNum="49" parent="globals/GrappleIQView" pc="268436544" symbol="initialize"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="28" lineNum="187" parent="globals/GrappleIQView" pc="268436552" symbol="&lt;globals/GrappleIQView/&lt;&gt;checkHeartRateCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="28" lineNum="189" parent="globals/GrappleIQView" pc="268436555" symbol="&lt;globals/GrappleIQView/&lt;&gt;checkHeartRateCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="28" lineNum="190" parent="globals/GrappleIQView" pc="268436564" symbol="&lt;globals/GrappleIQView/&lt;&gt;checkHeartRateCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="28" lineNum="193" parent="globals/GrappleIQView" pc="268436565" symbol="&lt;globals/GrappleIQView/&lt;&gt;checkHeartRateCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="28" lineNum="194" parent="globals/GrappleIQView" pc="268436573" symbol="&lt;globals/GrappleIQView/&lt;&gt;checkHeartRateCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="28" lineNum="196" parent="globals/GrappleIQView" pc="268436579" symbol="&lt;globals/GrappleIQView/&lt;&gt;checkHeartRateCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="28" lineNum="197" parent="globals/GrappleIQView" pc="268436587" symbol="&lt;globals/GrappleIQView/&lt;&gt;checkHeartRateCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="28" lineNum="200" parent="globals/GrappleIQView" pc="268436588" symbol="&lt;globals/GrappleIQView/&lt;&gt;checkHeartRateCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="28" lineNum="202" parent="globals/GrappleIQView" pc="268436599" symbol="&lt;globals/GrappleIQView/&lt;&gt;checkHeartRateCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="28" lineNum="204" parent="globals/GrappleIQView" pc="268436608" symbol="&lt;globals/GrappleIQView/&lt;&gt;checkHeartRateCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="28" lineNum="207" parent="globals/GrappleIQView" pc="268436626" symbol="&lt;globals/GrappleIQView/&lt;&gt;checkHeartRateCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="28" lineNum="208" parent="globals/GrappleIQView" pc="268436644" symbol="&lt;globals/GrappleIQView/&lt;&gt;checkHeartRateCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="28" lineNum="210" parent="globals/GrappleIQView" pc="268436653" symbol="&lt;globals/GrappleIQView/&lt;&gt;checkHeartRateCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="28" lineNum="212" parent="globals/GrappleIQView" pc="268436665" symbol="&lt;globals/GrappleIQView/&lt;&gt;checkHeartRateCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" id="28" lineNum="217" parent="globals/GrappleIQView" pc="268436683" symbol="&lt;globals/GrappleIQView/&lt;&gt;checkHeartRateCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" id="29" lineNum="44" parent="globals/GrappleIQViewSimple" pc="268436692" symbol="onTimerLap"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" id="29" lineNum="46" parent="globals/GrappleIQViewSimple" pc="268436695" symbol="onTimerLap"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" id="29" lineNum="47" parent="globals/GrappleIQViewSimple" pc="268436707" symbol="onTimerLap"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" id="29" lineNum="48" parent="globals/GrappleIQViewSimple" pc="268436722" symbol="onTimerLap"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" id="29" lineNum="50" parent="globals/GrappleIQViewSimple" pc="268436723" symbol="onTimerLap"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" id="29" lineNum="53" parent="globals/GrappleIQViewSimple" pc="268436732" symbol="onTimerLap"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" id="29" lineNum="54" parent="globals/GrappleIQViewSimple" pc="268436742" symbol="onTimerLap"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" id="29" lineNum="56" parent="globals/GrappleIQViewSimple" pc="268436754" symbol="onTimerLap"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" id="29" lineNum="60" parent="globals/GrappleIQViewSimple" pc="268436762" symbol="onTimerLap"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" id="29" lineNum="62" parent="globals/GrappleIQViewSimple" pc="268436777" symbol="onTimerLap"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" id="29" lineNum="65" parent="globals/GrappleIQViewSimple" pc="268436813" symbol="onTimerLap"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" id="29" lineNum="66" parent="globals/GrappleIQViewSimple" pc="268436831" symbol="onTimerLap"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" id="29" lineNum="72" parent="globals/GrappleIQViewSimple" pc="268436840" symbol="onTimerLap"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" id="29" lineNum="73" parent="globals/GrappleIQViewSimple" pc="268436865" symbol="onTimerLap"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" id="30" lineNum="76" parent="globals/GrappleIQViewSimple" pc="268436887" symbol="compute"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" id="30" lineNum="78" parent="globals/GrappleIQViewSimple" pc="268436890" symbol="compute"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" id="30" lineNum="81" parent="globals/GrappleIQViewSimple" pc="268436901" symbol="compute"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" id="30" lineNum="82" parent="globals/GrappleIQViewSimple" pc="268436926" symbol="compute"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" id="30" lineNum="83" parent="globals/GrappleIQViewSimple" pc="268436929" symbol="compute"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" id="30" lineNum="84" parent="globals/GrappleIQViewSimple" pc="268436951" symbol="compute"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" id="30" lineNum="87" parent="globals/GrappleIQViewSimple" pc="268436960" symbol="compute"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" id="31" lineNum="27" parent="globals/GrappleIQViewSimple" pc="268436972" symbol="initialize"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" id="31" lineNum="28" parent="globals/GrappleIQViewSimple" pc="268436974" symbol="initialize"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" id="31" lineNum="32" parent="globals/GrappleIQViewSimple" pc="268436986" symbol="initialize"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" id="32" lineNum="90" parent="globals/GrappleIQViewSimple" pc="268436994" symbol="&lt;globals/GrappleIQViewSimple/&lt;&gt;checkHeartRateCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" id="32" lineNum="92" parent="globals/GrappleIQViewSimple" pc="268436997" symbol="&lt;globals/GrappleIQViewSimple/&lt;&gt;checkHeartRateCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" id="32" lineNum="93" parent="globals/GrappleIQViewSimple" pc="268437006" symbol="&lt;globals/GrappleIQViewSimple/&lt;&gt;checkHeartRateCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" id="32" lineNum="96" parent="globals/GrappleIQViewSimple" pc="268437007" symbol="&lt;globals/GrappleIQViewSimple/&lt;&gt;checkHeartRateCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" id="32" lineNum="97" parent="globals/GrappleIQViewSimple" pc="268437010" symbol="&lt;globals/GrappleIQViewSimple/&lt;&gt;checkHeartRateCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" id="32" lineNum="98" parent="globals/GrappleIQViewSimple" pc="268437021" symbol="&lt;globals/GrappleIQViewSimple/&lt;&gt;checkHeartRateCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" id="32" lineNum="101" parent="globals/GrappleIQViewSimple" pc="268437030" symbol="&lt;globals/GrappleIQViewSimple/&lt;&gt;checkHeartRateCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" id="32" lineNum="103" parent="globals/GrappleIQViewSimple" pc="268437036" symbol="&lt;globals/GrappleIQViewSimple/&lt;&gt;checkHeartRateCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" id="32" lineNum="104" parent="globals/GrappleIQViewSimple" pc="268437044" symbol="&lt;globals/GrappleIQViewSimple/&lt;&gt;checkHeartRateCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" id="32" lineNum="107" parent="globals/GrappleIQViewSimple" pc="268437045" symbol="&lt;globals/GrappleIQViewSimple/&lt;&gt;checkHeartRateCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" id="32" lineNum="109" parent="globals/GrappleIQViewSimple" pc="268437056" symbol="&lt;globals/GrappleIQViewSimple/&lt;&gt;checkHeartRateCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" id="32" lineNum="111" parent="globals/GrappleIQViewSimple" pc="268437065" symbol="&lt;globals/GrappleIQViewSimple/&lt;&gt;checkHeartRateCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" id="32" lineNum="114" parent="globals/GrappleIQViewSimple" pc="268437083" symbol="&lt;globals/GrappleIQViewSimple/&lt;&gt;checkHeartRateCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" id="32" lineNum="115" parent="globals/GrappleIQViewSimple" pc="268437101" symbol="&lt;globals/GrappleIQViewSimple/&lt;&gt;checkHeartRateCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" id="32" lineNum="117" parent="globals/GrappleIQViewSimple" pc="268437110" symbol="&lt;globals/GrappleIQViewSimple/&lt;&gt;checkHeartRateCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" id="32" lineNum="119" parent="globals/GrappleIQViewSimple" pc="268437125" symbol="&lt;globals/GrappleIQViewSimple/&lt;&gt;checkHeartRateCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" id="32" lineNum="122" parent="globals/GrappleIQViewSimple" pc="268437161" symbol="&lt;globals/GrappleIQViewSimple/&lt;&gt;checkHeartRateCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" id="32" lineNum="123" parent="globals/GrappleIQViewSimple" pc="268437179" symbol="&lt;globals/GrappleIQViewSimple/&lt;&gt;checkHeartRateCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" id="32" lineNum="128" parent="globals/GrappleIQViewSimple" pc="268437188" symbol="&lt;globals/GrappleIQViewSimple/&lt;&gt;checkHeartRateCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" id="32" lineNum="133" parent="globals/GrappleIQViewSimple" pc="268437206" symbol="&lt;globals/GrappleIQViewSimple/&lt;&gt;checkHeartRateCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" id="33" lineNum="35" parent="globals/GrappleIQViewSimple" pc="268437215" symbol="&lt;globals/GrappleIQViewSimple/&lt;&gt;loadSettings&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" id="33" lineNum="37" parent="globals/GrappleIQViewSimple" pc="268437218" symbol="&lt;globals/GrappleIQViewSimple/&lt;&gt;loadSettings&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" id="33" lineNum="38" parent="globals/GrappleIQViewSimple" pc="268437230" symbol="&lt;globals/GrappleIQViewSimple/&lt;&gt;loadSettings&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" id="33" lineNum="39" parent="globals/GrappleIQViewSimple" pc="268437246" symbol="&lt;globals/GrappleIQViewSimple/&lt;&gt;loadSettings&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" id="33" lineNum="40" parent="globals/GrappleIQViewSimple" pc="268437274" symbol="&lt;globals/GrappleIQViewSimple/&lt;&gt;loadSettings&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/grapple-iqApp.mc" id="35" lineNum="20" parent="globals/grapple_iqApp" pc="268437284" symbol="getInitialView"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/grapple-iqApp.mc" id="35" lineNum="21" parent="globals/grapple_iqApp" pc="268437286" symbol="getInitialView"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/grapple-iqApp.mc" id="36" lineNum="7" parent="globals/grapple_iqApp" pc="268437312" symbol="initialize"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/grapple-iqApp.mc" id="36" lineNum="8" parent="globals/grapple_iqApp" pc="268437314" symbol="initialize"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="38" lineNum="84" parent="globals/GrappleDataField" pc="268437327" symbol="onTimerLap"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="38" lineNum="85" parent="globals/GrappleDataField" pc="268437330" symbol="onTimerLap"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="38" lineNum="88" parent="globals/GrappleDataField" pc="268437348" symbol="onTimerLap"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="38" lineNum="89" parent="globals/GrappleDataField" pc="268437358" symbol="onTimerLap"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="38" lineNum="90" parent="globals/GrappleDataField" pc="268437367" symbol="onTimerLap"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="38" lineNum="92" parent="globals/GrappleDataField" pc="268437388" symbol="onTimerLap"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="38" lineNum="93" parent="globals/GrappleDataField" pc="268437396" symbol="onTimerLap"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="38" lineNum="97" parent="globals/GrappleDataField" pc="268437414" symbol="onTimerLap"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="38" lineNum="99" parent="globals/GrappleDataField" pc="268437429" symbol="onTimerLap"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="38" lineNum="102" parent="globals/GrappleDataField" pc="268437465" symbol="onTimerLap"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="38" lineNum="103" parent="globals/GrappleDataField" pc="268437480" symbol="onTimerLap"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="38" lineNum="104" parent="globals/GrappleDataField" pc="268437499" symbol="onTimerLap"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="38" lineNum="105" parent="globals/GrappleDataField" pc="268437503" symbol="onTimerLap"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="38" lineNum="108" parent="globals/GrappleDataField" pc="268437532" symbol="onTimerLap"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="39" lineNum="43" parent="globals/GrappleDataField" pc="268437551" symbol="onLayout"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="39" lineNum="44" parent="globals/GrappleDataField" pc="268437554" symbol="onLayout"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="39" lineNum="47" parent="globals/GrappleDataField" pc="268437592" symbol="onLayout"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="39" lineNum="48" parent="globals/GrappleDataField" pc="268437612" symbol="onLayout"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="39" lineNum="51" parent="globals/GrappleDataField" pc="268437632" symbol="onLayout"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="39" lineNum="52" parent="globals/GrappleDataField" pc="268437649" symbol="onLayout"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="40" lineNum="113" parent="globals/GrappleDataField" pc="268437666" symbol="onTimerStart"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="40" lineNum="114" parent="globals/GrappleDataField" pc="268437668" symbol="onTimerStart"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="41" lineNum="34" parent="globals/GrappleDataField" pc="268437687" symbol="&lt;globals/GrappleDataField/&lt;&gt;loadSettings&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="41" lineNum="35" parent="globals/GrappleDataField" pc="268437690" symbol="&lt;globals/GrappleDataField/&lt;&gt;loadSettings&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="41" lineNum="36" parent="globals/GrappleDataField" pc="268437702" symbol="&lt;globals/GrappleDataField/&lt;&gt;loadSettings&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="41" lineNum="37" parent="globals/GrappleDataField" pc="268437718" symbol="&lt;globals/GrappleDataField/&lt;&gt;loadSettings&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="41" lineNum="38" parent="globals/GrappleDataField" pc="268437746" symbol="&lt;globals/GrappleDataField/&lt;&gt;loadSettings&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="42" lineNum="129" parent="globals/GrappleDataField" pc="268437756" symbol="onTimerReset"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="42" lineNum="130" parent="globals/GrappleDataField" pc="268437758" symbol="onTimerReset"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="43" lineNum="69" parent="globals/GrappleDataField" pc="268437777" symbol="compute"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="43" lineNum="71" parent="globals/GrappleDataField" pc="268437780" symbol="compute"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="43" lineNum="74" parent="globals/GrappleDataField" pc="268437791" symbol="compute"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="43" lineNum="75" parent="globals/GrappleDataField" pc="268437816" symbol="compute"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="43" lineNum="76" parent="globals/GrappleDataField" pc="268437819" symbol="compute"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="43" lineNum="77" parent="globals/GrappleDataField" pc="268437841" symbol="compute"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="43" lineNum="80" parent="globals/GrappleDataField" pc="268437850" symbol="compute"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="44" lineNum="125" parent="globals/GrappleDataField" pc="268437869" symbol="onTimerResume"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="44" lineNum="126" parent="globals/GrappleDataField" pc="268437871" symbol="onTimerResume"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="45" lineNum="121" parent="globals/GrappleDataField" pc="268437890" symbol="onTimerPause"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="45" lineNum="122" parent="globals/GrappleDataField" pc="268437892" symbol="onTimerPause"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="46" lineNum="26" parent="globals/GrappleDataField" pc="268437911" symbol="initialize"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="46" lineNum="27" parent="globals/GrappleDataField" pc="268437913" symbol="initialize"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="46" lineNum="28" parent="globals/GrappleDataField" pc="268437925" symbol="initialize"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="46" lineNum="31" parent="globals/GrappleDataField" pc="268437937" symbol="initialize"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="47" lineNum="57" parent="globals/GrappleDataField" pc="268437945" symbol="onUpdate"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="47" lineNum="59" parent="globals/GrappleDataField" pc="268437948" symbol="onUpdate"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="47" lineNum="60" parent="globals/GrappleDataField" pc="268437968" symbol="onUpdate"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="47" lineNum="61" parent="globals/GrappleDataField" pc="268437985" symbol="onUpdate"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="47" lineNum="65" parent="globals/GrappleDataField" pc="268438001" symbol="onUpdate"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="48" lineNum="133" parent="globals/GrappleDataField" pc="268438018" symbol="&lt;globals/GrappleDataField/&lt;&gt;checkHeartRateCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="48" lineNum="135" parent="globals/GrappleDataField" pc="268438021" symbol="&lt;globals/GrappleDataField/&lt;&gt;checkHeartRateCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="48" lineNum="136" parent="globals/GrappleDataField" pc="268438030" symbol="&lt;globals/GrappleDataField/&lt;&gt;checkHeartRateCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="48" lineNum="139" parent="globals/GrappleDataField" pc="268438031" symbol="&lt;globals/GrappleDataField/&lt;&gt;checkHeartRateCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="48" lineNum="140" parent="globals/GrappleDataField" pc="268438034" symbol="&lt;globals/GrappleDataField/&lt;&gt;checkHeartRateCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="48" lineNum="141" parent="globals/GrappleDataField" pc="268438045" symbol="&lt;globals/GrappleDataField/&lt;&gt;checkHeartRateCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="48" lineNum="144" parent="globals/GrappleDataField" pc="268438054" symbol="&lt;globals/GrappleDataField/&lt;&gt;checkHeartRateCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="48" lineNum="146" parent="globals/GrappleDataField" pc="268438060" symbol="&lt;globals/GrappleDataField/&lt;&gt;checkHeartRateCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="48" lineNum="147" parent="globals/GrappleDataField" pc="268438068" symbol="&lt;globals/GrappleDataField/&lt;&gt;checkHeartRateCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="48" lineNum="150" parent="globals/GrappleDataField" pc="268438069" symbol="&lt;globals/GrappleDataField/&lt;&gt;checkHeartRateCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="48" lineNum="152" parent="globals/GrappleDataField" pc="268438080" symbol="&lt;globals/GrappleDataField/&lt;&gt;checkHeartRateCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="48" lineNum="154" parent="globals/GrappleDataField" pc="268438089" symbol="&lt;globals/GrappleDataField/&lt;&gt;checkHeartRateCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="48" lineNum="157" parent="globals/GrappleDataField" pc="268438107" symbol="&lt;globals/GrappleDataField/&lt;&gt;checkHeartRateCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="48" lineNum="158" parent="globals/GrappleDataField" pc="268438125" symbol="&lt;globals/GrappleDataField/&lt;&gt;checkHeartRateCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="48" lineNum="160" parent="globals/GrappleDataField" pc="268438134" symbol="&lt;globals/GrappleDataField/&lt;&gt;checkHeartRateCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="48" lineNum="162" parent="globals/GrappleDataField" pc="268438149" symbol="&lt;globals/GrappleDataField/&lt;&gt;checkHeartRateCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="48" lineNum="165" parent="globals/GrappleDataField" pc="268438185" symbol="&lt;globals/GrappleDataField/&lt;&gt;checkHeartRateCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="48" lineNum="166" parent="globals/GrappleDataField" pc="268438200" symbol="&lt;globals/GrappleDataField/&lt;&gt;checkHeartRateCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="48" lineNum="167" parent="globals/GrappleDataField" pc="268438221" symbol="&lt;globals/GrappleDataField/&lt;&gt;checkHeartRateCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="48" lineNum="172" parent="globals/GrappleDataField" pc="268438230" symbol="&lt;globals/GrappleDataField/&lt;&gt;checkHeartRateCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="48" lineNum="177" parent="globals/GrappleDataField" pc="268438248" symbol="&lt;globals/GrappleDataField/&lt;&gt;checkHeartRateCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="49" lineNum="117" parent="globals/GrappleDataField" pc="268438257" symbol="onTimerStop"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleDataField.mc" id="49" lineNum="118" parent="globals/GrappleDataField" pc="268438259" symbol="onTimerStop"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldMinimal.mc" id="50" lineNum="72" parent="globals/GrappleFieldMinimal" pc="268438278" symbol="onTimerLap"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldMinimal.mc" id="50" lineNum="74" parent="globals/GrappleFieldMinimal" pc="268438281" symbol="onTimerLap"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldMinimal.mc" id="50" lineNum="77" parent="globals/GrappleFieldMinimal" pc="268438304" symbol="onTimerLap"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldMinimal.mc" id="50" lineNum="79" parent="globals/GrappleFieldMinimal" pc="268438319" symbol="onTimerLap"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldMinimal.mc" id="50" lineNum="80" parent="globals/GrappleFieldMinimal" pc="268438355" symbol="onTimerLap"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldMinimal.mc" id="50" lineNum="81" parent="globals/GrappleFieldMinimal" pc="268438373" symbol="onTimerLap"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldMinimal.mc" id="50" lineNum="84" parent="globals/GrappleFieldMinimal" pc="268438382" symbol="onTimerLap"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldMinimal.mc" id="51" lineNum="31" parent="globals/GrappleFieldMinimal" pc="268438425" symbol="&lt;globals/GrappleFieldMinimal/&lt;&gt;createFitFields&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldMinimal.mc" id="51" lineNum="33" parent="globals/GrappleFieldMinimal" pc="268438427" symbol="&lt;globals/GrappleFieldMinimal/&lt;&gt;createFitFields&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldMinimal.mc" id="51" lineNum="41" parent="globals/GrappleFieldMinimal" pc="268438474" symbol="&lt;globals/GrappleFieldMinimal/&lt;&gt;createFitFields&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldMinimal.mc" id="52" lineNum="49" parent="globals/GrappleFieldMinimal" pc="268438523" symbol="onLayout"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldMinimal.mc" id="52" lineNum="50" parent="globals/GrappleFieldMinimal" pc="268438525" symbol="onLayout"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldMinimal.mc" id="53" lineNum="87" parent="globals/GrappleFieldMinimal" pc="268438564" symbol="onTimerStart"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldMinimal.mc" id="53" lineNum="89" parent="globals/GrappleFieldMinimal" pc="268438566" symbol="onTimerStart"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldMinimal.mc" id="53" lineNum="90" parent="globals/GrappleFieldMinimal" pc="268438575" symbol="onTimerStart"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldMinimal.mc" id="55" lineNum="62" parent="globals/GrappleFieldMinimal" pc="268438595" symbol="compute"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldMinimal.mc" id="55" lineNum="64" parent="globals/GrappleFieldMinimal" pc="268438597" symbol="compute"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldMinimal.mc" id="55" lineNum="67" parent="globals/GrappleFieldMinimal" pc="268438627" symbol="compute"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldMinimal.mc" id="55" lineNum="68" parent="globals/GrappleFieldMinimal" pc="268438636" symbol="compute"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldMinimal.mc" id="56" lineNum="95" parent="globals/GrappleFieldMinimal" pc="268438656" symbol="&lt;globals/GrappleFieldMinimal/&lt;&gt;createField&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldMinimal.mc" id="56" lineNum="103" parent="globals/GrappleFieldMinimal" pc="268438659" symbol="&lt;globals/GrappleFieldMinimal/&lt;&gt;createField&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldMinimal.mc" id="56" lineNum="106" parent="globals/GrappleFieldMinimal" pc="268438662" symbol="&lt;globals/GrappleFieldMinimal/&lt;&gt;createField&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldMinimal.mc" id="56" lineNum="108" parent="globals/GrappleFieldMinimal" pc="268438666" symbol="&lt;globals/GrappleFieldMinimal/&lt;&gt;createField&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldMinimal.mc" id="56" lineNum="110" parent="globals/GrappleFieldMinimal" pc="268438697" symbol="&lt;globals/GrappleFieldMinimal/&lt;&gt;createField&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldMinimal.mc" id="59" lineNum="24" parent="globals/GrappleFieldMinimal" pc="268438699" symbol="initialize"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldMinimal.mc" id="59" lineNum="25" parent="globals/GrappleFieldMinimal" pc="268438701" symbol="initialize"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldMinimal.mc" id="59" lineNum="28" parent="globals/GrappleFieldMinimal" pc="268438713" symbol="initialize"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldMinimal.mc" id="60" lineNum="53" parent="globals/GrappleFieldMinimal" pc="268438721" symbol="onUpdate"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldMinimal.mc" id="60" lineNum="54" parent="globals/GrappleFieldMinimal" pc="268438724" symbol="onUpdate"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldMinimal.mc" id="60" lineNum="55" parent="globals/GrappleFieldMinimal" pc="268438744" symbol="onUpdate"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldMinimal.mc" id="60" lineNum="57" parent="globals/GrappleFieldMinimal" pc="268438761" symbol="onUpdate"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldMinimal.mc" id="60" lineNum="59" parent="globals/GrappleFieldMinimal" pc="268438777" symbol="onUpdate"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/FitSchema.mc" id="62" lineNum="11" parent="globals/FitSchema" pc="268438794" symbol="createField"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/FitSchema.mc" id="62" lineNum="20" parent="globals/FitSchema" pc="268438796" symbol="createField"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/FitSchema.mc" id="63" lineNum="24" parent="globals/FitSchema" pc="268438798" symbol="setFieldData"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/FitSchema.mc" id="63" lineNum="25" parent="globals/FitSchema" pc="268438801" symbol="setFieldData"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/FitSchema.mc" id="63" lineNum="27" parent="globals/FitSchema" pc="268438807" symbol="setFieldData"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/FitSchema.mc" id="63" lineNum="28" parent="globals/FitSchema" pc="268438821" symbol="setFieldData"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="65" lineNum="142" parent="globals/GrappleFieldComplete" pc="268438829" symbol="onTimerLap"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="65" lineNum="144" parent="globals/GrappleFieldComplete" pc="268438832" symbol="onTimerLap"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="65" lineNum="147" parent="globals/GrappleFieldComplete" pc="268438855" symbol="onTimerLap"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="65" lineNum="149" parent="globals/GrappleFieldComplete" pc="268438870" symbol="onTimerLap"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="65" lineNum="150" parent="globals/GrappleFieldComplete" pc="268438906" symbol="onTimerLap"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="65" lineNum="151" parent="globals/GrappleFieldComplete" pc="268438924" symbol="onTimerLap"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="65" lineNum="154" parent="globals/GrappleFieldComplete" pc="268438933" symbol="onTimerLap"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="68" lineNum="29" parent="globals/GrappleFieldComplete" pc="268438976" symbol="&lt;globals/GrappleFieldComplete/&lt;&gt;loadSettings&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="68" lineNum="30" parent="globals/GrappleFieldComplete" pc="268438979" symbol="&lt;globals/GrappleFieldComplete/&lt;&gt;loadSettings&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="68" lineNum="31" parent="globals/GrappleFieldComplete" pc="268438991" symbol="&lt;globals/GrappleFieldComplete/&lt;&gt;loadSettings&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="68" lineNum="32" parent="globals/GrappleFieldComplete" pc="268439007" symbol="&lt;globals/GrappleFieldComplete/&lt;&gt;loadSettings&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="68" lineNum="33" parent="globals/GrappleFieldComplete" pc="268439035" symbol="&lt;globals/GrappleFieldComplete/&lt;&gt;loadSettings&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="70" lineNum="71" parent="globals/GrappleFieldComplete" pc="268439045" symbol="compute"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="70" lineNum="73" parent="globals/GrappleFieldComplete" pc="268439048" symbol="compute"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="70" lineNum="76" parent="globals/GrappleFieldComplete" pc="268439078" symbol="compute"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="70" lineNum="77" parent="globals/GrappleFieldComplete" pc="268439081" symbol="compute"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="70" lineNum="78" parent="globals/GrappleFieldComplete" pc="268439103" symbol="compute"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="70" lineNum="80" parent="globals/GrappleFieldComplete" pc="268439112" symbol="compute"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="70" lineNum="83" parent="globals/GrappleFieldComplete" pc="268439128" symbol="compute"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="70" lineNum="86" parent="globals/GrappleFieldComplete" pc="268439139" symbol="compute"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="70" lineNum="87" parent="globals/GrappleFieldComplete" pc="268439155" symbol="compute"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="70" lineNum="88" parent="globals/GrappleFieldComplete" pc="268439162" symbol="compute"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="70" lineNum="89" parent="globals/GrappleFieldComplete" pc="268439184" symbol="compute"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="70" lineNum="91" parent="globals/GrappleFieldComplete" pc="268439201" symbol="compute"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="72" lineNum="94" parent="globals/GrappleFieldComplete" pc="268439221" symbol="&lt;globals/GrappleFieldComplete/&lt;&gt;formatDuration&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="72" lineNum="95" parent="globals/GrappleFieldComplete" pc="268439224" symbol="&lt;globals/GrappleFieldComplete/&lt;&gt;formatDuration&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="72" lineNum="96" parent="globals/GrappleFieldComplete" pc="268439237" symbol="&lt;globals/GrappleFieldComplete/&lt;&gt;formatDuration&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="72" lineNum="99" parent="globals/GrappleFieldComplete" pc="268439243" symbol="&lt;globals/GrappleFieldComplete/&lt;&gt;formatDuration&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="72" lineNum="100" parent="globals/GrappleFieldComplete" pc="268439251" symbol="&lt;globals/GrappleFieldComplete/&lt;&gt;formatDuration&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="72" lineNum="101" parent="globals/GrappleFieldComplete" pc="268439259" symbol="&lt;globals/GrappleFieldComplete/&lt;&gt;formatDuration&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="72" lineNum="102" parent="globals/GrappleFieldComplete" pc="268439270" symbol="&lt;globals/GrappleFieldComplete/&lt;&gt;formatDuration&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="72" lineNum="104" parent="globals/GrappleFieldComplete" pc="268439277" symbol="&lt;globals/GrappleFieldComplete/&lt;&gt;formatDuration&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="72" lineNum="105" parent="globals/GrappleFieldComplete" pc="268439284" symbol="&lt;globals/GrappleFieldComplete/&lt;&gt;formatDuration&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="72" lineNum="107" parent="globals/GrappleFieldComplete" pc="268439329" symbol="&lt;globals/GrappleFieldComplete/&lt;&gt;formatDuration&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="73" lineNum="111" parent="globals/GrappleFieldComplete" pc="268439353" symbol="&lt;globals/GrappleFieldComplete/&lt;&gt;checkHrCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="73" lineNum="112" parent="globals/GrappleFieldComplete" pc="268439356" symbol="&lt;globals/GrappleFieldComplete/&lt;&gt;checkHrCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="73" lineNum="113" parent="globals/GrappleFieldComplete" pc="268439367" symbol="&lt;globals/GrappleFieldComplete/&lt;&gt;checkHrCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="73" lineNum="115" parent="globals/GrappleFieldComplete" pc="268439376" symbol="&lt;globals/GrappleFieldComplete/&lt;&gt;checkHrCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="73" lineNum="118" parent="globals/GrappleFieldComplete" pc="268439394" symbol="&lt;globals/GrappleFieldComplete/&lt;&gt;checkHrCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="73" lineNum="119" parent="globals/GrappleFieldComplete" pc="268439412" symbol="&lt;globals/GrappleFieldComplete/&lt;&gt;checkHrCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="73" lineNum="121" parent="globals/GrappleFieldComplete" pc="268439421" symbol="&lt;globals/GrappleFieldComplete/&lt;&gt;checkHrCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="73" lineNum="124" parent="globals/GrappleFieldComplete" pc="268439436" symbol="&lt;globals/GrappleFieldComplete/&lt;&gt;checkHrCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="73" lineNum="129" parent="globals/GrappleFieldComplete" pc="268439531" symbol="&lt;globals/GrappleFieldComplete/&lt;&gt;checkHrCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="73" lineNum="130" parent="globals/GrappleFieldComplete" pc="268439549" symbol="&lt;globals/GrappleFieldComplete/&lt;&gt;checkHrCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="73" lineNum="133" parent="globals/GrappleFieldComplete" pc="268439558" symbol="&lt;globals/GrappleFieldComplete/&lt;&gt;checkHrCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="73" lineNum="138" parent="globals/GrappleFieldComplete" pc="268439576" symbol="&lt;globals/GrappleFieldComplete/&lt;&gt;checkHrCap&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="75" lineNum="24" parent="globals/GrappleFieldComplete" pc="268439585" symbol="initialize"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="75" lineNum="25" parent="globals/GrappleFieldComplete" pc="268439587" symbol="initialize"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="75" lineNum="26" parent="globals/GrappleFieldComplete" pc="268439599" symbol="initialize"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="76" lineNum="41" parent="globals/GrappleFieldComplete" pc="268439607" symbol="onUpdate"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="76" lineNum="43" parent="globals/GrappleFieldComplete" pc="268439610" symbol="onUpdate"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="76" lineNum="44" parent="globals/GrappleFieldComplete" pc="268439622" symbol="onUpdate"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="76" lineNum="47" parent="globals/GrappleFieldComplete" pc="268439630" symbol="onUpdate"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="76" lineNum="48" parent="globals/GrappleFieldComplete" pc="268439639" symbol="onUpdate"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="76" lineNum="49" parent="globals/GrappleFieldComplete" pc="268439648" symbol="onUpdate"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="76" lineNum="52" parent="globals/GrappleFieldComplete" pc="268439655" symbol="onUpdate"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="76" lineNum="53" parent="globals/GrappleFieldComplete" pc="268439672" symbol="onUpdate"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="76" lineNum="57" parent="globals/GrappleFieldComplete" pc="268439706" symbol="onUpdate"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="76" lineNum="58" parent="globals/GrappleFieldComplete" pc="268439712" symbol="onUpdate"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="76" lineNum="59" parent="globals/GrappleFieldComplete" pc="268439721" symbol="onUpdate"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="76" lineNum="61" parent="globals/GrappleFieldComplete" pc="268439728" symbol="onUpdate"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="76" lineNum="62" parent="globals/GrappleFieldComplete" pc="268439742" symbol="onUpdate"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="76" lineNum="66" parent="globals/GrappleFieldComplete" pc="268439777" symbol="onUpdate"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldComplete.mc" id="76" lineNum="67" parent="globals/GrappleFieldComplete" pc="268439794" symbol="onUpdate"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/grapple-iqView.mc" id="78" lineNum="9" parent="globals/grapple_iqView" pc="268439830" symbol="initialize"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/grapple-iqView.mc" id="78" lineNum="10" parent="globals/grapple_iqView" pc="268439832" symbol="initialize"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Alerts.mc" id="79" lineNum="15" parent="globals/Alerts" pc="268439845" symbol="&lt;globals/Alerts/&lt;&gt;checkAlertSupport&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Alerts.mc" id="79" lineNum="17" parent="globals/Alerts" pc="268439847" symbol="&lt;globals/Alerts/&lt;&gt;checkAlertSupport&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Alerts.mc" id="79" lineNum="18" parent="globals/Alerts" pc="268439862" symbol="&lt;globals/Alerts/&lt;&gt;checkAlertSupport&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Alerts.mc" id="79" lineNum="20" parent="globals/Alerts" pc="268439864" symbol="&lt;globals/Alerts/&lt;&gt;checkAlertSupport&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Alerts.mc" id="80" lineNum="24" parent="globals/Alerts" pc="268439866" symbol="showBanner"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Alerts.mc" id="80" lineNum="27" parent="globals/Alerts" pc="268439868" symbol="showBanner"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Alerts.mc" id="81" lineNum="10" parent="globals/Alerts" pc="268439890" symbol="initialize"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Alerts.mc" id="81" lineNum="12" parent="globals/Alerts" pc="268439892" symbol="initialize"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Alerts.mc" id="82" lineNum="31" parent="globals/Alerts" pc="268439906" symbol="showBannerWithDuration"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Alerts.mc" id="82" lineNum="33" parent="globals/Alerts" pc="268439908" symbol="showBannerWithDuration"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Haptics.mc" id="83" lineNum="15" parent="globals/Haptics" pc="268439930" symbol="&lt;globals/Haptics/&lt;&gt;checkVibrateSupport&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Haptics.mc" id="83" lineNum="16" parent="globals/Haptics" pc="268439933" symbol="&lt;globals/Haptics/&lt;&gt;checkVibrateSupport&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Haptics.mc" id="83" lineNum="19" parent="globals/Haptics" pc="268439945" symbol="&lt;globals/Haptics/&lt;&gt;checkVibrateSupport&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Haptics.mc" id="83" lineNum="21" parent="globals/Haptics" pc="268439960" symbol="&lt;globals/Haptics/&lt;&gt;checkVibrateSupport&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Haptics.mc" id="83" lineNum="22" parent="globals/Haptics" pc="268439971" symbol="&lt;globals/Haptics/&lt;&gt;checkVibrateSupport&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Haptics.mc" id="83" lineNum="24" parent="globals/Haptics" pc="268439979" symbol="&lt;globals/Haptics/&lt;&gt;checkVibrateSupport&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Haptics.mc" id="83" lineNum="27" parent="globals/Haptics" pc="268439981" symbol="&lt;globals/Haptics/&lt;&gt;checkVibrateSupport&gt;"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Haptics.mc" id="84" lineNum="31" parent="globals/Haptics" pc="268439983" symbol="vibrate"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Haptics.mc" id="84" lineNum="32" parent="globals/Haptics" pc="268439986" symbol="vibrate"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Haptics.mc" id="84" lineNum="33" parent="globals/Haptics" pc="268439995" symbol="vibrate"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Haptics.mc" id="84" lineNum="38" parent="globals/Haptics" pc="268439996" symbol="vibrate"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Haptics.mc" id="84" lineNum="39" parent="globals/Haptics" pc="268440011" symbol="vibrate"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Haptics.mc" id="84" lineNum="42" parent="globals/Haptics" pc="268440047" symbol="vibrate"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Haptics.mc" id="84" lineNum="43" parent="globals/Haptics" pc="268440065" symbol="vibrate"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Haptics.mc" id="84" lineNum="45" parent="globals/Haptics" pc="268440080" symbol="vibrate"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Haptics.mc" id="84" lineNum="47" parent="globals/Haptics" pc="268440095" symbol="vibrate"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Haptics.mc" id="85" lineNum="53" parent="globals/Haptics" pc="268440103" symbol="vibrateShort"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Haptics.mc" id="85" lineNum="54" parent="globals/Haptics" pc="268440106" symbol="vibrateShort"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Haptics.mc" id="85" lineNum="55" parent="globals/Haptics" pc="268440115" symbol="vibrateShort"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Haptics.mc" id="85" lineNum="59" parent="globals/Haptics" pc="268440116" symbol="vibrateShort"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Haptics.mc" id="85" lineNum="60" parent="globals/Haptics" pc="268440131" symbol="vibrateShort"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Haptics.mc" id="85" lineNum="63" parent="globals/Haptics" pc="268440166" symbol="vibrateShort"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Haptics.mc" id="85" lineNum="65" parent="globals/Haptics" pc="268440182" symbol="vibrateShort"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Haptics.mc" id="86" lineNum="10" parent="globals/Haptics" pc="268440190" symbol="initialize"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Haptics.mc" id="86" lineNum="12" parent="globals/Haptics" pc="268440192" symbol="initialize"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen" id="87" lineNum="25" parent="globals/Rez/Layouts" pc="268440206" symbol="LayoutSingle"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen" id="87" lineNum="26" parent="globals/Rez/Layouts" pc="268440217" symbol="LayoutSingle"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen" id="87" lineNum="28" parent="globals/Rez/Layouts" pc="268440226" symbol="LayoutSingle"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen" id="87" lineNum="30" parent="globals/Rez/Layouts" pc="268440235" symbol="LayoutSingle"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen" id="87" lineNum="32" parent="globals/Rez/Layouts" pc="268440330" symbol="LayoutSingle"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen" id="87" lineNum="34" parent="globals/Rez/Layouts" pc="268440437" symbol="LayoutSingle"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen" id="88" lineNum="37" parent="globals/Rez/Layouts" pc="268440452" symbol="Layout2Field"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen" id="88" lineNum="38" parent="globals/Rez/Layouts" pc="268440463" symbol="Layout2Field"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen" id="88" lineNum="40" parent="globals/Rez/Layouts" pc="268440472" symbol="Layout2Field"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen" id="88" lineNum="42" parent="globals/Rez/Layouts" pc="268440481" symbol="Layout2Field"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen" id="88" lineNum="44" parent="globals/Rez/Layouts" pc="268440575" symbol="Layout2Field"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen" id="88" lineNum="46" parent="globals/Rez/Layouts" pc="268440670" symbol="Layout2Field"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen" id="89" lineNum="13" parent="globals/Rez/Layouts" pc="268440685" symbol="Layout"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen" id="89" lineNum="14" parent="globals/Rez/Layouts" pc="268440696" symbol="Layout"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen" id="89" lineNum="16" parent="globals/Rez/Layouts" pc="268440705" symbol="Layout"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen" id="89" lineNum="18" parent="globals/Rez/Layouts" pc="268440714" symbol="Layout"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen" id="89" lineNum="20" parent="globals/Rez/Layouts" pc="268440809" symbol="Layout"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen" id="89" lineNum="22" parent="globals/Rez/Layouts" pc="268440916" symbol="Layout"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen" id="90" lineNum="49" parent="globals/Rez/Layouts" pc="268440931" symbol="Layout3Field"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen" id="90" lineNum="50" parent="globals/Rez/Layouts" pc="268440942" symbol="Layout3Field"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen" id="90" lineNum="52" parent="globals/Rez/Layouts" pc="268440951" symbol="Layout3Field"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen" id="90" lineNum="54" parent="globals/Rez/Layouts" pc="268440960" symbol="Layout3Field"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen" id="90" lineNum="56" parent="globals/Rez/Layouts" pc="268441054" symbol="Layout3Field"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen" id="90" lineNum="58" parent="globals/Rez/Layouts" pc="268441149" symbol="Layout3Field"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen" id="91" lineNum="61" parent="globals/Rez/Layouts" pc="268441164" symbol="Layout4Field"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen" id="91" lineNum="62" parent="globals/Rez/Layouts" pc="268441175" symbol="Layout4Field"/>
+<entry filename="/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen" id="91" lineNum="64" parent="globals/Rez/Layouts" pc="268441292" symbol="Layout4Field"/>
+</pcToLineNum>
+<symbolTable>
+<entry field="true" id="26" symbol="&lt;globals/GrappleIQView/&lt;&gt;mHrCapBpm&gt;"/>
+<entry id="8388639" module="true" symbol="Graphics"/>
+<entry field="true" id="24" symbol="&lt;globals/GrappleIQView/&lt;&gt;mGoalModeField&gt;"/>
+<entry id="6" object="true" symbol="Alerts"/>
+<entry field="true" id="29" symbol="&lt;globals/GrappleIQView/&lt;&gt;mModeCodeField&gt;"/>
+<entry id="7" object="true" symbol="FitSchema"/>
+<entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+<entry id="51" method="true" symbol="&lt;globals/GrappleFieldComplete/&lt;&gt;checkHrCap&gt;"/>
+<entry id="8389849" symbol="units"/>
+<entry field="true" id="78" symbol="HrCapTitle"/>
+<entry id="19" method="true" symbol="&lt;globals/GrappleIQView/&lt;&gt;createFitFields&gt;"/>
+<entry field="true" id="46" symbol="&lt;globals/GrappleFieldMinimal/&lt;&gt;mCurrentMode&gt;"/>
+<entry field="true" id="34" symbol="&lt;globals/GrappleIQViewSimple/&lt;&gt;mCurrentMode&gt;"/>
+<entry field="true" id="55" symbol="&lt;globals/GrappleFieldComplete/&lt;&gt;mHrCapBpm&gt;"/>
+<entry id="20" method="true" symbol="&lt;globals/GrappleIQView/&lt;&gt;loadSettings&gt;"/>
+<entry id="8389748" method="true" symbol="onTimerStop"/>
+<entry id="52" method="true" symbol="&lt;globals/GrappleFieldComplete/&lt;&gt;formatDuration&gt;"/>
+<entry field="true" id="54" symbol="&lt;globals/GrappleFieldComplete/&lt;&gt;mCurrentMode&gt;"/>
+<entry field="true" id="75" symbol="GoalModePrompt"/>
+<entry field="true" id="37" symbol="&lt;globals/GrappleIQViewSimple/&lt;&gt;mLastLapTime&gt;"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry field="true" id="43" symbol="&lt;globals/GrappleDataField/&lt;&gt;mValue&gt;"/>
+<entry id="13" object="true" symbol="GrappleIQViewSimple"/>
+<entry id="58" method="true" symbol="&lt;globals/Alerts/&lt;&gt;checkAlertSupport&gt;"/>
+<entry field="true" id="73" symbol="GoalModeDrill"/>
+<entry id="57" symbol="&lt;globals/GrappleFieldComplete/&lt;&gt;mLines&gt;"/>
+<entry id="9" object="true" symbol="GrappleFieldComplete"/>
+<entry id="8389747" method="true" symbol="onTimerStart"/>
+<entry field="true" id="71" symbol="AppName"/>
+<entry field="true" id="21" symbol="&lt;globals/GrappleIQView/&lt;&gt;mAlerts&gt;"/>
+<entry id="8389749" method="true" symbol="onTimerPause"/>
+<entry id="5" module="true" symbol="globals/Rez/Strings"/>
+<entry id="8388631" module="true" symbol="Activity"/>
+<entry id="8388648" module="true" symbol="WatchUi"/>
+<entry id="44" method="true" symbol="&lt;globals/GrappleFieldMinimal/&lt;&gt;createField&gt;"/>
+<entry field="true" id="72" symbol="GoalModeCombat"/>
+<entry field="true" id="77" symbol="HrCapPrompt"/>
+<entry id="2" module="true" symbol="globals/Rez"/>
+<entry id="14" object="true" symbol="Haptics"/>
+<entry id="64" method="true" symbol="vibrateShort"/>
+<entry id="11" object="true" symbol="GrappleIQApp"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry field="true" id="8389065" symbol="locY"/>
+<entry field="true" id="8389064" symbol="locX"/>
+<entry id="39" method="true" symbol="&lt;globals/GrappleDataField/&lt;&gt;loadSettings&gt;"/>
+<entry field="true" id="80" symbol="ModeDrill"/>
+<entry field="true" id="35" symbol="&lt;globals/GrappleIQViewSimple/&lt;&gt;mHrCapBpm&gt;"/>
+<entry id="62" method="true" symbol="&lt;globals/Haptics/&lt;&gt;checkVibrateSupport&gt;"/>
+<entry id="18" method="true" symbol="&lt;globals/GrappleIQView/&lt;&gt;checkHeartRateCap&gt;"/>
+<entry id="68" method="true" symbol="Layout3Field"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="8389348" symbol="font"/>
+<entry id="8389275" method="true" symbol="getApp"/>
+<entry id="4" module="true" symbol="globals/Rez/Layouts"/>
+<entry field="true" id="49" symbol="&lt;globals/GrappleFieldMinimal/&lt;&gt;mValue&gt;"/>
+<entry field="true" id="41" symbol="&lt;globals/GrappleDataField/&lt;&gt;mHrCapBpm&gt;"/>
+<entry field="true" id="31" symbol="&lt;globals/GrappleIQView/&lt;&gt;mZ1TargetMinField&gt;"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry field="true" id="8389063" symbol="identifier"/>
+<entry id="8389349" symbol="justification"/>
+<entry id="66" method="true" symbol="Layout"/>
+<entry id="8389137" method="true" symbol="compute"/>
+<entry field="true" id="27" symbol="&lt;globals/GrappleIQView/&lt;&gt;mHrCapExceededStartTime&gt;"/>
+<entry id="8388987" method="true" symbol="vibrate"/>
+<entry id="45" method="true" symbol="&lt;globals/GrappleFieldMinimal/&lt;&gt;createFitFields&gt;"/>
+<entry field="true" id="56" symbol="&lt;globals/GrappleFieldComplete/&lt;&gt;mHrOverCapTime&gt;"/>
+<entry field="true" id="47" symbol="&lt;globals/GrappleFieldMinimal/&lt;&gt;mModeField&gt;"/>
+<entry id="50" method="true" symbol="setFieldData"/>
+<entry field="true" id="48" symbol="&lt;globals/GrappleFieldMinimal/&lt;&gt;mSessionModeField&gt;"/>
+<entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+<entry id="8389134" method="true" symbol="setText"/>
+<entry field="true" id="82" symbol="Z1TargetTitle"/>
+<entry id="8389845" method="true" symbol="createField"/>
+<entry field="true" id="79" symbol="ModeCombat"/>
+<entry field="true" id="81" symbol="Z1TargetPrompt"/>
+<entry id="8389752" method="true" symbol="onTimerReset"/>
+<entry id="70" method="true" symbol="LayoutSingle"/>
+<entry id="8388985" method="true" symbol="playTone"/>
+<entry id="33" method="true" symbol="&lt;globals/GrappleIQViewSimple/&lt;&gt;loadSettings&gt;"/>
+<entry id="8388644" module="true" symbol="System"/>
+<entry id="8388645" module="true" symbol="Time"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry id="38" method="true" symbol="&lt;globals/GrappleDataField/&lt;&gt;checkHeartRateCap&gt;"/>
+<entry field="true" id="22" symbol="&lt;globals/GrappleIQView/&lt;&gt;mCurrentMode&gt;"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry field="true" id="42" symbol="&lt;globals/GrappleDataField/&lt;&gt;mHrCapExceededStartTime&gt;"/>
+<entry field="true" id="65" symbol="LauncherIcon"/>
+<entry id="8388610" symbol="statics"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry field="true" id="23" symbol="&lt;globals/GrappleIQView/&lt;&gt;mFitSchema&gt;"/>
+<entry field="true" id="74" symbol="GoalModeHybrid"/>
+<entry field="true" id="28" symbol="&lt;globals/GrappleIQView/&lt;&gt;mLastSecond&gt;"/>
+<entry id="8389350" module="true" symbol="globals"/>
+<entry id="15" object="true" symbol="grapple_iqApp"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry id="60" method="true" symbol="showBanner"/>
+<entry id="8" object="true" symbol="GrappleDataField"/>
+<entry field="true" id="76" symbol="GoalModeTitle"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry field="true" id="30" symbol="&lt;globals/GrappleIQView/&lt;&gt;mModeLapCodeField&gt;"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry field="true" id="63" symbol="&lt;globals/Haptics/&lt;&gt;mVibrateSupported&gt;"/>
+<entry id="8389780" module="true" symbol="FitContributor"/>
+<entry field="true" id="25" symbol="&lt;globals/GrappleIQView/&lt;&gt;mHaptics&gt;"/>
+<entry field="true" id="8388747" symbol="currentHeartRate"/>
+<entry id="8389751" method="true" symbol="onTimerLap"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry id="67" method="true" symbol="Layout2Field"/>
+<entry id="8389847" symbol="mesgType"/>
+<entry field="true" id="8389347" symbol="color"/>
+<entry id="10" object="true" symbol="GrappleFieldMinimal"/>
+<entry field="true" id="8388732" symbol="elapsedTime"/>
+<entry id="53" method="true" symbol="&lt;globals/GrappleFieldComplete/&lt;&gt;loadSettings&gt;"/>
+<entry id="8391697" object="true" symbol="DataFieldAlert"/>
+<entry id="16" object="true" symbol="grapple_iqView"/>
+<entry id="17" module="true" symbol="Layouts"/>
+<entry id="61" method="true" symbol="showBannerWithDuration"/>
+<entry field="true" id="40" symbol="&lt;globals/GrappleDataField/&lt;&gt;mCurrentMode&gt;"/>
+<entry id="8388636" module="true" symbol="Attention"/>
+<entry id="8389750" method="true" symbol="onTimerResume"/>
+<entry field="true" id="36" symbol="&lt;globals/GrappleIQViewSimple/&lt;&gt;mHrCapExceededStartTime&gt;"/>
+<entry id="32" method="true" symbol="&lt;globals/GrappleIQViewSimple/&lt;&gt;checkHeartRateCap&gt;"/>
+<entry id="69" method="true" symbol="Layout4Field"/>
+<entry field="true" id="8389399" symbol="vibrateOn"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+<entry id="8388635" module="true" symbol="Application"/>
+<entry field="true" id="59" symbol="&lt;globals/Alerts/&lt;&gt;mAlertsSupported&gt;"/>
+<entry id="12" object="true" symbol="GrappleIQView"/>
+</symbolTable>
+<localVars>
+<entry endPc="268435808" name="modeName" stackId="1" startPc="268435640"/>
+<entry arg="true" endPc="268436188" name="info" stackId="1" startPc="268436024"/>
+<entry arg="true" endPc="268436229" name="dc" stackId="1" startPc="268436189"/>
+<entry endPc="268436384" name="goalMode" stackId="1" startPc="268436233"/>
+<entry endPc="268436384" name="z1TargetMin" stackId="2" startPc="268436233"/>
+<entry endPc="268436446" name="hrCap" stackId="1" startPc="268436389"/>
+<entry arg="true" endPc="268436691" name="info" stackId="1" startPc="268436552"/>
+<entry endPc="268436690" name="currentHr" stackId="2" startPc="268436555"/>
+<entry endPc="268436681" name="exceededDuration" stackId="3" startPc="268436626"/>
+<entry endPc="268436885" name="currentTime" stackId="1" startPc="268436695"/>
+<entry endPc="268436827" name="vibrateData" stackId="2" startPc="268436777"/>
+<entry endPc="268436838" name="e" stackId="3" startPc="268436831"/>
+<entry endPc="268436885" name="modeName" stackId="4" startPc="268436695"/>
+<entry arg="true" endPc="268436971" name="info" stackId="1" startPc="268436887"/>
+<entry arg="true" endPc="268437214" name="info" stackId="1" startPc="268436994"/>
+<entry endPc="268437213" name="currentHr" stackId="2" startPc="268436997"/>
+<entry endPc="268437204" name="exceededDuration" stackId="3" startPc="268437083"/>
+<entry endPc="268437175" name="vibrateData" stackId="4" startPc="268437125"/>
+<entry endPc="268437186" name="e" stackId="5" startPc="268437179"/>
+<entry endPc="268437282" name="app" stackId="1" startPc="268437218"/>
+<entry endPc="268437282" name="hrCap" stackId="2" startPc="268437218"/>
+<entry endPc="268437497" name="vibrateData" stackId="1" startPc="268437429"/>
+<entry endPc="268437530" name="e" stackId="2" startPc="268437499"/>
+<entry arg="true" endPc="268437665" name="dc" stackId="1" startPc="268437551"/>
+<entry endPc="268437664" name="labelView" stackId="2" startPc="268437554"/>
+<entry endPc="268437664" name="valueView" stackId="3" startPc="268437554"/>
+<entry endPc="268437754" name="app" stackId="1" startPc="268437690"/>
+<entry endPc="268437754" name="hrCap" stackId="2" startPc="268437690"/>
+<entry arg="true" endPc="268437868" name="info" stackId="1" startPc="268437777"/>
+<entry endPc="268437867" name="modeName" stackId="2" startPc="268437780"/>
+<entry endPc="268437867" name="hr" stackId="3" startPc="268437780"/>
+<entry arg="true" endPc="268438017" name="dc" stackId="1" startPc="268437945"/>
+<entry endPc="268438016" name="valueView" stackId="2" startPc="268437948"/>
+<entry arg="true" endPc="268438256" name="info" stackId="1" startPc="268438018"/>
+<entry endPc="268438255" name="currentHr" stackId="2" startPc="268438021"/>
+<entry endPc="268438246" name="exceededDuration" stackId="3" startPc="268438107"/>
+<entry endPc="268438217" name="vibrateData" stackId="4" startPc="268438149"/>
+<entry endPc="268438228" name="e" stackId="5" startPc="268438221"/>
+<entry endPc="268438369" name="vibrateData" stackId="1" startPc="268438319"/>
+<entry endPc="268438380" name="e" stackId="2" startPc="268438373"/>
+<entry arg="true" endPc="268438563" name="dc" stackId="1" startPc="268438523"/>
+<entry arg="true" endPc="268438655" name="info" stackId="1" startPc="268438595"/>
+<entry arg="true" endPc="268438698" name="displayName" stackId="1" startPc="268438656"/>
+<entry arg="true" endPc="268438698" name="fieldId" stackId="2" startPc="268438656"/>
+<entry arg="true" endPc="268438698" name="dataType" stackId="3" startPc="268438656"/>
+<entry arg="true" endPc="268438698" name="options" stackId="4" startPc="268438656"/>
+<entry endPc="268438695" name="e" stackId="5" startPc="268438662"/>
+<entry arg="true" endPc="268438793" name="dc" stackId="1" startPc="268438721"/>
+<entry endPc="268438792" name="valueView" stackId="2" startPc="268438724"/>
+<entry arg="true" endPc="268438797" name="displayName" stackId="1" startPc="268438794"/>
+<entry arg="true" endPc="268438797" name="fieldId" stackId="2" startPc="268438794"/>
+<entry arg="true" endPc="268438797" name="dataType" stackId="3" startPc="268438794"/>
+<entry arg="true" endPc="268438797" name="options" stackId="4" startPc="268438794"/>
+<entry arg="true" endPc="268438828" name="field" stackId="1" startPc="268438798"/>
+<entry arg="true" endPc="268438828" name="data" stackId="2" startPc="268438798"/>
+<entry endPc="268438826" name="e" stackId="3" startPc="268438821"/>
+<entry endPc="268438920" name="vibrateData" stackId="1" startPc="268438870"/>
+<entry endPc="268438931" name="e" stackId="2" startPc="268438924"/>
+<entry endPc="268439043" name="app" stackId="1" startPc="268438979"/>
+<entry endPc="268439043" name="hrCap" stackId="2" startPc="268438979"/>
+<entry arg="true" endPc="268439220" name="info" stackId="1" startPc="268439045"/>
+<entry endPc="268439219" name="hr" stackId="2" startPc="268439048"/>
+<entry endPc="268439219" name="totalTime" stackId="3" startPc="268439048"/>
+<entry endPc="268439219" name="lapTime" stackId="4" startPc="268439048"/>
+<entry arg="true" endPc="268439352" name="milliseconds" stackId="1" startPc="268439221"/>
+<entry arg="true" endPc="268439584" name="hr" stackId="1" startPc="268439353"/>
+<entry endPc="268439574" name="overDuration" stackId="2" startPc="268439394"/>
+<entry endPc="268439545" name="vibrateData" stackId="3" startPc="268439436"/>
+<entry endPc="268439556" name="e" stackId="4" startPc="268439549"/>
+<entry arg="true" endPc="268439829" name="dc" stackId="1" startPc="268439607"/>
+<entry endPc="268439828" name="width" stackId="2" startPc="268439610"/>
+<entry endPc="268439828" name="height" stackId="3" startPc="268439610"/>
+<entry endPc="268439828" name="lineHeight" stackId="4" startPc="268439610"/>
+<entry endPc="268439828" name="hrColor" stackId="5" startPc="268439610"/>
+<entry arg="true" endPc="268439889" name="text" stackId="1" startPc="268439866"/>
+<entry arg="true" endPc="268439929" name="text" stackId="1" startPc="268439906"/>
+<entry arg="true" endPc="268439929" name="durationMs" stackId="2" startPc="268439906"/>
+<entry endPc="268440061" name="vibrateData" stackId="1" startPc="268440011"/>
+<entry endPc="268440100" name="e" stackId="2" startPc="268440095"/>
+<entry endPc="268440180" name="vibrateData" stackId="1" startPc="268440131"/>
+<entry endPc="268440187" name="e" stackId="2" startPc="268440182"/>
+<entry arg="true" endPc="268440451" name="dc" stackId="1" startPc="268440206"/>
+<entry arg="true" endPc="268440684" name="dc" stackId="1" startPc="268440452"/>
+<entry arg="true" endPc="268440930" name="dc" stackId="1" startPc="268440685"/>
+<entry arg="true" endPc="268441163" name="dc" stackId="1" startPc="268440931"/>
+<entry arg="true" endPc="268441301" name="dc" stackId="1" startPc="268441164"/>
+</localVars>
+<annotations>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="HrCapTitle"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="GoalModeTitle"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="HrCapPrompt"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="GoalModeDrill"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="GoalModeHybrid"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Z1TargetPrompt"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="GoalModeCombat"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ModeCombat"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Z1TargetTitle"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="GoalModePrompt"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ModeDrill"/>
+</annotations>
+<dataEntryOffsetMappings>
+<dataEntry label="globals" offset="58" parentId="" symbolId="globals" type="module"/>
+<dataEntry label="globals/GrappleIQApp" offset="206" parentId="globals" symbolId="GrappleIQApp" type="class"/>
+<dataEntry label="globals/Rez" offset="277" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/GrappleIQView" offset="330" parentId="globals" symbolId="GrappleIQView" type="class"/>
+<dataEntry label="globals/GrappleIQViewSimple" offset="590" parentId="globals" symbolId="GrappleIQViewSimple" type="class"/>
+<dataEntry label="globals/grapple_iqApp" offset="706" parentId="globals" symbolId="grapple_iqApp" type="class"/>
+<dataEntry label="globals/GrappleDataField" offset="777" parentId="globals" symbolId="GrappleDataField" type="class"/>
+<dataEntry label="globals/GrappleFieldMinimal" offset="956" parentId="globals" symbolId="GrappleFieldMinimal" type="class"/>
+<dataEntry label="globals/FitSchema" offset="1135" parentId="globals" symbolId="FitSchema" type="class"/>
+<dataEntry label="globals/GrappleFieldComplete" offset="1197" parentId="globals" symbolId="GrappleFieldComplete" type="class"/>
+<dataEntry label="globals/grapple_iqView" offset="1385" parentId="globals" symbolId="grapple_iqView" type="class"/>
+<dataEntry label="globals/Alerts" offset="1429" parentId="globals" symbolId="Alerts" type="class"/>
+<dataEntry label="globals/Haptics" offset="1509" parentId="globals" symbolId="Haptics" type="class"/>
+<dataEntry label="globals/Rez/Drawables" offset="1589" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="1624" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="1695" parentId="Rez" symbolId="Strings" type="module"/>
+</dataEntryOffsetMappings>
+<functions>
+<functionEntry accessMode="public" endPc="268435468" name="&lt;init&gt;" parent="GrappleIQApp" startPc="268435457">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435489" name="getApp" startPc="268435469">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435509" name="&lt;init&gt;" parent="Rez" startPc="268435490">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435521" name="&lt;init&gt;" parent="GrappleIQView" startPc="268435510">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435533" name="&lt;init&gt;" parent="GrappleIQViewSimple" startPc="268435522">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435545" name="&lt;init&gt;" parent="grapple_iqApp" startPc="268435534">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435557" name="&lt;init&gt;" parent="GrappleDataField" startPc="268435546">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435569" name="&lt;init&gt;" parent="GrappleFieldMinimal" startPc="268435558">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="FitSchema">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435581" name="&lt;init&gt;" parent="GrappleFieldComplete" startPc="268435570">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435593" name="&lt;init&gt;" parent="grapple_iqView" startPc="268435582">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Alerts">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Haptics">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStart" parent="GrappleIQApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435621" name="getInitialView" parent="GrappleIQApp" startPc="268435594">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435636" name="initialize" parent="GrappleIQApp" startPc="268435622">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStop" parent="GrappleIQApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435809" name="onTimerLap" parent="GrappleIQView" startPc="268435637">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="private" endPc="268436023" name="&lt;globals/GrappleIQView/&lt;&gt;createFitFields&gt;" parent="GrappleIQView" startPc="268435810">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436188" name="compute" parent="GrappleIQView" startPc="268436024">
+<param id="info"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="GrappleIQView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onTimerStop" parent="GrappleIQView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="GrappleIQView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436229" name="onLayout" parent="GrappleIQView" startPc="268436189">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436385" name="onTimerStart" parent="GrappleIQView" startPc="268436230">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="private" endPc="268436447" name="&lt;globals/GrappleIQView/&lt;&gt;loadSettings&gt;" parent="GrappleIQView" startPc="268436386">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onTimerReset" parent="GrappleIQView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onTimerResume" parent="GrappleIQView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onTimerPause" parent="GrappleIQView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436551" name="initialize" parent="GrappleIQView" startPc="268436448">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="private" endPc="268436691" name="&lt;globals/GrappleIQView/&lt;&gt;checkHeartRateCap&gt;" parent="GrappleIQView" startPc="268436552">
+<param id="info"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436886" name="onTimerLap" parent="GrappleIQViewSimple" startPc="268436692">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436971" name="compute" parent="GrappleIQViewSimple" startPc="268436887">
+<param id="info"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436993" name="initialize" parent="GrappleIQViewSimple" startPc="268436972">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="private" endPc="268437214" name="&lt;globals/GrappleIQViewSimple/&lt;&gt;checkHeartRateCap&gt;" parent="GrappleIQViewSimple" startPc="268436994">
+<param id="info"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="private" endPc="268437283" name="&lt;globals/GrappleIQViewSimple/&lt;&gt;loadSettings&gt;" parent="GrappleIQViewSimple" startPc="268437215">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStart" parent="grapple_iqApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437311" name="getInitialView" parent="grapple_iqApp" startPc="268437284">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437326" name="initialize" parent="grapple_iqApp" startPc="268437312">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStop" parent="grapple_iqApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437550" name="onTimerLap" parent="GrappleDataField" startPc="268437327">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437665" name="onLayout" parent="GrappleDataField" startPc="268437551">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437686" name="onTimerStart" parent="GrappleDataField" startPc="268437666">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="private" endPc="268437755" name="&lt;globals/GrappleDataField/&lt;&gt;loadSettings&gt;" parent="GrappleDataField" startPc="268437687">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437776" name="onTimerReset" parent="GrappleDataField" startPc="268437756">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437868" name="compute" parent="GrappleDataField" startPc="268437777">
+<param id="info"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437889" name="onTimerResume" parent="GrappleDataField" startPc="268437869">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437910" name="onTimerPause" parent="GrappleDataField" startPc="268437890">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437944" name="initialize" parent="GrappleDataField" startPc="268437911">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438017" name="onUpdate" parent="GrappleDataField" startPc="268437945">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="private" endPc="268438256" name="&lt;globals/GrappleDataField/&lt;&gt;checkHeartRateCap&gt;" parent="GrappleDataField" startPc="268438018">
+<param id="info"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438277" name="onTimerStop" parent="GrappleDataField" startPc="268438257">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438424" name="onTimerLap" parent="GrappleFieldMinimal" startPc="268438278">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="private" endPc="268438522" name="&lt;globals/GrappleFieldMinimal/&lt;&gt;createFitFields&gt;" parent="GrappleFieldMinimal" startPc="268438425">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438563" name="onLayout" parent="GrappleFieldMinimal" startPc="268438523">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438594" name="onTimerStart" parent="GrappleFieldMinimal" startPc="268438564">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onTimerReset" parent="GrappleFieldMinimal">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438655" name="compute" parent="GrappleFieldMinimal" startPc="268438595">
+<param id="info"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="private" endPc="268438698" name="&lt;globals/GrappleFieldMinimal/&lt;&gt;createField&gt;" parent="GrappleFieldMinimal" startPc="268438656">
+<param id="displayName"/>
+<param id="fieldId"/>
+<param id="dataType"/>
+<param id="options"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onTimerResume" parent="GrappleFieldMinimal">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onTimerPause" parent="GrappleFieldMinimal">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438720" name="initialize" parent="GrappleFieldMinimal" startPc="268438699">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438793" name="onUpdate" parent="GrappleFieldMinimal" startPc="268438721">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onTimerStop" parent="GrappleFieldMinimal">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438797" name="createField" parent="FitSchema" startPc="268438794">
+<param id="displayName"/>
+<param id="fieldId"/>
+<param id="dataType"/>
+<param id="options"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438828" name="setFieldData" parent="FitSchema" startPc="268438798">
+<param id="field"/>
+<param id="data"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="FitSchema">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438975" name="onTimerLap" parent="GrappleFieldComplete" startPc="268438829">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onLayout" parent="GrappleFieldComplete">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onTimerStart" parent="GrappleFieldComplete">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="private" endPc="268439044" name="&lt;globals/GrappleFieldComplete/&lt;&gt;loadSettings&gt;" parent="GrappleFieldComplete" startPc="268438976">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onTimerReset" parent="GrappleFieldComplete">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439220" name="compute" parent="GrappleFieldComplete" startPc="268439045">
+<param id="info"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onTimerResume" parent="GrappleFieldComplete">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="private" endPc="268439352" name="&lt;globals/GrappleFieldComplete/&lt;&gt;formatDuration&gt;" parent="GrappleFieldComplete" startPc="268439221">
+<param id="milliseconds"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="private" endPc="268439584" name="&lt;globals/GrappleFieldComplete/&lt;&gt;checkHrCap&gt;" parent="GrappleFieldComplete" startPc="268439353">
+<param id="hr"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onTimerPause" parent="GrappleFieldComplete">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439606" name="initialize" parent="GrappleFieldComplete" startPc="268439585">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439829" name="onUpdate" parent="GrappleFieldComplete" startPc="268439607">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onTimerStop" parent="GrappleFieldComplete">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439844" name="initialize" parent="grapple_iqView" startPc="268439830">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="private" endPc="268439865" name="&lt;globals/Alerts/&lt;&gt;checkAlertSupport&gt;" parent="Alerts" startPc="268439845">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439889" name="showBanner" parent="Alerts" startPc="268439866">
+<param id="text"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439905" name="initialize" parent="Alerts" startPc="268439890">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439929" name="showBannerWithDuration" parent="Alerts" startPc="268439906">
+<param id="text"/>
+<param id="durationMs"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="private" endPc="268439982" name="&lt;globals/Haptics/&lt;&gt;checkVibrateSupport&gt;" parent="Haptics" startPc="268439930">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268440102" name="vibrate" parent="Haptics" startPc="268439983">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268440189" name="vibrateShort" parent="Haptics" startPc="268440103">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268440205" name="initialize" parent="Haptics" startPc="268440190">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268440451" name="LayoutSingle" parent="Layouts" startPc="268440206">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268440684" name="Layout2Field" parent="Layouts" startPc="268440452">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268440930" name="Layout" parent="Layouts" startPc="268440685">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268441163" name="Layout3Field" parent="Layouts" startPc="268440931">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268441301" name="Layout4Field" parent="Layouts" startPc="268441164">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+</functions>
+</debugInfo>

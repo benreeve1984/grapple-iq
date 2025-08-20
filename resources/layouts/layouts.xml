@@ -1,0 +1,23 @@
+<layouts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+    
+    <!-- Single field layout -->
+    <layout id="Layout">
+        <label id="value" x="center" y="center" font="Graphics.FONT_LARGE" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
+    </layout>
+    
+    <!-- 2-field layout -->
+    <layout id="Layout2Field">
+        <label id="value" x="center" y="center" font="Graphics.FONT_MEDIUM" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
+    </layout>
+    
+    <!-- 3-field layout -->
+    <layout id="Layout3Field">
+        <label id="value" x="center" y="center" font="Graphics.FONT_SMALL" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
+    </layout>
+    
+    <!-- 4-field layout -->
+    <layout id="Layout4Field">
+        <label id="value" x="center" y="center" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
+    </layout>
+    
+</layouts>

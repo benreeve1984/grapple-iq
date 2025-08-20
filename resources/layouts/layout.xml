@@ -1,0 +1,3 @@
+<layout id="Layout">
+    <label id="value" x="center" y="center" font="Graphics.FONT_NUMBER_MEDIUM" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
+</layout>

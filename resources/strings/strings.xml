@@ -1,0 +1,20 @@
+<strings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+    <string id="AppName">grapple-iq</string>
+    
+    <!-- Mode names -->
+    <string id="ModeClass">CLASS</string>
+    <string id="ModeCombat">COMBAT</string>
+    
+    <!-- Settings strings -->
+    <string id="HrCapTitle">HR Cap</string>
+    <string id="HrCapPrompt">Set heart rate cap (bpm)</string>
+    
+    <string id="GoalModeTitle">Goal Mode</string>
+    <string id="GoalModePrompt">Select training goal mode</string>
+    <string id="GoalModeClass">Class Only</string>
+    <string id="GoalModeHybrid">Hybrid</string>
+    <string id="GoalModeCombat">Combat Only</string>
+    
+    <string id="Z1TargetTitle">Z1 Target</string>
+    <string id="Z1TargetPrompt">Zone 1 target minutes</string>
+</strings>

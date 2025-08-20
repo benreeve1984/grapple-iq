@@ -17,17 +17,17 @@ class GrappleIQView extends WatchUi.DataField {
     [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc"; @line = 9; ]
     <init> {
 [ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" 16 16 ]
-        symbol [ MODE_CLASS %tmp.2 16 46 56 ];
-        %tmp.2 = getv ? :MODE_CLASS;
+        symbol [ MODE_DRILL %tmp.2 16 46 56 ];
+        %tmp.2 = getv ? :MODE_DRILL;
         putv self :mCurrentMode %tmp.2;
     }
     [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc"; @line = 9; ]
     static
     <init> {
     }
-    [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc"; @line = 12; @position = 18; @symbol_constdef = [MODE_CLASS,12,18,28]; ]
+    [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc"; @line = 12; @position = 18; @symbol_constdef = [MODE_DRILL,12,18,28]; ]
     private
-    const MODE_CLASS = 0;
+    const MODE_DRILL = 0;
     [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc"; @line = 13; @position = 18; @symbol_constdef = [MODE_COMBAT,13,18,29]; ]
     private
     const MODE_COMBAT = 1;
@@ -468,8 +468,8 @@ _Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQView_m
 _Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQView_mc_135_8_139_8_if_stmt:
         symbol [ mCurrentMode %tmp.2 135 12 24 ];
         %tmp.2 = getv ? :mCurrentMode;
-        symbol [ MODE_CLASS %tmp.4 135 28 38 ];
-        %tmp.4 = getv ? :MODE_CLASS;
+        symbol [ MODE_DRILL %tmp.4 135 28 38 ];
+        %tmp.4 = getv ? :MODE_DRILL;
         %tmp.5 = eq %tmp.2 %tmp.4;
         bf %tmp.5 @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQView_mc_135_8_139_8_if_else_false;
 _Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQView_mc_135_8_139_8_if_true:
@@ -484,8 +484,8 @@ _Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQView_m
 _Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQView_mc_135_8_139_8_if_else_false:
 _Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQView_mc_137_15_139_8_start:
 [ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQView.mc" 138 12 ]
-        symbol [ MODE_CLASS %tmp.9 138 27 37 ];
-        %tmp.9 = getv ? :MODE_CLASS;
+        symbol [ MODE_DRILL %tmp.9 138 27 37 ];
+        %tmp.9 = getv ? :MODE_DRILL;
         symbol [ mCurrentMode ? 138 12 24 ];
         putv self :mCurrentMode %tmp.9;
 _Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQView_mc_137_15_139_8_stop:
@@ -503,8 +503,8 @@ _Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQView_m
 _Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQView_mc_145_23_147_55_begin:
         symbol [ mCurrentMode %tmp.14 145 24 36 ];
         %tmp.14 = getv ? :mCurrentMode;
-        symbol [ MODE_CLASS %tmp.16 145 40 50 ];
-        %tmp.16 = getv ? :MODE_CLASS;
+        symbol [ MODE_DRILL %tmp.16 145 40 50 ];
+        %tmp.16 = getv ? :MODE_DRILL;
         %tmp.17 = eq %tmp.14 %tmp.16;
         bf %tmp.17 @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQView_mc_145_23_147_55_false;
 _Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQView_mc_145_23_147_55_true:
@@ -516,8 +516,8 @@ _Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQView_m
         %tmp.21 = getv ? :Rez;
         symbol [ Strings %tmp.22 146 37 44 ];
         %tmp.22 = getv %tmp.21 :Strings;
-        symbol [ ModeClass %tmp.23 146 45 54 ];
-        %tmp.23 = getv %tmp.22 :ModeClass;
+        symbol [ ModeDrill %tmp.23 146 45 54 ];
+        %tmp.23 = getv %tmp.22 :ModeDrill;
         %tmp.24 = invoke %tmp.18 %tmp.19(%tmp.23);
         push %tmp.24;
         goto @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQView_mc_145_23_147_55_end;
@@ -664,12 +664,12 @@ _Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQView_m
 _Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQView_mc_181_23_181_64_begin:
         symbol [ mCurrentMode %tmp.35 181 24 36 ];
         %tmp.35 = getv ? :mCurrentMode;
-        symbol [ MODE_CLASS %tmp.37 181 40 50 ];
-        %tmp.37 = getv ? :MODE_CLASS;
+        symbol [ MODE_DRILL %tmp.37 181 40 50 ];
+        %tmp.37 = getv ? :MODE_DRILL;
         %tmp.38 = eq %tmp.35 %tmp.37;
         bf %tmp.38 @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQView_mc_181_23_181_64_false;
 _Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQView_mc_181_23_181_64_true:
-        %tmp.39 = "CLASS";
+        %tmp.39 = "DRILL";
         push %tmp.39;
         goto @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQView_mc_181_23_181_64_end;
 _Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQView_mc_181_23_181_64_false:

@@ -19,17 +19,17 @@ class GrappleFieldMinimal extends WatchUi.DataField {
     [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldMinimal.mc"; @line = 12; ]
     <init> {
 [ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldMinimal.mc" 17 16 ]
-        symbol [ MODE_CLASS %tmp.2 17 46 56 ];
-        %tmp.2 = getv ? :MODE_CLASS;
+        symbol [ MODE_DRILL %tmp.2 17 46 56 ];
+        %tmp.2 = getv ? :MODE_DRILL;
         putv self :mCurrentMode %tmp.2;
     }
     [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldMinimal.mc"; @line = 12; ]
     static
     <init> {
     }
-    [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldMinimal.mc"; @line = 14; @position = 18; @symbol_constdef = [MODE_CLASS,14,18,28]; ]
+    [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldMinimal.mc"; @line = 14; @position = 18; @symbol_constdef = [MODE_DRILL,14,18,28]; ]
     private
-    const MODE_CLASS = 0;
+    const MODE_DRILL = 0;
     [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldMinimal.mc"; @line = 15; @position = 18; @symbol_constdef = [MODE_COMBAT,15,18,29]; ]
     private
     const MODE_COMBAT = 1;
@@ -38,7 +38,7 @@ class GrappleFieldMinimal extends WatchUi.DataField {
     var mCurrentMode as Lang.Number;
     [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldMinimal.mc"; @line = 18; @position = 16; @symbol_vardef = [mValue,18,16,22]; @symbol_type<0> = [Lang,18,26,30]; @symbol_type<1> = [String,18,31,37]; ]
     private
-    var mValue as Lang.String = "CLASS";
+    var mValue as Lang.String = "DRILL";
     [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleFieldMinimal.mc"; @line = 21; @position = 16; @symbol_vardef = [mModeField,21,16,26]; @symbol_type<0> = [FitContributor,21,30,44]; @symbol_type<1> = [Field,21,45,50]; ]
     private
     var mModeField as FitContributor.Field or Null;
@@ -206,12 +206,12 @@ _Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleFieldMin
 _Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleFieldMinimal_mc_64_17_64_58_begin:
         symbol [ mCurrentMode %tmp.2 64 18 30 ];
         %tmp.2 = getv ? :mCurrentMode;
-        symbol [ MODE_CLASS %tmp.4 64 34 44 ];
-        %tmp.4 = getv ? :MODE_CLASS;
+        symbol [ MODE_DRILL %tmp.4 64 34 44 ];
+        %tmp.4 = getv ? :MODE_DRILL;
         %tmp.5 = eq %tmp.2 %tmp.4;
         bf %tmp.5 @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleFieldMinimal_mc_64_17_64_58_false;
 _Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleFieldMinimal_mc_64_17_64_58_true:
-        %tmp.6 = "CLASS";
+        %tmp.6 = "DRILL";
         push %tmp.6;
         goto @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleFieldMinimal_mc_64_17_64_58_end;
 _Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleFieldMinimal_mc_64_17_64_58_false:
@@ -251,8 +251,8 @@ _Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleFieldMin
 _Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleFieldMinimal_mc_74_23_74_68_begin:
         symbol [ mCurrentMode %tmp.2 74 24 36 ];
         %tmp.2 = getv ? :mCurrentMode;
-        symbol [ MODE_CLASS %tmp.4 74 40 50 ];
-        %tmp.4 = getv ? :MODE_CLASS;
+        symbol [ MODE_DRILL %tmp.4 74 40 50 ];
+        %tmp.4 = getv ? :MODE_DRILL;
         %tmp.5 = eq %tmp.2 %tmp.4;
         bf %tmp.5 @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleFieldMinimal_mc_74_23_74_68_false;
 _Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleFieldMinimal_mc_74_23_74_68_true:
@@ -261,8 +261,8 @@ _Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleFieldMin
         push %tmp.7;
         goto @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleFieldMinimal_mc_74_23_74_68_end;
 _Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleFieldMinimal_mc_74_23_74_68_false:
-        symbol [ MODE_CLASS %tmp.9 74 68 78 ];
-        %tmp.9 = getv ? :MODE_CLASS;
+        symbol [ MODE_DRILL %tmp.9 74 68 78 ];
+        %tmp.9 = getv ? :MODE_DRILL;
         push %tmp.9;
 _Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleFieldMinimal_mc_74_23_74_68_end:
         %tmp.10 = phi [%tmp.5 @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleFieldMinimal_mc_74_23_74_68_begin] [%tmp.7 @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleFieldMinimal_mc_74_23_74_68_true] [%tmp.9 @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleFieldMinimal_mc_74_23_74_68_false] [%tmp.10 @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleFieldMinimal_mc_74_23_74_68_end];
@@ -342,12 +342,12 @@ _Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleFieldMin
 _Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleFieldMinimal_mc_84_35_84_76_begin:
         symbol [ mCurrentMode %tmp.33 84 36 48 ];
         %tmp.33 = getv ? :mCurrentMode;
-        symbol [ MODE_CLASS %tmp.35 84 52 62 ];
-        %tmp.35 = getv ? :MODE_CLASS;
+        symbol [ MODE_DRILL %tmp.35 84 52 62 ];
+        %tmp.35 = getv ? :MODE_DRILL;
         %tmp.36 = eq %tmp.33 %tmp.35;
         bf %tmp.36 @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleFieldMinimal_mc_84_35_84_76_false;
 _Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleFieldMinimal_mc_84_35_84_76_true:
-        %tmp.37 = "CLASS";
+        %tmp.37 = "DRILL";
         push %tmp.37;
         goto @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleFieldMinimal_mc_84_35_84_76_end;
 _Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleFieldMinimal_mc_84_35_84_76_false:

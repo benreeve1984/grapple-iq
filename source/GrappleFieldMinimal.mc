@@ -7,15 +7,15 @@ using Toybox.WatchUi;
 using Toybox.Attention;
 using Toybox.FitContributor;
 
-// OPTION 1: Minimal field - just shows CLASS/COMBAT
+// OPTION 1: Minimal field - just shows DRILL/COMBAT
 // Use with native Garmin fields for HR, Time, Lap Time
 class GrappleFieldMinimal extends WatchUi.DataField {
     
-    private const MODE_CLASS = 0;
+    private const MODE_DRILL = 0;
     private const MODE_COMBAT = 1;
     
-    private var mCurrentMode as Lang.Number = MODE_CLASS;
-    private var mValue as Lang.String = "CLASS";
+    private var mCurrentMode as Lang.Number = MODE_DRILL;
+    private var mValue as Lang.String = "DRILL";
     
     // FIT Contributor fields
     private var mModeField as FitContributor.Field?;
@@ -61,7 +61,7 @@ class GrappleFieldMinimal extends WatchUi.DataField {
     
     function compute(info as Activity.Info) as Void {
         // Update display value
-        mValue = (mCurrentMode == MODE_CLASS) ? "CLASS" : "COMBAT";
+        mValue = (mCurrentMode == MODE_DRILL) ? "DRILL" : "COMBAT";
         
         // Write current mode to FIT file (recorded every second)
         if (mModeField != null) {
@@ -71,7 +71,7 @@ class GrappleFieldMinimal extends WatchUi.DataField {
 
     function onTimerLap() as Void {
         // Toggle mode
-        mCurrentMode = (mCurrentMode == MODE_CLASS) ? MODE_COMBAT : MODE_CLASS;
+        mCurrentMode = (mCurrentMode == MODE_DRILL) ? MODE_COMBAT : MODE_DRILL;
         
         // Vibrate feedback
         if (Attention has :vibrate) {
@@ -81,7 +81,7 @@ class GrappleFieldMinimal extends WatchUi.DataField {
             } catch (e) {}
         }
         
-        System.println("Mode: " + ((mCurrentMode == MODE_CLASS) ? "CLASS" : "COMBAT"));
+        System.println("Mode: " + ((mCurrentMode == MODE_DRILL) ? "DRILL" : "COMBAT"));
     }
     
     function onTimerStart() as Void {

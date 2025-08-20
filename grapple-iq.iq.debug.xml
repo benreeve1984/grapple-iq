@@ -381,7 +381,6 @@
 <entry field="true" id="24" symbol="&lt;globals/GrappleIQView/&lt;&gt;mGoalModeField&gt;"/>
 <entry id="6" object="true" symbol="Alerts"/>
 <entry field="true" id="29" symbol="&lt;globals/GrappleIQView/&lt;&gt;mModeCodeField&gt;"/>
-<entry field="true" id="79" symbol="ModeClass"/>
 <entry id="7" object="true" symbol="FitSchema"/>
 <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
 <entry id="51" method="true" symbol="&lt;globals/GrappleFieldComplete/&lt;&gt;checkHrCap&gt;"/>
@@ -401,6 +400,7 @@
 <entry field="true" id="43" symbol="&lt;globals/GrappleDataField/&lt;&gt;mValue&gt;"/>
 <entry id="13" object="true" symbol="GrappleIQViewSimple"/>
 <entry id="58" method="true" symbol="&lt;globals/Alerts/&lt;&gt;checkAlertSupport&gt;"/>
+<entry field="true" id="73" symbol="GoalModeDrill"/>
 <entry id="57" symbol="&lt;globals/GrappleFieldComplete/&lt;&gt;mLines&gt;"/>
 <entry id="9" object="true" symbol="GrappleFieldComplete"/>
 <entry id="8389747" method="true" symbol="onTimerStart"/>
@@ -411,7 +411,7 @@
 <entry id="8388631" module="true" symbol="Activity"/>
 <entry id="8388648" module="true" symbol="WatchUi"/>
 <entry id="44" method="true" symbol="&lt;globals/GrappleFieldMinimal/&lt;&gt;createField&gt;"/>
-<entry field="true" id="73" symbol="GoalModeCombat"/>
+<entry field="true" id="72" symbol="GoalModeCombat"/>
 <entry field="true" id="77" symbol="HrCapPrompt"/>
 <entry id="2" module="true" symbol="globals/Rez"/>
 <entry id="14" object="true" symbol="Haptics"/>
@@ -421,6 +421,7 @@
 <entry field="true" id="8389065" symbol="locY"/>
 <entry field="true" id="8389064" symbol="locX"/>
 <entry id="39" method="true" symbol="&lt;globals/GrappleDataField/&lt;&gt;loadSettings&gt;"/>
+<entry field="true" id="80" symbol="ModeDrill"/>
 <entry field="true" id="35" symbol="&lt;globals/GrappleIQViewSimple/&lt;&gt;mHrCapBpm&gt;"/>
 <entry id="62" method="true" symbol="&lt;globals/Haptics/&lt;&gt;checkVibrateSupport&gt;"/>
 <entry id="18" method="true" symbol="&lt;globals/GrappleIQView/&lt;&gt;checkHeartRateCap&gt;"/>
@@ -448,7 +449,7 @@
 <entry id="8389134" method="true" symbol="setText"/>
 <entry field="true" id="82" symbol="Z1TargetTitle"/>
 <entry id="8389845" method="true" symbol="createField"/>
-<entry field="true" id="80" symbol="ModeCombat"/>
+<entry field="true" id="79" symbol="ModeCombat"/>
 <entry field="true" id="81" symbol="Z1TargetPrompt"/>
 <entry id="8389752" method="true" symbol="onTimerReset"/>
 <entry id="70" method="true" symbol="LayoutSingle"/>
@@ -491,7 +492,6 @@
 <entry id="53" method="true" symbol="&lt;globals/GrappleFieldComplete/&lt;&gt;loadSettings&gt;"/>
 <entry id="8391697" object="true" symbol="DataFieldAlert"/>
 <entry id="16" object="true" symbol="grapple_iqView"/>
-<entry field="true" id="72" symbol="GoalModeClass"/>
 <entry id="17" module="true" symbol="Layouts"/>
 <entry id="61" method="true" symbol="showBannerWithDuration"/>
 <entry field="true" id="40" symbol="&lt;globals/GrappleDataField/&lt;&gt;mCurrentMode&gt;"/>
@@ -599,15 +599,15 @@
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="HrCapTitle"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="GoalModeTitle"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="HrCapPrompt"/>
-<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ModeClass"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="GoalModeDrill"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="GoalModeHybrid"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Z1TargetPrompt"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="GoalModeCombat"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ModeCombat"/>
-<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="GoalModeClass"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Z1TargetTitle"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="GoalModePrompt"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ModeDrill"/>
 </annotations>
 <dataEntryOffsetMappings>
 <dataEntry label="globals" offset="58" parentId="" symbolId="globals" type="module"/>

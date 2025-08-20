@@ -9,11 +9,11 @@ using Toybox.FitContributor;
 class GrappleIQView extends WatchUi.DataField {
     
     // Mode constants
-    private const MODE_CLASS = 0;
+    private const MODE_DRILL = 0;
     private const MODE_COMBAT = 1;
     
     // Current mode
-    private var mCurrentMode as Lang.Number = MODE_CLASS;
+    private var mCurrentMode as Lang.Number = MODE_DRILL;
     
     // FIT contributor fields
     private var mModeCodeField as FitContributor.Field?;
@@ -132,18 +132,18 @@ class GrappleIQView extends WatchUi.DataField {
 
     function onTimerLap() as Void {
         // Toggle mode on LAP press
-        if (mCurrentMode == MODE_CLASS) {
+        if (mCurrentMode == MODE_DRILL) {
             mCurrentMode = MODE_COMBAT;
         } else {
-            mCurrentMode = MODE_CLASS;
+            mCurrentMode = MODE_DRILL;
         }
         
         // Vibrate to confirm mode change
         mHaptics.vibrate();
         
         // Show DataFieldAlert banner
-        var modeName = (mCurrentMode == MODE_CLASS) ? 
-            WatchUi.loadResource(Rez.Strings.ModeClass) : 
+        var modeName = (mCurrentMode == MODE_DRILL) ? 
+            WatchUi.loadResource(Rez.Strings.ModeDrill) : 
             WatchUi.loadResource(Rez.Strings.ModeCombat);
         
         mAlerts.showBanner("Mode: " + modeName);
@@ -178,7 +178,7 @@ class GrappleIQView extends WatchUi.DataField {
         }
         
         // Build display string
-        var modeName = (mCurrentMode == MODE_CLASS) ? "CLASS" : "COMBAT";
+        var modeName = (mCurrentMode == MODE_DRILL) ? "DRILL" : "COMBAT";
         var hr = (info.currentHeartRate != null) ? info.currentHeartRate : 0;
         
         return modeName + "  HR " + hr;

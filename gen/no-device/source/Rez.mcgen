@@ -68,13 +68,13 @@ module Rez {
     module Strings {
         (:initialized) var GoalModeTitle as ResourceId;
         (:initialized) var GoalModePrompt as ResourceId;
+        (:initialized) var GoalModeDrill as ResourceId;
         (:initialized) var GoalModeHybrid as ResourceId;
         (:initialized) var HrCapPrompt as ResourceId;
         (:initialized) var GoalModeCombat as ResourceId;
-        (:initialized) var ModeClass as ResourceId;
         (:initialized) var ModeCombat as ResourceId;
-        (:initialized) var GoalModeClass as ResourceId;
         (:initialized) var Z1TargetTitle as ResourceId;
+        (:initialized) var ModeDrill as ResourceId;
         (:initialized) var HrCapTitle as ResourceId;
         (:initialized) var AppName as ResourceId;
         (:initialized) var Z1TargetPrompt as ResourceId;

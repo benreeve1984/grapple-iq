@@ -26,7 +26,7 @@
     "configReadonly" : false,
     "configRequired" : false,
     "configOptions" : [ {
-      "display" : "GoalModeClass",
+      "display" : "GoalModeDrill",
       "value" : 0
     }, {
       "display" : "GoalModeHybrid",
@@ -59,16 +59,16 @@
     "valyrian" : {
       "GoalModeCombat" : "Combat Only",
       "ModeCombat" : "COMBAT",
-      "GoalModeClass" : "Class Only",
       "Z1TargetTitle" : "Z1 Target",
+      "ModeDrill" : "DRILL",
       "HrCapTitle" : "HR Cap",
       "AppName" : "grapple-iq",
       "Z1TargetPrompt" : "Zone 1 target minutes",
       "GoalModeTitle" : "Goal Mode",
       "GoalModePrompt" : "Select training goal mode",
+      "GoalModeDrill" : "Drill Only",
       "GoalModeHybrid" : "Hybrid",
-      "HrCapPrompt" : "Set heart rate cap (bpm)",
-      "ModeClass" : "CLASS"
+      "HrCapPrompt" : "Set heart rate cap (bpm)"
     }
   }
 }

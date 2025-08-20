@@ -10,11 +10,11 @@ using Toybox.Attention;
 // MODE, HR with alert, Total Time, Lap Time
 class GrappleFieldComplete extends WatchUi.DataField {
     
-    private const MODE_CLASS = 0;
+    private const MODE_DRILL = 0;
     private const MODE_COMBAT = 1;
     
-    private var mCurrentMode as Lang.Number = MODE_CLASS;
-    private var mLines as Lang.Array<Lang.String> = ["CLASS", "HR --", "0:00 / 0:00"];
+    private var mCurrentMode as Lang.Number = MODE_DRILL;
+    private var mLines as Lang.Array<Lang.String> = ["DRILL", "HR --", "0:00 / 0:00"];
     
     // HR cap alert
     private var mHrCapBpm as Lang.Number = 160;  // Default 160, configurable
@@ -70,7 +70,7 @@ class GrappleFieldComplete extends WatchUi.DataField {
     
     function compute(info as Activity.Info) as Void {
         // Line 1: Mode
-        mLines[0] = (mCurrentMode == MODE_CLASS) ? "CLASS" : "COMBAT";
+        mLines[0] = (mCurrentMode == MODE_DRILL) ? "DRILL" : "COMBAT";
         
         // Line 2: Heart Rate with emoji
         var hr = 0;
@@ -141,7 +141,7 @@ class GrappleFieldComplete extends WatchUi.DataField {
 
     function onTimerLap() as Void {
         // Toggle mode
-        mCurrentMode = (mCurrentMode == MODE_CLASS) ? MODE_COMBAT : MODE_CLASS;
+        mCurrentMode = (mCurrentMode == MODE_DRILL) ? MODE_COMBAT : MODE_DRILL;
         
         // Quick vibrate for mode change
         if (Attention has :vibrate) {
@@ -151,7 +151,7 @@ class GrappleFieldComplete extends WatchUi.DataField {
             } catch (e) {}
         }
         
-        System.println("Mode: " + ((mCurrentMode == MODE_CLASS) ? "CLASS" : "COMBAT"));
+        System.println("Mode: " + ((mCurrentMode == MODE_DRILL) ? "DRILL" : "COMBAT"));
     }
     
     function onTimerStart() as Void {}

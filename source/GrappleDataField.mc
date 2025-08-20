@@ -9,11 +9,11 @@ using Toybox.Attention;
 class GrappleDataField extends WatchUi.DataField {
     
     // Mode constants
-    private const MODE_CLASS = 0;
+    private const MODE_DRILL = 0;
     private const MODE_COMBAT = 1;
     
     // Current mode
-    private var mCurrentMode as Lang.Number = MODE_CLASS;
+    private var mCurrentMode as Lang.Number = MODE_DRILL;
     
     // HR cap settings
     private var mHrCapBpm as Lang.Number? = null;
@@ -25,7 +25,7 @@ class GrappleDataField extends WatchUi.DataField {
 
     function initialize() {
         DataField.initialize();
-        mValue = "CLASS";
+        mValue = "DRILL";
         
         // Load settings
         loadSettings();
@@ -71,7 +71,7 @@ class GrappleDataField extends WatchUi.DataField {
         checkHeartRateCap(info);
         
         // Build display string
-        var modeName = (mCurrentMode == MODE_CLASS) ? "CLASS" : "COMBAT";
+        var modeName = (mCurrentMode == MODE_DRILL) ? "DRILL" : "COMBAT";
         var hr = 0;
         if (info has :currentHeartRate && info.currentHeartRate != null) {
             hr = info.currentHeartRate as Lang.Number;
@@ -85,12 +85,12 @@ class GrappleDataField extends WatchUi.DataField {
         System.println("onTimerLap called!");
         
         // Toggle mode on LAP press
-        if (mCurrentMode == MODE_CLASS) {
+        if (mCurrentMode == MODE_DRILL) {
             mCurrentMode = MODE_COMBAT;
             System.println("Switched to COMBAT mode");
         } else {
-            mCurrentMode = MODE_CLASS;
-            System.println("Switched to CLASS mode");
+            mCurrentMode = MODE_DRILL;
+            System.println("Switched to DRILL mode");
         }
         
         // Vibrate to confirm mode change

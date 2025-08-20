@@ -776,20 +776,20 @@ _Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_R
         var GoalModeTitle as ResourceId;
         [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen"; @line = 70; @position = 27; initialized = true; @symbol_vardef = [GoalModePrompt,70,27,41]; @symbol_type<0> = [ResourceId,70,45,55]; ]
         var GoalModePrompt as ResourceId;
-        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen"; @line = 71; @position = 27; initialized = true; @symbol_vardef = [GoalModeHybrid,71,27,41]; @symbol_type<0> = [ResourceId,71,45,55]; ]
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen"; @line = 71; @position = 27; initialized = true; @symbol_vardef = [GoalModeDrill,71,27,40]; @symbol_type<0> = [ResourceId,71,44,54]; ]
+        var GoalModeDrill as ResourceId;
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen"; @line = 72; @position = 27; initialized = true; @symbol_vardef = [GoalModeHybrid,72,27,41]; @symbol_type<0> = [ResourceId,72,45,55]; ]
         var GoalModeHybrid as ResourceId;
-        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen"; @line = 72; @position = 27; initialized = true; @symbol_vardef = [HrCapPrompt,72,27,38]; @symbol_type<0> = [ResourceId,72,42,52]; ]
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen"; @line = 73; @position = 27; initialized = true; @symbol_vardef = [HrCapPrompt,73,27,38]; @symbol_type<0> = [ResourceId,73,42,52]; ]
         var HrCapPrompt as ResourceId;
-        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen"; @line = 73; @position = 27; initialized = true; @symbol_vardef = [GoalModeCombat,73,27,41]; @symbol_type<0> = [ResourceId,73,45,55]; ]
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen"; @line = 74; @position = 27; initialized = true; @symbol_vardef = [GoalModeCombat,74,27,41]; @symbol_type<0> = [ResourceId,74,45,55]; ]
         var GoalModeCombat as ResourceId;
-        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen"; @line = 74; @position = 27; initialized = true; @symbol_vardef = [ModeClass,74,27,36]; @symbol_type<0> = [ResourceId,74,40,50]; ]
-        var ModeClass as ResourceId;
         [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen"; @line = 75; @position = 27; initialized = true; @symbol_vardef = [ModeCombat,75,27,37]; @symbol_type<0> = [ResourceId,75,41,51]; ]
         var ModeCombat as ResourceId;
-        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen"; @line = 76; @position = 27; initialized = true; @symbol_vardef = [GoalModeClass,76,27,40]; @symbol_type<0> = [ResourceId,76,44,54]; ]
-        var GoalModeClass as ResourceId;
-        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen"; @line = 77; @position = 27; initialized = true; @symbol_vardef = [Z1TargetTitle,77,27,40]; @symbol_type<0> = [ResourceId,77,44,54]; ]
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen"; @line = 76; @position = 27; initialized = true; @symbol_vardef = [Z1TargetTitle,76,27,40]; @symbol_type<0> = [ResourceId,76,44,54]; ]
         var Z1TargetTitle as ResourceId;
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen"; @line = 77; @position = 27; initialized = true; @symbol_vardef = [ModeDrill,77,27,36]; @symbol_type<0> = [ResourceId,77,40,50]; ]
+        var ModeDrill as ResourceId;
         [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen"; @line = 78; @position = 27; initialized = true; @symbol_vardef = [HrCapTitle,78,27,37]; @symbol_type<0> = [ResourceId,78,41,51]; ]
         var HrCapTitle as ResourceId;
         [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen"; @line = 79; @position = 27; initialized = true; @symbol_vardef = [AppName,79,27,34]; @symbol_type<0> = [ResourceId,79,38,48]; ]

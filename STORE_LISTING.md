@@ -4,7 +4,7 @@
 **Grapple IQ - Training Mode Tracker**
 
 ## Short Description (100 characters max)
-Track CLASS and COMBAT modes for martial arts. Quick toggle with LAP button during training.
+Track DRILL and COMBAT modes for martial arts. Quick toggle with LAP button during training.
 
 ## Full Description
 
@@ -13,7 +13,7 @@ Grapple IQ is a specialized data field designed for martial artists who need to 
 
 ### Key Features
 ✓ **Two Training Modes**
-  - CLASS: Technical training, drilling, positional work
+  - DRILL: Technical training, drilling, positional work
   - COMBAT: Live rolling, sparring, competition intensity
 
 ✓ **Quick Mode Toggle**
@@ -29,7 +29,7 @@ Grapple IQ is a specialized data field designed for martial artists who need to 
 ### How to Use
 1. Add Grapple IQ to any data screen in your activity profile
 2. Start your training session
-3. Press LAP to toggle between CLASS and COMBAT modes
+3. Press LAP to toggle between DRILL and COMBAT modes
 4. Review your training breakdown in Garmin Connect
 
 ### Recommended Setup

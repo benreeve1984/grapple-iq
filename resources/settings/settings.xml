@@ -7,7 +7,7 @@
     <!-- Goal Mode Setting -->
     <setting propertyKey="@Properties.goalMode" title="@Strings.GoalModeTitle">
         <settingConfig type="list">
-            <listEntry value="0">@Strings.GoalModeClass</listEntry>
+            <listEntry value="0">@Strings.GoalModeDrill</listEntry>
             <listEntry value="1">@Strings.GoalModeHybrid</listEntry>
             <listEntry value="2">@Strings.GoalModeCombat</listEntry>
         </settingConfig>

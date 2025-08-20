@@ -2,7 +2,7 @@
     <string id="AppName">grapple-iq</string>
     
     <!-- Mode names -->
-    <string id="ModeClass">CLASS</string>
+    <string id="ModeDrill">DRILL</string>
     <string id="ModeCombat">COMBAT</string>
     
     <!-- Settings strings -->
@@ -11,7 +11,7 @@
     
     <string id="GoalModeTitle">Goal Mode</string>
     <string id="GoalModePrompt">Select training goal mode</string>
-    <string id="GoalModeClass">Class Only</string>
+    <string id="GoalModeDrill">Drill Only</string>
     <string id="GoalModeHybrid">Hybrid</string>
     <string id="GoalModeCombat">Combat Only</string>
     

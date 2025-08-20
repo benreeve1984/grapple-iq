@@ -10,11 +10,11 @@ using Toybox.Time;
 class GrappleIQViewSimple extends WatchUi.SimpleDataField {
     
     // Mode constants
-    private const MODE_CLASS = 0;
+    private const MODE_DRILL = 0;
     private const MODE_COMBAT = 1;
     
     // Current mode
-    private var mCurrentMode as Lang.Number = MODE_CLASS;
+    private var mCurrentMode as Lang.Number = MODE_DRILL;
     
     // HR cap settings
     private var mHrCapBpm as Lang.Number? = null;
@@ -50,10 +50,10 @@ class GrappleIQViewSimple extends WatchUi.SimpleDataField {
         mLastLapTime = currentTime;
         
         // Toggle mode on LAP press
-        if (mCurrentMode == MODE_CLASS) {
+        if (mCurrentMode == MODE_DRILL) {
             mCurrentMode = MODE_COMBAT;
         } else {
-            mCurrentMode = MODE_CLASS;
+            mCurrentMode = MODE_DRILL;
         }
         
         // Vibrate to confirm mode change
@@ -69,7 +69,7 @@ class GrappleIQViewSimple extends WatchUi.SimpleDataField {
         }
         
         // Log mode change
-        var modeName = (mCurrentMode == MODE_CLASS) ? "CLASS" : "COMBAT";
+        var modeName = (mCurrentMode == MODE_DRILL) ? "DRILL" : "COMBAT";
         System.println("Mode changed to: " + modeName);
     }
 
@@ -78,7 +78,7 @@ class GrappleIQViewSimple extends WatchUi.SimpleDataField {
         checkHeartRateCap(info);
         
         // Build display string
-        var modeName = (mCurrentMode == MODE_CLASS) ? "CLASS" : "COMBAT";
+        var modeName = (mCurrentMode == MODE_DRILL) ? "DRILL" : "COMBAT";
         var hr = 0;
         if (info has :currentHeartRate && info.currentHeartRate != null) {
             hr = info.currentHeartRate as Lang.Number;

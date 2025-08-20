@@ -1,0 +1,74 @@
+{
+  "settings" : [ {
+    "key" : "hrCapBpm",
+    "valueType" : "number",
+    "defaultValue" : 160,
+    "configTitle" : "HrCapTitle",
+    "configPrompt" : null,
+    "configType" : "numeric",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : 100,
+    "configMax" : 220,
+    "configMaxLength" : null
+  }, {
+    "key" : "goalMode",
+    "valueType" : "number",
+    "defaultValue" : 1,
+    "configTitle" : "GoalModeTitle",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "GoalModeDrill",
+      "value" : 0
+    }, {
+      "display" : "GoalModeHybrid",
+      "value" : 1
+    }, {
+      "display" : "GoalModeCombat",
+      "value" : 2
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "z1TargetMin",
+    "valueType" : "number",
+    "defaultValue" : 180,
+    "configTitle" : "Z1TargetTitle",
+    "configPrompt" : null,
+    "configType" : "numeric",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : 60,
+    "configMax" : 600,
+    "configMaxLength" : null
+  } ],
+  "supportsLiveValidation" : false,
+  "languages" : {
+    "valyrian" : {
+      "GoalModeCombat" : "Combat Only",
+      "ModeCombat" : "COMBAT",
+      "Z1TargetTitle" : "Z1 Target",
+      "ModeDrill" : "DRILL",
+      "HrCapTitle" : "HR Cap",
+      "AppName" : "grapple-iq",
+      "Z1TargetPrompt" : "Zone 1 target minutes",
+      "GoalModeTitle" : "Goal Mode",
+      "GoalModePrompt" : "Select training goal mode",
+      "GoalModeDrill" : "Drill Only",
+      "GoalModeHybrid" : "Hybrid",
+      "HrCapPrompt" : "Set heart rate cap (bpm)"
+    }
+  }
+}

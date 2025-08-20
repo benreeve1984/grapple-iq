@@ -1,0 +1,46 @@
+# Garmin Connect IQ build artifacts
+*.prg
+*.prg.debug.xml
+*.iq
+bin/
+build/
+
+# Developer keys (NEVER commit these!)
+*.pem
+*.der
+developer_key*
+
+# IDE and OS files
+.DS_Store
+Thumbs.db
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Simulator files
+*.sim
+
+# Generated documentation
+docs/api/
+
+# User-specific project settings
+.project
+.settings/
+
+# Backup files
+*.bak
+*.backup
+
+# Test output
+test-results/
+coverage/

@@ -1,0 +1,280 @@
+[ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Haptics.mc"; @line = 1; @symbol_usingdef<0> = [Toybox,1,6,12]; @symbol_usingdef<1> = [Attention,1,13,22]; ]
+using Toybox.Attention;
+[ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Haptics.mc"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [System,2,13,19]; ]
+using Toybox.System;
+[ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Haptics.mc"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [Lang,3,13,17]; ]
+using Toybox.Lang;
+[ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Haptics.mc"; @line = 6; @symbol_classdef = [Haptics,6,6,13]; ]
+class Haptics {
+    [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Haptics.mc"; @line = 6; ]
+    <init> {
+    }
+    [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Haptics.mc"; @line = 6; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Haptics.mc"; @line = 8; @position = 16; @symbol_vardef = [mVibrateSupported,8,16,33]; @symbol_type<0> = [Lang,8,37,41]; @symbol_type<1> = [Boolean,8,42,49]; ]
+    private
+    var mVibrateSupported as Lang.Boolean;
+    [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Haptics.mc"; @line = 10; @symbol_functiondef = [initialize,10,13,23]; ]
+    function initialize() as Void {
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_10_26_13_4_start:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Haptics.mc" 12 8 ]
+        %tmp.1 = self;
+        symbol [ checkVibrateSupport %tmp.2 12 28 47 ];
+        %tmp.2 = getv function %tmp.1 :checkVibrateSupport;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        symbol [ mVibrateSupported ? 12 8 25 ];
+        putv self :mVibrateSupported %tmp.3;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_10_26_13_4_stop:
+    }
+    [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Haptics.mc"; @line = 15; @symbol_functiondef = [checkVibrateSupport,15,21,40]; @symbol_return<0> = [Lang,15,46,50]; @symbol_return<1> = [Boolean,15,51,58]; ]
+    private
+    function checkVibrateSupport() as Lang.Boolean {
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_15_59_28_4_start:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Haptics.mc" 16 8 ]
+        [ "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_15_59_28_4_start" "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_15_59_28_4_stop" ]
+        %deviceSettings.1 = local;
+        symbol [ deviceSettings %deviceSettings.1 16 12 26 ];
+        symbol [ System %tmp.1 16 29 35 ];
+        %tmp.1 = getm $.Toybox.System;
+        symbol [ getDeviceSettings %tmp.2 16 36 53 ];
+        %tmp.2 = getv function %tmp.1 :getDeviceSettings;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %deviceSettings.1 %tmp.3;
+        symbol [ deviceSettings %deviceSettings.1 16 12 26 ];
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Haptics.mc" 19 8 ]
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_19_8_25_8_if_stmt:
+        symbol [ Attention %tmp.4 19 12 21 ];
+        %tmp.4 = getm $.Toybox.Attention;
+        %tmp.6 = const :vibrate;
+        symbol [ vibrate %tmp.6 19 27 34 const ];
+        %tmp.7 = canhazplz %tmp.4 %tmp.6;
+        bf %tmp.7 @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_19_8_25_8_if_end;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_19_8_25_8_if_true:
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_19_36_25_8_start:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Haptics.mc" 21 12 ]
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_21_12_23_12_if_stmt:
+        %tmp.8 = lgetv %deviceSettings.1;
+        symbol [ deviceSettings %tmp.8 21 16 30 ];
+        %tmp.10 = const :vibrateOn;
+        symbol [ vibrateOn %tmp.10 21 36 45 const ];
+        %tmp.11 = canhazplz %tmp.8 %tmp.10;
+        bf %tmp.11 @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_21_12_23_12_if_end;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_21_12_23_12_if_true:
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_21_47_23_12_start:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Haptics.mc" 22 16 ]
+        %tmp.12 = lgetv %deviceSettings.1;
+        symbol [ deviceSettings %tmp.12 22 23 37 ];
+        %tmp.13 = as %tmp.12 { (interface { var vibrateOn; }) };
+        symbol [ vibrateOn %tmp.14 22 38 47 ];
+        %tmp.14 = getv %tmp.13 :vibrateOn;
+        ret %tmp.14;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_21_47_23_12_stop:
+        goto @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_21_12_23_12_if_end;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_21_12_23_12_if_end:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Haptics.mc" 24 12 ]
+        %tmp.15 = true;
+        ret %tmp.15;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_19_36_25_8_stop:
+        goto @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_19_8_25_8_if_end;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_19_8_25_8_if_end:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Haptics.mc" 27 8 ]
+        %tmp.16 = false;
+        ret %tmp.16;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_15_59_28_4_stop:
+    }
+    [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Haptics.mc"; @line = 31; @symbol_functiondef = [vibrate,31,13,20]; ]
+    function vibrate() as Void {
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_31_31_50_4_start:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Haptics.mc" 32 8 ]
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_32_8_34_8_if_stmt:
+        symbol [ mVibrateSupported %tmp.2 32 13 30 ];
+        %tmp.2 = getv ? :mVibrateSupported;
+        %tmp.3 = not %tmp.2;
+        bf %tmp.3 @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_32_8_34_8_if_end;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_32_8_34_8_if_true:
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_32_32_34_8_start:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Haptics.mc" 33 12 ]
+        ret ?;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_32_32_34_8_stop:
+        goto @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_32_8_34_8_if_end;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_32_8_34_8_if_end:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Haptics.mc" 36 8 ]
+        try @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_36_8_49_8_beginTry @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_36_8_49_8_endTry @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_36_8_49_8_catch @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_36_8_49_8_finally;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_36_8_49_8_beginTry:
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_36_12_47_8_start:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Haptics.mc" 38 12 ]
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_38_12_46_12_if_stmt:
+        symbol [ Attention %tmp.4 38 16 25 ];
+        %tmp.4 = getm $.Toybox.Attention;
+        %tmp.6 = const :vibrate;
+        symbol [ vibrate %tmp.6 38 31 38 const ];
+        %tmp.7 = canhazplz %tmp.4 %tmp.6;
+        bf %tmp.7 @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_38_12_46_12_if_false;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_38_12_46_12_if_true:
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_38_40_43_12_start:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Haptics.mc" 39 16 ]
+        [ "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_38_40_43_12_start" "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_38_40_43_12_stop" ]
+        %vibrateData.1 = local;
+        symbol [ vibrateData %vibrateData.1 39 20 31 ];
+        %tmp.8 = newa 1;
+        symbol [ Attention %tmp.11 40 24 33 ];
+        %tmp.11 = getm $.Toybox.Attention;
+        symbol [ VibeProfile %tmp.12 40 34 45 ];
+        %tmp.12 = getv function ? %tmp.11 :VibeProfile;
+        %tmp.13 = 50;
+        %tmp.14 = 200;
+        %tmp.9 = newc %tmp.12 (%tmp.13, %tmp.14);
+        %tmp.15 = dup %tmp.8;
+        %tmp.16 = aputv %tmp.15 0 %tmp.9;
+        lputv %vibrateData.1 %tmp.16;
+        symbol [ vibrateData %vibrateData.1 39 20 31 ];
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Haptics.mc" 42 16 ]
+        symbol [ Attention %tmp.17 42 16 25 ];
+        %tmp.17 = getm $.Toybox.Attention;
+        symbol [ vibrate %tmp.18 42 26 33 ];
+        %tmp.18 = getv function %tmp.17 :vibrate;
+        %tmp.19 = lgetv %vibrateData.1;
+        symbol [ vibrateData %tmp.19 42 34 45 ];
+        invoke %tmp.17 %tmp.18(%tmp.19);
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_38_40_43_12_stop:
+        goto @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_38_12_46_12_if_end;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_38_12_46_12_if_false:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Haptics.mc" 43 19 ]
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_43_19_46_12_if_stmt:
+        symbol [ Attention %tmp.20 43 23 32 ];
+        %tmp.20 = getm $.Toybox.Attention;
+        %tmp.22 = const :playTone;
+        symbol [ playTone %tmp.22 43 38 46 const ];
+        %tmp.23 = canhazplz %tmp.20 %tmp.22;
+        bf %tmp.23 @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_43_19_46_12_if_end;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_43_19_46_12_if_true:
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_43_48_46_12_start:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Haptics.mc" 45 16 ]
+        symbol [ Attention %tmp.24 45 16 25 ];
+        %tmp.24 = getm $.Toybox.Attention;
+        symbol [ playTone %tmp.25 45 26 34 ];
+        %tmp.25 = getv function %tmp.24 :playTone;
+        symbol [ Attention %tmp.26 45 35 44 ];
+        %tmp.26 = getm $.Toybox.Attention;
+        symbol [ TONE_KEY %tmp.27 45 45 53 ];
+        %tmp.27 = getv %tmp.26 :TONE_KEY;
+        invoke %tmp.24 %tmp.25(%tmp.27);
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_43_48_46_12_stop:
+        goto @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_43_19_46_12_if_end;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_43_19_46_12_if_end:
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_38_12_46_12_if_end:
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_36_12_47_8_stop:
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_36_8_49_8_endTry:
+        jsr @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_36_8_49_8_finally;
+        goto @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_36_8_49_8_end;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_36_8_49_8_catch:
+        %tmp.28 = exception;
+        push %tmp.28;
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Haptics.mc" 47 10 ]
+        [ "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_36_8_49_8_catch" "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_47_10_49_8_end" ]
+        %e.2 = local;
+        symbol [ e %e.2 47 17 18 ];
+        %tmp.29 = dup %tmp.28;
+        lputv %e.2 %tmp.29;
+        symbol [ e %e.2 47 17 18 ];
+        jsr @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_36_8_49_8_finally;
+        pop;
+        goto @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_36_8_49_8_end;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_47_10_49_8_end:
+        try @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_36_8_49_8_catch @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_47_10_49_8_end @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_47_10_49_8_end @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_36_8_49_8_finally;
+        jsr @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_36_8_49_8_finally;
+        throw %tmp.28;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_36_8_49_8_finally:
+        jsrret;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_36_8_49_8_end:
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_31_31_50_4_stop:
+    }
+    [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Haptics.mc"; @line = 53; @symbol_functiondef = [vibrateShort,53,13,25]; ]
+    function vibrateShort() as Void {
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_53_36_68_4_start:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Haptics.mc" 54 8 ]
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_54_8_56_8_if_stmt:
+        symbol [ mVibrateSupported %tmp.2 54 13 30 ];
+        %tmp.2 = getv ? :mVibrateSupported;
+        %tmp.3 = not %tmp.2;
+        bf %tmp.3 @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_54_8_56_8_if_end;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_54_8_56_8_if_true:
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_54_32_56_8_start:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Haptics.mc" 55 12 ]
+        ret ?;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_54_32_56_8_stop:
+        goto @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_54_8_56_8_if_end;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_54_8_56_8_if_end:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Haptics.mc" 58 8 ]
+        try @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_58_8_67_8_beginTry @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_58_8_67_8_endTry @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_58_8_67_8_catch @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_58_8_67_8_finally;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_58_8_67_8_beginTry:
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_58_12_65_8_start:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Haptics.mc" 59 12 ]
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_59_12_64_12_if_stmt:
+        symbol [ Attention %tmp.4 59 16 25 ];
+        %tmp.4 = getm $.Toybox.Attention;
+        %tmp.6 = const :vibrate;
+        symbol [ vibrate %tmp.6 59 31 38 const ];
+        %tmp.7 = canhazplz %tmp.4 %tmp.6;
+        bf %tmp.7 @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_59_12_64_12_if_end;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_59_12_64_12_if_true:
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_59_40_64_12_start:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Haptics.mc" 60 16 ]
+        [ "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_59_40_64_12_start" "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_59_40_64_12_stop" ]
+        %vibrateData.1 = local;
+        symbol [ vibrateData %vibrateData.1 60 20 31 ];
+        %tmp.8 = newa 1;
+        symbol [ Attention %tmp.11 61 24 33 ];
+        %tmp.11 = getm $.Toybox.Attention;
+        symbol [ VibeProfile %tmp.12 61 34 45 ];
+        %tmp.12 = getv function ? %tmp.11 :VibeProfile;
+        %tmp.13 = 25;
+        %tmp.14 = 100;
+        %tmp.9 = newc %tmp.12 (%tmp.13, %tmp.14);
+        %tmp.15 = dup %tmp.8;
+        %tmp.16 = aputv %tmp.15 0 %tmp.9;
+        lputv %vibrateData.1 %tmp.16;
+        symbol [ vibrateData %vibrateData.1 60 20 31 ];
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Haptics.mc" 63 16 ]
+        symbol [ Attention %tmp.17 63 16 25 ];
+        %tmp.17 = getm $.Toybox.Attention;
+        symbol [ vibrate %tmp.18 63 26 33 ];
+        %tmp.18 = getv function %tmp.17 :vibrate;
+        %tmp.19 = lgetv %vibrateData.1;
+        symbol [ vibrateData %tmp.19 63 34 45 ];
+        invoke %tmp.17 %tmp.18(%tmp.19);
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_59_40_64_12_stop:
+        goto @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_59_12_64_12_if_end;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_59_12_64_12_if_end:
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_58_12_65_8_stop:
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_58_8_67_8_endTry:
+        jsr @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_58_8_67_8_finally;
+        goto @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_58_8_67_8_end;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_58_8_67_8_catch:
+        %tmp.20 = exception;
+        push %tmp.20;
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Haptics.mc" 65 10 ]
+        [ "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_58_8_67_8_catch" "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_65_10_67_8_end" ]
+        %e.2 = local;
+        symbol [ e %e.2 65 17 18 ];
+        %tmp.21 = dup %tmp.20;
+        lputv %e.2 %tmp.21;
+        symbol [ e %e.2 65 17 18 ];
+        jsr @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_58_8_67_8_finally;
+        pop;
+        goto @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_58_8_67_8_end;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_65_10_67_8_end:
+        try @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_58_8_67_8_catch @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_65_10_67_8_end @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_65_10_67_8_end @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_58_8_67_8_finally;
+        jsr @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_58_8_67_8_finally;
+        throw %tmp.20;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_58_8_67_8_finally:
+        jsrret;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_58_8_67_8_end:
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Haptics_mc_53_36_68_4_stop:
+    }
+}
+[ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Haptics.mc"; @line = 1; ]
+<init> {
+}

@@ -5,14 +5,14 @@ using Toybox.System;
 // Helper module for DataFieldAlert banner notifications
 class Alerts {
     
-    private var mAlertsSupported as Boolean;
+    private var mAlertsSupported as Lang.Boolean;
     
     function initialize() {
         // Check if DataFieldAlert is supported (SDK >= 3.2.0)
         mAlertsSupported = checkAlertSupport();
     }
     
-    private function checkAlertSupport() as Boolean {
+    private function checkAlertSupport() as Lang.Boolean {
         // Check if WatchUi has DataFieldAlert
         if (WatchUi has :DataFieldAlert) {
             return true;
@@ -21,40 +21,15 @@ class Alerts {
     }
     
     // Show a banner alert with text
-    function showBanner(text as String) as Void {
-        if (!mAlertsSupported) {
-            // Fallback: just log to console
-            System.println("Alert: " + text);
-            return;
-        }
-        
-        try {
-            // Create and show DataFieldAlert
-            if (WatchUi has :DataFieldAlert) {
-                var alert = new WatchUi.DataFieldAlert(text);
-                WatchUi.pushView(alert, null, WatchUi.SLIDE_IMMEDIATE);
-            }
-        } catch (e) {
-            // Silently handle any errors
-            System.println("Failed to show alert: " + text);
-        }
+    function showBanner(text as Lang.String) as Void {
+        // DataFieldAlert is shown differently - just log for now
+        // The alert would be shown from the compute() function
+        System.println("Alert: " + text);
     }
     
     // Show a banner alert with custom duration
-    function showBannerWithDuration(text as String, durationMs as Number) as Void {
-        if (!mAlertsSupported) {
-            System.println("Alert: " + text);
-            return;
-        }
-        
-        try {
-            if (WatchUi has :DataFieldAlert) {
-                // Note: Duration control may not be available in all SDK versions
-                var alert = new WatchUi.DataFieldAlert(text);
-                WatchUi.pushView(alert, null, WatchUi.SLIDE_IMMEDIATE);
-            }
-        } catch (e) {
-            System.println("Failed to show alert: " + text);
-        }
+    function showBannerWithDuration(text as Lang.String, durationMs as Lang.Number) as Void {
+        // DataFieldAlert is shown differently - just log for now
+        System.println("Alert: " + text);
     }
 }

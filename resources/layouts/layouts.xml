@@ -1,23 +1,27 @@
 <layouts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
     
-    <!-- Single field layout -->
-    <layout id="Layout">
-        <label id="value" x="center" y="center" font="Graphics.FONT_LARGE" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
+    <!-- Single field layout - full screen -->
+    <layout id="LayoutSingle">
+        <label id="label" x="center" y="30%" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_LT_GRAY" />
+        <label id="value" x="center" y="center" font="Graphics.FONT_NUMBER_THAI_HOT" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
     </layout>
     
-    <!-- 2-field layout -->
+    <!-- 2-field layout - half height -->
     <layout id="Layout2Field">
-        <label id="value" x="center" y="center" font="Graphics.FONT_MEDIUM" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
+        <label id="label" x="center" y="15%" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_LT_GRAY" />
+        <label id="value" x="center" y="55%" font="Graphics.FONT_MEDIUM" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
     </layout>
     
-    <!-- 3-field layout -->
+    <!-- 3-field layout - smaller -->
     <layout id="Layout3Field">
-        <label id="value" x="center" y="center" font="Graphics.FONT_SMALL" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
+        <label id="label" x="center" y="10%" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_LT_GRAY" />
+        <label id="value" x="center" y="60%" font="Graphics.FONT_SMALL" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
     </layout>
     
-    <!-- 4-field layout -->
+    <!-- 4-field layout - compact -->
     <layout id="Layout4Field">
-        <label id="value" x="center" y="center" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
+        <!-- No label in 4-field mode to save space -->
+        <label id="value" x="center" y="center" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
     </layout>
     
 </layouts>

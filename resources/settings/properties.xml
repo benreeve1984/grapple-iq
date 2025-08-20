@@ -1,27 +1,13 @@
 <properties>
     <!-- HR Cap Setting -->
     <!-- TODO: Wire this to the Connect IQ app settings -->
-    <property id="hrCapBpm" type="number">
-        <settingConfig title="@Strings.HrCapTitle" prompt="@Strings.HrCapPrompt">
-            <settingField id="number" />
-        </settingConfig>
-    </property>
+    <property id="hrCapBpm" type="number">160</property>
     
     <!-- Goal Mode Setting -->
     <!-- TODO: Wire this to the Connect IQ app settings -->
     <!-- 0 = CLASS only, 1 = Hybrid (default), 2 = COMBAT only -->
-    <property id="goalMode" type="number">
-        <settingConfig title="@Strings.GoalModeTitle" prompt="@Strings.GoalModePrompt">
-            <listEntry value="0">@Strings.GoalModeClass</listEntry>
-            <listEntry value="1">@Strings.GoalModeHybrid</listEntry>
-            <listEntry value="2">@Strings.GoalModeCombat</listEntry>
-        </settingConfig>
-    </property>
+    <property id="goalMode" type="number">1</property>
     
     <!-- Z1 Target Minutes Setting -->
-    <property id="z1TargetMin" type="number">
-        <settingConfig title="@Strings.Z1TargetTitle" prompt="@Strings.Z1TargetPrompt">
-            <settingField id="number" />
-        </settingConfig>
-    </property>
+    <property id="z1TargetMin" type="number">180</property>
 </properties>

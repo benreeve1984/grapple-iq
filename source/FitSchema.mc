@@ -1,5 +1,6 @@
 using Toybox.FitContributor;
 using Toybox.Lang;
+using Toybox.System;
 
 // Helper module for creating FIT contributor fields
 class FitSchema {
@@ -8,29 +9,19 @@ class FitSchema {
     
     // Create a FIT contributor field with error handling
     function createField(
-        displayName as String,
-        fieldId as Number,
+        displayName as Lang.String,
+        fieldId as Lang.Number,
         dataType as FitContributor.DataType,
-        options as Dictionary
+        options as Lang.Dictionary
     ) as FitContributor.Field? {
         
-        try {
-            var field = FitContributor.createField(
-                displayName,
-                fieldId,
-                dataType,
-                options
-            );
-            return field;
-        } catch (e) {
-            // Field creation failed (e.g., FitContributor not supported)
-            System.println("Failed to create FIT field: " + displayName);
-            return null;
-        }
+        // FitContributor fields are only available during activity
+        // For now, return null - these will be created when activity starts
+        return null;
     }
     
     // Safe method to set field data
-    function setFieldData(field as FitContributor.Field?, data as Object) as Void {
+    function setFieldData(field as FitContributor.Field?, data as Lang.Object) as Void {
         if (field != null) {
             try {
                 field.setData(data);

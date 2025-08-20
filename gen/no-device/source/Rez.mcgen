@@ -1,0 +1,82 @@
+import Toybox.Lang;
+using Toybox.WatchUi;
+using Toybox.WatchUi as Ui;
+using Toybox.Graphics;
+using Toybox.Graphics as Gfx;
+
+module Rez {
+    module Drawables {
+        (:initialized) var LauncherIcon as ResourceId;
+    } // Drawables
+
+    module Layouts {
+        function Layout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+            var rez_cmp_local_var_dc_getHeight = dc.getHeight();
+
+            var rez_cmp_local_var_dc_getWidth = dc.getWidth();
+
+            var rez_cmp_local_text_label = new WatchUi.Text({:identifier=>"label", :color=>Graphics.COLOR_LT_GRAY, :locX=>(rez_cmp_local_var_dc_getWidth * 0.5), :locY=>(rez_cmp_local_var_dc_getHeight * (25 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_TINY});
+
+            var rez_cmp_local_text_value = new WatchUi.Text({:identifier=>"value", :color=>Graphics.COLOR_WHITE, :locX=>(rez_cmp_local_var_dc_getWidth * 0.5), :locY=>((rez_cmp_local_var_dc_getHeight - dc.getFontHeight(Graphics.FONT_LARGE)) * 0.5), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_LARGE});
+
+            return [rez_cmp_local_text_label, rez_cmp_local_text_value] as Array<WatchUi.Drawable>;
+        }
+
+        function LayoutSingle(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+            var rez_cmp_local_var_dc_getHeight = dc.getHeight();
+
+            var rez_cmp_local_var_dc_getWidth = dc.getWidth();
+
+            var rez_cmp_local_text_label = new WatchUi.Text({:identifier=>"label", :color=>Graphics.COLOR_LT_GRAY, :locX=>(rez_cmp_local_var_dc_getWidth * 0.5), :locY=>(rez_cmp_local_var_dc_getHeight * (30 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_TINY});
+
+            var rez_cmp_local_text_value = new WatchUi.Text({:identifier=>"value", :color=>Graphics.COLOR_WHITE, :locX=>(rez_cmp_local_var_dc_getWidth * 0.5), :locY=>((rez_cmp_local_var_dc_getHeight - dc.getFontHeight(Graphics.FONT_NUMBER_THAI_HOT)) * 0.5), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_NUMBER_THAI_HOT});
+
+            return [rez_cmp_local_text_label, rez_cmp_local_text_value] as Array<WatchUi.Drawable>;
+        }
+
+        function Layout2Field(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+            var rez_cmp_local_var_dc_getHeight = dc.getHeight();
+
+            var rez_cmp_local_var_dc_getWidth = dc.getWidth();
+
+            var rez_cmp_local_text_label = new WatchUi.Text({:identifier=>"label", :color=>Graphics.COLOR_LT_GRAY, :locX=>(rez_cmp_local_var_dc_getWidth * 0.5), :locY=>(rez_cmp_local_var_dc_getHeight * (15 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_XTINY});
+
+            var rez_cmp_local_text_value = new WatchUi.Text({:identifier=>"value", :color=>Graphics.COLOR_WHITE, :locX=>(rez_cmp_local_var_dc_getWidth * 0.5), :locY=>(rez_cmp_local_var_dc_getHeight * (55 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_MEDIUM});
+
+            return [rez_cmp_local_text_label, rez_cmp_local_text_value] as Array<WatchUi.Drawable>;
+        }
+
+        function Layout3Field(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+            var rez_cmp_local_var_dc_getHeight = dc.getHeight();
+
+            var rez_cmp_local_var_dc_getWidth = dc.getWidth();
+
+            var rez_cmp_local_text_label = new WatchUi.Text({:identifier=>"label", :color=>Graphics.COLOR_LT_GRAY, :locX=>(rez_cmp_local_var_dc_getWidth * 0.5), :locY=>(rez_cmp_local_var_dc_getHeight * (10 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_XTINY});
+
+            var rez_cmp_local_text_value = new WatchUi.Text({:identifier=>"value", :color=>Graphics.COLOR_WHITE, :locX=>(rez_cmp_local_var_dc_getWidth * 0.5), :locY=>(rez_cmp_local_var_dc_getHeight * (60 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
+
+            return [rez_cmp_local_text_label, rez_cmp_local_text_value] as Array<WatchUi.Drawable>;
+        }
+
+        function Layout4Field(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+            var rez_cmp_local_text_value = new WatchUi.Text({:identifier=>"value", :color=>Graphics.COLOR_WHITE, :locX=>(dc.getWidth() * 0.5), :locY=>((dc.getHeight() - dc.getFontHeight(Graphics.FONT_TINY)) * 0.5), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_TINY});
+
+            return [rez_cmp_local_text_value] as Array<WatchUi.Drawable>;
+        }
+    } // Layouts
+
+    module Strings {
+        (:initialized) var GoalModeTitle as ResourceId;
+        (:initialized) var GoalModePrompt as ResourceId;
+        (:initialized) var GoalModeHybrid as ResourceId;
+        (:initialized) var HrCapPrompt as ResourceId;
+        (:initialized) var GoalModeCombat as ResourceId;
+        (:initialized) var ModeClass as ResourceId;
+        (:initialized) var ModeCombat as ResourceId;
+        (:initialized) var GoalModeClass as ResourceId;
+        (:initialized) var Z1TargetTitle as ResourceId;
+        (:initialized) var HrCapTitle as ResourceId;
+        (:initialized) var AppName as ResourceId;
+        (:initialized) var Z1TargetPrompt as ResourceId;
+    } // Strings
+} // Rez

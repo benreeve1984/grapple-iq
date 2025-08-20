@@ -1,0 +1,602 @@
+[ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc"; @line = 1; @symbol_usingdef<0> = [Toybox,1,6,12]; @symbol_usingdef<1> = [Activity,1,13,21]; ]
+using Toybox.Activity;
+[ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [Application,2,13,24]; ]
+using Toybox.Application;
+[ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [Graphics,3,13,21]; ]
+using Toybox.Graphics;
+[ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc"; @line = 4; @symbol_usingdef<0> = [Toybox,4,6,12]; @symbol_usingdef<1> = [Lang,4,13,17]; ]
+using Toybox.Lang;
+[ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc"; @line = 5; @symbol_usingdef<0> = [Toybox,5,6,12]; @symbol_usingdef<1> = [System,5,13,19]; ]
+using Toybox.System;
+[ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc"; @line = 6; @symbol_usingdef<0> = [Toybox,6,6,12]; @symbol_usingdef<1> = [WatchUi,6,13,20]; ]
+using Toybox.WatchUi;
+[ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc"; @line = 7; @symbol_usingdef<0> = [Toybox,7,6,12]; @symbol_usingdef<1> = [Attention,7,13,22]; ]
+using Toybox.Attention;
+[ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc"; @line = 8; @symbol_usingdef<0> = [Toybox,8,6,12]; @symbol_usingdef<1> = [Time,8,13,17]; ]
+using Toybox.Time;
+[ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc"; @line = 10; @symbol_classdef = [GrappleIQViewSimple,10,6,25]; @symbol_extends<0> = [WatchUi,10,34,41]; @symbol_extends<1> = [SimpleDataField,10,42,57]; ]
+class GrappleIQViewSimple extends WatchUi.SimpleDataField {
+    [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc"; @line = 10; ]
+    <init> {
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" 17 16 ]
+        symbol [ MODE_CLASS %tmp.2 17 46 56 ];
+        %tmp.2 = getv ? :MODE_CLASS;
+        putv self :mCurrentMode %tmp.2;
+    }
+    [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc"; @line = 10; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc"; @line = 13; @position = 18; @symbol_constdef = [MODE_CLASS,13,18,28]; ]
+    private
+    const MODE_CLASS = 0;
+    [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc"; @line = 14; @position = 18; @symbol_constdef = [MODE_COMBAT,14,18,29]; ]
+    private
+    const MODE_COMBAT = 1;
+    [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc"; @line = 17; @position = 16; @symbol_vardef = [mCurrentMode,17,16,28]; @symbol_type<0> = [Lang,17,32,36]; @symbol_type<1> = [Number,17,37,43]; ]
+    private
+    var mCurrentMode as Lang.Number;
+    [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc"; @line = 20; @position = 16; @symbol_vardef = [mHrCapBpm,20,16,25]; @symbol_type<0> = [Lang,20,29,33]; @symbol_type<1> = [Number,20,34,40]; ]
+    private
+    var mHrCapBpm as Lang.Number or Null = null;
+    [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc"; @line = 21; @position = 16; @symbol_vardef = [mHrCapExceededStartTime,21,16,39]; @symbol_type<0> = [Lang,21,43,47]; @symbol_type<1> = [Number,21,48,54]; ]
+    private
+    var mHrCapExceededStartTime as Lang.Number or Null = null;
+    [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc"; @line = 22; @position = 18; @symbol_constdef = [HR_CAP_DEBOUNCE_MS,22,18,36]; ]
+    private
+    const HR_CAP_DEBOUNCE_MS = 10000;
+    [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc"; @line = 25; @position = 16; @symbol_vardef = [mLastLapTime,25,16,28]; @symbol_type<0> = [Lang,25,32,36]; @symbol_type<1> = [Number,25,37,43]; ]
+    private
+    var mLastLapTime as Lang.Number = 0;
+    [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc"; @line = 27; @symbol_functiondef = [initialize,27,13,23]; ]
+    function initialize() as Void {
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_27_26_33_4_start:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" 28 8 ]
+        symbol [ SimpleDataField %tmp.2 28 8 23 ];
+        %tmp.2 = getv ? :SimpleDataField;
+        symbol [ initialize %tmp.3 28 24 34 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" 32 8 ]
+        %tmp.4 = self;
+        symbol [ loadSettings %tmp.5 32 8 20 ];
+        %tmp.5 = getv function %tmp.4 :loadSettings;
+        invoke %tmp.4 %tmp.5();
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_27_26_33_4_stop:
+    }
+    [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc"; @line = 35; @symbol_functiondef = [loadSettings,35,21,33]; ]
+    private
+    function loadSettings() as Void {
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_35_44_42_4_start:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" 37 8 ]
+        [ "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_35_44_42_4_start" "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_35_44_42_4_stop" ]
+        %app.1 = local;
+        symbol [ app %app.1 37 12 15 ];
+        symbol [ Application %tmp.1 37 18 29 ];
+        %tmp.1 = getm $.Toybox.Application;
+        symbol [ getApp %tmp.2 37 30 36 ];
+        %tmp.2 = getv function %tmp.1 :getApp;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %app.1 %tmp.3;
+        symbol [ app %app.1 37 12 15 ];
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" 38 8 ]
+        [ "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_35_44_42_4_start" "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_35_44_42_4_stop" ]
+        %hrCap.2 = local;
+        symbol [ hrCap %hrCap.2 38 12 17 ];
+        %tmp.4 = lgetv %app.1;
+        symbol [ app %tmp.4 38 20 23 ];
+        symbol [ getProperty %tmp.5 38 24 35 ];
+        %tmp.5 = getv function %tmp.4 :getProperty;
+        %tmp.6 = "hrCapBpm";
+        %tmp.7 = invoke %tmp.4 %tmp.5(%tmp.6);
+        lputv %hrCap.2 %tmp.7;
+        symbol [ hrCap %hrCap.2 38 12 17 ];
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" 39 8 ]
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_39_8_41_8_if_stmt:
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_39_12_39_69_begin:
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_39_12_39_51_begin:
+        %tmp.8 = lgetv %hrCap.2;
+        symbol [ hrCap %tmp.8 39 12 17 ];
+        %tmp.9 = null;
+        %tmp.10 = ne %tmp.8 %tmp.9;
+        bf %tmp.10 @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_39_8_41_8_if_end;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_39_29_39_51_true:
+        %tmp.11 = lgetv %hrCap.2;
+        symbol [ hrCap %tmp.11 39 29 34 ];
+        %tmp.12 = as %tmp.11 { (!Null) };
+        symbol [ Lang %tmp.13 39 46 50 ];
+        %tmp.13 = getm $.Toybox.Lang;
+        symbol [ Number %tmp.14 39 51 57 ];
+        %tmp.14 = getv %tmp.13 :Number;
+        %tmp.15 = isa %tmp.12 %tmp.14;
+        push %tmp.15;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_39_29_39_51_end:
+        %tmp.16 = phi [%tmp.10 @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_39_12_39_51_begin] [%tmp.15 @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_39_29_39_51_true] [%tmp.16 @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_39_29_39_51_end];
+        bf %tmp.16 @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_39_8_41_8_if_end;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_39_61_39_69_true:
+        %tmp.17 = lgetv %hrCap.2;
+        symbol [ hrCap %tmp.17 39 61 66 ];
+        %tmp.18 = as %tmp.17 { (!Null) && (Lang.Number) };
+        %tmp.19 = 0;
+        %tmp.20 = gt %tmp.18 %tmp.19;
+        push %tmp.20;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_39_61_39_69_end:
+        %tmp.21 = phi [%tmp.16 @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_39_12_39_69_begin] [%tmp.20 @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_39_61_39_69_true] [%tmp.21 @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_39_61_39_69_end];
+        bf %tmp.21 @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_39_8_41_8_if_end;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_39_8_41_8_if_true:
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_39_72_41_8_start:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" 40 12 ]
+        %tmp.22 = lgetv %hrCap.2;
+        symbol [ hrCap %tmp.22 40 24 29 ];
+        %tmp.23 = as %tmp.22 { (!Null) && (Lang.Number) };
+        %tmp.24 = as %tmp.23 Lang.Number;
+        symbol [ Lang %tmp.24 40 33 37 ];
+        symbol [ Number %tmp.24 40 38 44 ];
+        symbol [ mHrCapBpm ? 40 12 21 ];
+        putv self :mHrCapBpm %tmp.24;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_39_72_41_8_stop:
+        goto @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_39_8_41_8_if_end;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_39_8_41_8_if_end:
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_35_44_42_4_stop:
+    }
+    [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc"; @line = 44; @symbol_functiondef = [onTimerLap,44,13,23]; ]
+    function onTimerLap() as Void {
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_44_34_74_4_start:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" 46 8 ]
+        [ "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_44_34_74_4_start" "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_44_34_74_4_stop" ]
+        %currentTime.1 = local;
+        symbol [ currentTime %currentTime.1 46 12 23 ];
+        symbol [ System %tmp.1 46 26 32 ];
+        %tmp.1 = getm $.Toybox.System;
+        symbol [ getTimer %tmp.2 46 33 41 ];
+        %tmp.2 = getv function %tmp.1 :getTimer;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %currentTime.1 %tmp.3;
+        symbol [ currentTime %currentTime.1 46 12 23 ];
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" 47 8 ]
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_47_8_49_8_if_stmt:
+        %tmp.4 = lgetv %currentTime.1;
+        symbol [ currentTime %tmp.4 47 12 23 ];
+        symbol [ mLastLapTime %tmp.6 47 26 38 ];
+        %tmp.6 = getv ? :mLastLapTime;
+        %tmp.7 = sub %tmp.4 %tmp.6;
+        %tmp.8 = 1000;
+        %tmp.9 = lt %tmp.7 %tmp.8;
+        bf %tmp.9 @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_47_8_49_8_if_end;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_47_8_49_8_if_true:
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_47_47_49_8_start:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" 48 12 ]
+        ret ?;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_47_47_49_8_stop:
+        goto @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_47_8_49_8_if_end;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_47_8_49_8_if_end:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" 50 8 ]
+        %tmp.10 = lgetv %currentTime.1;
+        symbol [ currentTime %tmp.10 50 23 34 ];
+        symbol [ mLastLapTime ? 50 8 20 ];
+        putv self :mLastLapTime %tmp.10;
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" 53 8 ]
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_53_8_57_8_if_stmt:
+        symbol [ mCurrentMode %tmp.12 53 12 24 ];
+        %tmp.12 = getv ? :mCurrentMode;
+        symbol [ MODE_CLASS %tmp.14 53 28 38 ];
+        %tmp.14 = getv ? :MODE_CLASS;
+        %tmp.15 = eq %tmp.12 %tmp.14;
+        bf %tmp.15 @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_53_8_57_8_if_else_false;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_53_8_57_8_if_true:
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_53_40_55_8_start:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" 54 12 ]
+        symbol [ MODE_COMBAT %tmp.17 54 27 38 ];
+        %tmp.17 = getv ? :MODE_COMBAT;
+        symbol [ mCurrentMode ? 54 12 24 ];
+        putv self :mCurrentMode %tmp.17;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_53_40_55_8_stop:
+        goto @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_53_8_57_8_if_end;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_53_8_57_8_if_else_false:
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_55_15_57_8_start:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" 56 12 ]
+        symbol [ MODE_CLASS %tmp.19 56 27 37 ];
+        %tmp.19 = getv ? :MODE_CLASS;
+        symbol [ mCurrentMode ? 56 12 24 ];
+        putv self :mCurrentMode %tmp.19;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_55_15_57_8_stop:
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_53_8_57_8_if_end:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" 60 8 ]
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_60_8_69_8_if_stmt:
+        symbol [ Attention %tmp.20 60 12 21 ];
+        %tmp.20 = getm $.Toybox.Attention;
+        %tmp.22 = const :vibrate;
+        symbol [ vibrate %tmp.22 60 27 34 const ];
+        %tmp.23 = canhazplz %tmp.20 %tmp.22;
+        bf %tmp.23 @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_60_8_69_8_if_end;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_60_8_69_8_if_true:
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_60_36_69_8_start:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" 61 12 ]
+        try @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_61_12_68_12_beginTry @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_61_12_68_12_endTry @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_61_12_68_12_catch @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_61_12_68_12_finally;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_61_12_68_12_beginTry:
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_61_16_66_12_start:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" 62 16 ]
+        [ "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_61_16_66_12_start" "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_61_16_66_12_stop" ]
+        %vibrateData.2 = local;
+        symbol [ vibrateData %vibrateData.2 62 20 31 ];
+        %tmp.24 = newa 1;
+        symbol [ Attention %tmp.27 63 24 33 ];
+        %tmp.27 = getm $.Toybox.Attention;
+        symbol [ VibeProfile %tmp.28 63 34 45 ];
+        %tmp.28 = getv function ? %tmp.27 :VibeProfile;
+        %tmp.29 = 50;
+        %tmp.30 = 200;
+        %tmp.25 = newc %tmp.28 (%tmp.29, %tmp.30);
+        %tmp.31 = dup %tmp.24;
+        %tmp.32 = aputv %tmp.31 0 %tmp.25;
+        lputv %vibrateData.2 %tmp.32;
+        symbol [ vibrateData %vibrateData.2 62 20 31 ];
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" 65 16 ]
+        symbol [ Attention %tmp.33 65 16 25 ];
+        %tmp.33 = getm $.Toybox.Attention;
+        symbol [ vibrate %tmp.34 65 26 33 ];
+        %tmp.34 = getv function %tmp.33 :vibrate;
+        %tmp.35 = lgetv %vibrateData.2;
+        symbol [ vibrateData %tmp.35 65 34 45 ];
+        invoke %tmp.33 %tmp.34(%tmp.35);
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_61_16_66_12_stop:
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_61_12_68_12_endTry:
+        jsr @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_61_12_68_12_finally;
+        goto @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_61_12_68_12_end;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_61_12_68_12_catch:
+        %tmp.36 = exception;
+        push %tmp.36;
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" 66 14 ]
+        [ "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_61_12_68_12_catch" "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_66_14_68_12_end" ]
+        %e.3 = local;
+        symbol [ e %e.3 66 21 22 ];
+        %tmp.37 = dup %tmp.36;
+        lputv %e.3 %tmp.37;
+        symbol [ e %e.3 66 21 22 ];
+        jsr @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_61_12_68_12_finally;
+        pop;
+        goto @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_61_12_68_12_end;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_66_14_68_12_end:
+        try @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_61_12_68_12_catch @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_66_14_68_12_end @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_66_14_68_12_end @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_61_12_68_12_finally;
+        jsr @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_61_12_68_12_finally;
+        throw %tmp.36;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_61_12_68_12_finally:
+        jsrret;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_61_12_68_12_end:
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_60_36_69_8_stop:
+        goto @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_60_8_69_8_if_end;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_60_8_69_8_if_end:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" 72 8 ]
+        [ "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_44_34_74_4_start" "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_44_34_74_4_stop" ]
+        %modeName.4 = local;
+        symbol [ modeName %modeName.4 72 12 20 ];
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_72_23_72_64_begin:
+        symbol [ mCurrentMode %tmp.39 72 24 36 ];
+        %tmp.39 = getv ? :mCurrentMode;
+        symbol [ MODE_CLASS %tmp.41 72 40 50 ];
+        %tmp.41 = getv ? :MODE_CLASS;
+        %tmp.42 = eq %tmp.39 %tmp.41;
+        bf %tmp.42 @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_72_23_72_64_false;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_72_23_72_64_true:
+        %tmp.43 = "CLASS";
+        push %tmp.43;
+        goto @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_72_23_72_64_end;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_72_23_72_64_false:
+        %tmp.44 = "COMBAT";
+        push %tmp.44;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_72_23_72_64_end:
+        %tmp.45 = phi [%tmp.42 @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_72_23_72_64_begin] [%tmp.43 @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_72_23_72_64_true] [%tmp.44 @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_72_23_72_64_false] [%tmp.45 @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_72_23_72_64_end];
+        lputv %modeName.4 %tmp.45;
+        symbol [ modeName %modeName.4 72 12 20 ];
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" 73 8 ]
+        symbol [ System %tmp.46 73 8 14 ];
+        %tmp.46 = getm $.Toybox.System;
+        symbol [ println %tmp.47 73 15 22 ];
+        %tmp.47 = getv function %tmp.46 :println;
+        %tmp.48 = "Mode changed to: ";
+        %tmp.49 = lgetv %modeName.4;
+        symbol [ modeName %tmp.49 73 45 53 ];
+        %tmp.50 = add %tmp.48 %tmp.49;
+        invoke %tmp.46 %tmp.47(%tmp.50);
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_44_34_74_4_stop:
+    }
+    [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc"; @line = 76; @symbol_functiondef = [compute,76,13,20]; @symbol_param<0> = [info,76,21,25]; @symbol_param<0>_type<0> = [Activity,76,29,37]; @symbol_param<0>_type<1> = [Info,76,38,42]; @symbol_return<0> = [Lang,76,47,51]; @symbol_return<1> = [Numeric,76,52,59]; @symbol_return<2> = [Time,76,63,67]; @symbol_return<3> = [Duration,76,68,76]; @symbol_return<4> = [Lang,76,80,84]; @symbol_return<5> = [String,76,85,91]; ]
+    function compute(info as Activity.Info) as Lang.Numeric or Time.Duration or Lang.String or Null {
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_76_100_88_4_start:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" 78 8 ]
+        %tmp.1 = self;
+        symbol [ checkHeartRateCap %tmp.2 78 8 25 ];
+        %tmp.2 = getv function %tmp.1 :checkHeartRateCap;
+        %tmp.3 = lgetv %info;
+        symbol [ info %tmp.3 78 26 30 ];
+        invoke %tmp.1 %tmp.2(%tmp.3);
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" 81 8 ]
+        [ "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_76_100_88_4_start" "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_76_100_88_4_stop" ]
+        %modeName.1 = local;
+        symbol [ modeName %modeName.1 81 12 20 ];
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_81_23_81_64_begin:
+        symbol [ mCurrentMode %tmp.5 81 24 36 ];
+        %tmp.5 = getv ? :mCurrentMode;
+        symbol [ MODE_CLASS %tmp.7 81 40 50 ];
+        %tmp.7 = getv ? :MODE_CLASS;
+        %tmp.8 = eq %tmp.5 %tmp.7;
+        bf %tmp.8 @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_81_23_81_64_false;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_81_23_81_64_true:
+        %tmp.9 = "CLASS";
+        push %tmp.9;
+        goto @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_81_23_81_64_end;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_81_23_81_64_false:
+        %tmp.10 = "COMBAT";
+        push %tmp.10;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_81_23_81_64_end:
+        %tmp.11 = phi [%tmp.8 @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_81_23_81_64_begin] [%tmp.9 @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_81_23_81_64_true] [%tmp.10 @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_81_23_81_64_false] [%tmp.11 @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_81_23_81_64_end];
+        lputv %modeName.1 %tmp.11;
+        symbol [ modeName %modeName.1 81 12 20 ];
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" 82 8 ]
+        [ "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_76_100_88_4_start" "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_76_100_88_4_stop" ]
+        %hr.2 = local;
+        symbol [ hr %hr.2 82 12 14 ];
+        %tmp.12 = 0;
+        lputv %hr.2 %tmp.12;
+        symbol [ hr %hr.2 82 12 14 ];
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" 83 8 ]
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_83_8_85_8_if_stmt:
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_83_12_83_67_begin:
+        %tmp.13 = lgetv %info;
+        symbol [ info %tmp.13 83 12 16 ];
+        %tmp.15 = const :currentHeartRate;
+        symbol [ currentHeartRate %tmp.15 83 22 38 const ];
+        %tmp.16 = canhazplz %tmp.13 %tmp.15;
+        bf %tmp.16 @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_83_8_85_8_if_end;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_83_42_83_67_true:
+        %tmp.17 = lgetv %info;
+        symbol [ info %tmp.17 83 42 46 ];
+        %tmp.18 = as %tmp.17 { (interface { var currentHeartRate; }) };
+        symbol [ currentHeartRate %tmp.19 83 47 63 ];
+        %tmp.19 = getv %tmp.18 :currentHeartRate;
+        %tmp.20 = null;
+        %tmp.21 = ne %tmp.19 %tmp.20;
+        push %tmp.21;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_83_42_83_67_end:
+        %tmp.22 = phi [%tmp.16 @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_83_12_83_67_begin] [%tmp.21 @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_83_42_83_67_true] [%tmp.22 @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_83_42_83_67_end];
+        bf %tmp.22 @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_83_8_85_8_if_end;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_83_8_85_8_if_true:
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_83_73_85_8_start:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" 84 12 ]
+        %tmp.23 = lgetv %info;
+        symbol [ info %tmp.23 84 17 21 ];
+        %tmp.24 = as %tmp.23 { (interface { var currentHeartRate; }) };
+        symbol [ currentHeartRate %tmp.25 84 22 38 ];
+        %tmp.25 = getv %tmp.24 :currentHeartRate;
+        %tmp.26 = as %tmp.25 Lang.Number;
+        symbol [ Lang %tmp.26 84 42 46 ];
+        symbol [ Number %tmp.26 84 47 53 ];
+        lputv %hr.2 %tmp.26;
+        symbol [ hr %hr.2 84 12 14 ];
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_83_73_85_8_stop:
+        goto @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_83_8_85_8_if_end;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_83_8_85_8_if_end:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" 87 8 ]
+        %tmp.27 = lgetv %modeName.1;
+        symbol [ modeName %tmp.27 87 15 23 ];
+        %tmp.28 = "  HR ";
+        %tmp.29 = add %tmp.27 %tmp.28;
+        %tmp.30 = lgetv %hr.2;
+        symbol [ hr %tmp.30 87 36 38 ];
+        %tmp.31 = add %tmp.29 %tmp.30;
+        ret %tmp.31;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_76_100_88_4_stop:
+    }
+    [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc"; @line = 90; @symbol_functiondef = [checkHeartRateCap,90,21,38]; @symbol_param<0> = [info,90,39,43]; @symbol_param<0>_type<0> = [Activity,90,47,55]; @symbol_param<0>_type<1> = [Info,90,56,60]; ]
+    private
+    function checkHeartRateCap(info as Activity.Info) as Void {
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_90_70_135_4_start:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" 92 8 ]
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_92_8_94_8_if_stmt:
+        symbol [ mHrCapBpm %tmp.2 92 12 21 ];
+        %tmp.2 = getv ? :mHrCapBpm;
+        %tmp.3 = null;
+        %tmp.4 = eq %tmp.2 %tmp.3;
+        bf %tmp.4 @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_92_8_94_8_if_end;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_92_8_94_8_if_true:
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_92_31_94_8_start:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" 93 12 ]
+        ret ?;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_92_31_94_8_stop:
+        goto @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_92_8_94_8_if_end;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_92_8_94_8_if_end:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" 96 8 ]
+        [ "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_90_70_135_4_start" "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_90_70_135_4_stop" ]
+        %currentHr.1 = local;
+        symbol [ currentHr %currentHr.1 96 12 21 ];
+        %tmp.5 = null;
+        lputv %currentHr.1 %tmp.5;
+        symbol [ currentHr %currentHr.1 96 12 21 ];
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" 97 8 ]
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_97_8_99_8_if_stmt:
+        %tmp.6 = lgetv %info;
+        symbol [ info %tmp.6 97 12 16 ];
+        %tmp.8 = const :currentHeartRate;
+        symbol [ currentHeartRate %tmp.8 97 22 38 const ];
+        %tmp.9 = canhazplz %tmp.6 %tmp.8;
+        bf %tmp.9 @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_97_8_99_8_if_end;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_97_8_99_8_if_true:
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_97_40_99_8_start:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" 98 12 ]
+        %tmp.10 = lgetv %info;
+        symbol [ info %tmp.10 98 24 28 ];
+        %tmp.11 = as %tmp.10 { (interface { var currentHeartRate; }) };
+        symbol [ currentHeartRate %tmp.12 98 29 45 ];
+        %tmp.12 = getv %tmp.11 :currentHeartRate;
+        lputv %currentHr.1 %tmp.12;
+        symbol [ currentHr %currentHr.1 98 12 21 ];
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_97_40_99_8_stop:
+        goto @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_97_8_99_8_if_end;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_97_8_99_8_if_end:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" 101 8 ]
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_101_8_105_8_if_stmt:
+        %tmp.13 = lgetv %currentHr.1;
+        symbol [ currentHr %tmp.13 101 12 21 ];
+        %tmp.14 = null;
+        %tmp.15 = eq %tmp.13 %tmp.14;
+        bf %tmp.15 @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_101_8_105_8_if_end;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_101_8_105_8_if_true:
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_101_31_105_8_start:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" 103 12 ]
+        %tmp.16 = null;
+        symbol [ mHrCapExceededStartTime ? 103 12 35 ];
+        putv self :mHrCapExceededStartTime %tmp.16;
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" 104 12 ]
+        ret ?;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_101_31_105_8_stop:
+        goto @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_101_8_105_8_if_end;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_101_8_105_8_if_end:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" 107 8 ]
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_107_8_134_8_if_stmt:
+        %tmp.17 = lgetv %currentHr.1;
+        symbol [ currentHr %tmp.17 107 12 21 ];
+        symbol [ mHrCapBpm %tmp.19 107 24 33 ];
+        %tmp.19 = getv ? :mHrCapBpm;
+        %tmp.20 = gt %tmp.17 %tmp.19;
+        bf %tmp.20 @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_107_8_134_8_if_else_false;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_107_8_134_8_if_true:
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_107_35_131_8_start:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" 109 12 ]
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_109_12_130_12_if_stmt:
+        symbol [ mHrCapExceededStartTime %tmp.22 109 16 39 ];
+        %tmp.22 = getv ? :mHrCapExceededStartTime;
+        %tmp.23 = null;
+        %tmp.24 = eq %tmp.22 %tmp.23;
+        bf %tmp.24 @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_109_12_130_12_if_else_false;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_109_12_130_12_if_true:
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_109_49_112_12_start:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" 111 16 ]
+        symbol [ System %tmp.25 111 42 48 ];
+        %tmp.25 = getm $.Toybox.System;
+        symbol [ getTimer %tmp.26 111 49 57 ];
+        %tmp.26 = getv function %tmp.25 :getTimer;
+        %tmp.27 = invoke %tmp.25 %tmp.26();
+        symbol [ mHrCapExceededStartTime ? 111 16 39 ];
+        putv self :mHrCapExceededStartTime %tmp.27;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_109_49_112_12_stop:
+        goto @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_109_12_130_12_if_end;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_109_12_130_12_if_else_false:
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_112_19_130_12_start:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" 114 16 ]
+        [ "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_112_19_130_12_start" "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_112_19_130_12_stop" ]
+        %exceededDuration.2 = local;
+        symbol [ exceededDuration %exceededDuration.2 114 20 36 ];
+        symbol [ System %tmp.28 114 39 45 ];
+        %tmp.28 = getm $.Toybox.System;
+        symbol [ getTimer %tmp.29 114 46 54 ];
+        %tmp.29 = getv function %tmp.28 :getTimer;
+        %tmp.30 = invoke %tmp.28 %tmp.29();
+        symbol [ mHrCapExceededStartTime %tmp.32 114 59 82 ];
+        %tmp.32 = getv ? :mHrCapExceededStartTime;
+        %tmp.33 = sub %tmp.30 %tmp.32;
+        lputv %exceededDuration.2 %tmp.33;
+        symbol [ exceededDuration %exceededDuration.2 114 20 36 ];
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" 115 16 ]
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_115_16_129_16_if_stmt:
+        %tmp.34 = lgetv %exceededDuration.2;
+        symbol [ exceededDuration %tmp.34 115 20 36 ];
+        symbol [ HR_CAP_DEBOUNCE_MS %tmp.36 115 39 57 ];
+        %tmp.36 = getv ? :HR_CAP_DEBOUNCE_MS;
+        %tmp.37 = gt %tmp.34 %tmp.36;
+        bf %tmp.37 @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_115_16_129_16_if_end;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_115_16_129_16_if_true:
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_115_59_129_16_start:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" 117 20 ]
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_117_20_126_20_if_stmt:
+        symbol [ Attention %tmp.38 117 24 33 ];
+        %tmp.38 = getm $.Toybox.Attention;
+        %tmp.40 = const :vibrate;
+        symbol [ vibrate %tmp.40 117 39 46 const ];
+        %tmp.41 = canhazplz %tmp.38 %tmp.40;
+        bf %tmp.41 @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_117_20_126_20_if_end;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_117_20_126_20_if_true:
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_117_48_126_20_start:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" 118 24 ]
+        try @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_118_24_125_24_beginTry @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_118_24_125_24_endTry @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_118_24_125_24_catch @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_118_24_125_24_finally;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_118_24_125_24_beginTry:
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_118_28_123_24_start:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" 119 28 ]
+        [ "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_118_28_123_24_start" "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_118_28_123_24_stop" ]
+        %vibrateData.3 = local;
+        symbol [ vibrateData %vibrateData.3 119 32 43 ];
+        %tmp.42 = newa 1;
+        symbol [ Attention %tmp.45 120 36 45 ];
+        %tmp.45 = getm $.Toybox.Attention;
+        symbol [ VibeProfile %tmp.46 120 46 57 ];
+        %tmp.46 = getv function ? %tmp.45 :VibeProfile;
+        %tmp.47 = 50;
+        %tmp.48 = 400;
+        %tmp.43 = newc %tmp.46 (%tmp.47, %tmp.48);
+        %tmp.49 = dup %tmp.42;
+        %tmp.50 = aputv %tmp.49 0 %tmp.43;
+        lputv %vibrateData.3 %tmp.50;
+        symbol [ vibrateData %vibrateData.3 119 32 43 ];
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" 122 28 ]
+        symbol [ Attention %tmp.51 122 28 37 ];
+        %tmp.51 = getm $.Toybox.Attention;
+        symbol [ vibrate %tmp.52 122 38 45 ];
+        %tmp.52 = getv function %tmp.51 :vibrate;
+        %tmp.53 = lgetv %vibrateData.3;
+        symbol [ vibrateData %tmp.53 122 46 57 ];
+        invoke %tmp.51 %tmp.52(%tmp.53);
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_118_28_123_24_stop:
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_118_24_125_24_endTry:
+        jsr @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_118_24_125_24_finally;
+        goto @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_118_24_125_24_end;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_118_24_125_24_catch:
+        %tmp.54 = exception;
+        push %tmp.54;
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" 123 26 ]
+        [ "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_118_24_125_24_catch" "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_123_26_125_24_end" ]
+        %e.4 = local;
+        symbol [ e %e.4 123 33 34 ];
+        %tmp.55 = dup %tmp.54;
+        lputv %e.4 %tmp.55;
+        symbol [ e %e.4 123 33 34 ];
+        jsr @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_118_24_125_24_finally;
+        pop;
+        goto @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_118_24_125_24_end;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_123_26_125_24_end:
+        try @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_118_24_125_24_catch @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_123_26_125_24_end @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_123_26_125_24_end @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_118_24_125_24_finally;
+        jsr @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_118_24_125_24_finally;
+        throw %tmp.54;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_118_24_125_24_finally:
+        jsrret;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_118_24_125_24_end:
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_117_48_126_20_stop:
+        goto @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_117_20_126_20_if_end;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_117_20_126_20_if_end:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" 128 20 ]
+        symbol [ System %tmp.56 128 46 52 ];
+        %tmp.56 = getm $.Toybox.System;
+        symbol [ getTimer %tmp.57 128 53 61 ];
+        %tmp.57 = getv function %tmp.56 :getTimer;
+        %tmp.58 = invoke %tmp.56 %tmp.57();
+        symbol [ mHrCapExceededStartTime ? 128 20 43 ];
+        putv self :mHrCapExceededStartTime %tmp.58;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_115_59_129_16_stop:
+        goto @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_115_16_129_16_if_end;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_115_16_129_16_if_end:
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_112_19_130_12_stop:
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_109_12_130_12_if_end:
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_107_35_131_8_stop:
+        goto @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_107_8_134_8_if_end;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_107_8_134_8_if_else_false:
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_131_15_134_8_start:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc" 133 12 ]
+        %tmp.59 = null;
+        symbol [ mHrCapExceededStartTime ? 133 12 35 ];
+        putv self :mHrCapExceededStartTime %tmp.59;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_131_15_134_8_stop:
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_107_8_134_8_if_end:
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_GrappleIQViewSimple_mc_90_70_135_4_stop:
+    }
+}
+[ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/GrappleIQViewSimple.mc"; @line = 1; ]
+<init> {
+}

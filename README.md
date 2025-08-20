@@ -69,3 +69,53 @@ grapple-iq/
 3. Start activity - begins in CLASS mode
 4. Press LAP to toggle between CLASS and COMBAT modes
 5. View recorded FIT data after activity
+
+## Compatible Devices
+
+This data field is compatible with most modern Garmin watches including:
+- Fenix series (5 Plus, 6, 7, 8)
+- Forerunner series (245, 255, 265, 745, 945, 955, 965, 970)
+- Epix series
+- Venu series
+- Instinct series
+- MARQ series
+- Vivoactive series
+
+See `manifest.xml` for the full list of supported devices.
+
+## Development
+
+### Prerequisites
+
+- [Garmin Connect IQ SDK](https://developer.garmin.com/connect-iq/sdk/)
+- [Visual Studio Code](https://code.visualstudio.com/) with [Monkey C extension](https://marketplace.visualstudio.com/items?itemName=garmin.monkey-c)
+- Java Runtime Environment
+
+### Setup
+
+1. Clone the repository
+2. Open in VS Code with Monkey C extension
+3. Configure SDK path in VS Code settings
+4. Generate developer key (if not already done):
+   ```bash
+   openssl genrsa -out developer_key.pem 4096
+   openssl pkcs8 -topk8 -inform PEM -outform DER -in developer_key.pem -out developer_key.der -nocrypt
+   ```
+
+### Testing
+
+Use the Connect IQ simulator to test the data field:
+1. Build for simulator: `Ctrl+Shift+P` → "Monkey C: Build for Device"
+2. Run in simulator: `Ctrl+Shift+P` → "Monkey C: Run App"
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+MIT License - see LICENSE file for details
+
+## Author
+
+FlowMat - Grappling training optimization through data

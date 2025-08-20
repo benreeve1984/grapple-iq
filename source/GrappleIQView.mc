@@ -13,7 +13,7 @@ class GrappleIQView extends WatchUi.DataField {
     private const MODE_COMBAT = 1;
     
     // Current mode
-    private var mCurrentMode as Number = MODE_CLASS;
+    private var mCurrentMode as Lang.Number = MODE_CLASS;
     
     // FIT contributor fields
     private var mModeCodeField as FitContributor.Field?;
@@ -22,8 +22,8 @@ class GrappleIQView extends WatchUi.DataField {
     private var mZ1TargetMinField as FitContributor.Field?;
     
     // HR cap settings (configured via Connect IQ settings)
-    private var mHrCapBpm as Number? = null;
-    private var mHrCapExceededStartTime as Number? = null;
+    private var mHrCapBpm as Lang.Number? = null;
+    private var mHrCapExceededStartTime as Lang.Number? = null;
     private const HR_CAP_DEBOUNCE_MS = 10000; // 10 seconds
     
     // Helper modules
@@ -32,7 +32,7 @@ class GrappleIQView extends WatchUi.DataField {
     private var mAlerts as Alerts;
     
     // Last second for 1Hz updates
-    private var mLastSecond as Number = -1;
+    private var mLastSecond as Lang.Number = -1;
 
     function initialize() {
         DataField.initialize();
@@ -92,9 +92,8 @@ class GrappleIQView extends WatchUi.DataField {
     }
 
     function onLayout(dc as Graphics.Dc) as Void {
-        // Layout will be loaded from resources based on field count
-        var layoutName = "Layout";
-        View.setLayout(Rez.Layouts[layoutName](dc));
+        // Use default layout from resources
+        View.setLayout(Rez.Layouts.Layout(dc));
     }
 
     function onShow() as Void {}

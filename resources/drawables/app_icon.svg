@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="256" cy="256" r="240" fill="#1a1a1a"/>
+  
+  <!-- Inner circle border -->
+  <circle cx="256" cy="256" r="220" fill="none" stroke="#ff6b35" stroke-width="8"/>
+  
+  <!-- Top text: CLASS -->
+  <text x="256" y="180" font-family="Arial, sans-serif" font-size="48" font-weight="bold" 
+        text-anchor="middle" fill="#ffffff">CLASS</text>
+  
+  <!-- Center divider -->
+  <line x1="100" y1="256" x2="412" y2="256" stroke="#ff6b35" stroke-width="4"/>
+  
+  <!-- Bottom text: COMBAT -->
+  <text x="256" y="340" font-family="Arial, sans-serif" font-size="48" font-weight="bold" 
+        text-anchor="middle" fill="#ff6b35">COMBAT</text>
+  
+  <!-- Small indicator arrows -->
+  <path d="M 236 256 L 256 236 L 276 256" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 236 256 L 256 276 L 276 256" fill="none" stroke="#ff6b35" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

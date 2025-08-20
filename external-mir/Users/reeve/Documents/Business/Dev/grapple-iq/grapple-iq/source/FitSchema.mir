@@ -1,0 +1,84 @@
+[ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/FitSchema.mc"; @line = 1; @symbol_usingdef<0> = [Toybox,1,6,12]; @symbol_usingdef<1> = [FitContributor,1,13,27]; ]
+using Toybox.FitContributor;
+[ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/FitSchema.mc"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [Lang,2,13,17]; ]
+using Toybox.Lang;
+[ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/FitSchema.mc"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [System,3,13,19]; ]
+using Toybox.System;
+[ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/FitSchema.mc"; @line = 6; @symbol_classdef = [FitSchema,6,6,15]; ]
+class FitSchema {
+    [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/FitSchema.mc"; @line = 6; ]
+    <init> {
+    }
+    [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/FitSchema.mc"; @line = 6; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/FitSchema.mc"; @line = 8; @symbol_functiondef = [initialize,8,13,23]; ]
+    function initialize() as Void {
+    }
+    [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/FitSchema.mc"; @line = 11; @symbol_functiondef = [createField,11,13,24]; @symbol_param<0> = [displayName,12,8,19]; @symbol_param<0>_type<0> = [Lang,12,23,27]; @symbol_param<0>_type<1> = [String,12,28,34]; @symbol_param<1> = [fieldId,13,8,15]; @symbol_param<1>_type<0> = [Lang,13,19,23]; @symbol_param<1>_type<1> = [Number,13,24,30]; @symbol_param<2> = [dataType,14,8,16]; @symbol_param<2>_type<0> = [FitContributor,14,20,34]; @symbol_param<2>_type<1> = [DataType,14,35,43]; @symbol_param<3> = [options,15,8,15]; @symbol_param<3>_type<0> = [Lang,15,19,23]; @symbol_param<3>_type<1> = [Dictionary,15,24,34]; @symbol_return<0> = [FitContributor,16,9,23]; @symbol_return<1> = [Field,16,24,29]; ]
+    function createField(displayName as Lang.String, fieldId as Lang.Number, dataType as FitContributor.DataType, options as Lang.Dictionary) as FitContributor.Field or Null {
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_FitSchema_mc_16_31_21_4_start:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/FitSchema.mc" 20 8 ]
+        %tmp.1 = null;
+        ret %tmp.1;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_FitSchema_mc_16_31_21_4_stop:
+    }
+    [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/FitSchema.mc"; @line = 24; @symbol_functiondef = [setFieldData,24,13,25]; @symbol_param<0> = [field,24,26,31]; @symbol_param<0>_type<0> = [FitContributor,24,35,49]; @symbol_param<0>_type<1> = [Field,24,50,55]; @symbol_param<1> = [data,24,58,62]; @symbol_param<1>_type<0> = [Lang,24,66,70]; @symbol_param<1>_type<1> = [Object,24,71,77]; ]
+    function setFieldData(field as FitContributor.Field or Null, data as Lang.Object) as Void {
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_FitSchema_mc_24_87_32_4_start:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/FitSchema.mc" 25 8 ]
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_FitSchema_mc_25_8_31_8_if_stmt:
+        %tmp.1 = lgetv %field;
+        symbol [ field %tmp.1 25 12 17 ];
+        %tmp.2 = null;
+        %tmp.3 = ne %tmp.1 %tmp.2;
+        bf %tmp.3 @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_FitSchema_mc_25_8_31_8_if_end;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_FitSchema_mc_25_8_31_8_if_true:
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_FitSchema_mc_25_27_31_8_start:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/FitSchema.mc" 26 12 ]
+        try @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_FitSchema_mc_26_12_30_12_beginTry @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_FitSchema_mc_26_12_30_12_endTry @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_FitSchema_mc_26_12_30_12_catch @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_FitSchema_mc_26_12_30_12_finally;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_FitSchema_mc_26_12_30_12_beginTry:
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_FitSchema_mc_26_16_28_12_start:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/FitSchema.mc" 27 16 ]
+        %tmp.4 = lgetv %field;
+        symbol [ field %tmp.4 27 16 21 ];
+        %tmp.5 = as %tmp.4 { (!Null) };
+        symbol [ setData %tmp.6 27 22 29 ];
+        %tmp.6 = getv function %tmp.5 :setData;
+        %tmp.7 = lgetv %data;
+        symbol [ data %tmp.7 27 30 34 ];
+        invoke %tmp.5 %tmp.6(%tmp.7);
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_FitSchema_mc_26_16_28_12_stop:
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_FitSchema_mc_26_12_30_12_endTry:
+        jsr @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_FitSchema_mc_26_12_30_12_finally;
+        goto @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_FitSchema_mc_26_12_30_12_end;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_FitSchema_mc_26_12_30_12_catch:
+        %tmp.8 = exception;
+        push %tmp.8;
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/FitSchema.mc" 28 14 ]
+        [ "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_FitSchema_mc_26_12_30_12_catch" "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_FitSchema_mc_28_14_30_12_end" ]
+        %e.1 = local;
+        symbol [ e %e.1 28 21 22 ];
+        %tmp.9 = dup %tmp.8;
+        lputv %e.1 %tmp.9;
+        symbol [ e %e.1 28 21 22 ];
+        jsr @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_FitSchema_mc_26_12_30_12_finally;
+        pop;
+        goto @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_FitSchema_mc_26_12_30_12_end;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_FitSchema_mc_28_14_30_12_end:
+        try @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_FitSchema_mc_26_12_30_12_catch @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_FitSchema_mc_28_14_30_12_end @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_FitSchema_mc_28_14_30_12_end @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_FitSchema_mc_26_12_30_12_finally;
+        jsr @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_FitSchema_mc_26_12_30_12_finally;
+        throw %tmp.8;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_FitSchema_mc_26_12_30_12_finally:
+        jsrret;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_FitSchema_mc_26_12_30_12_end:
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_FitSchema_mc_25_27_31_8_stop:
+        goto @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_FitSchema_mc_25_8_31_8_if_end;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_FitSchema_mc_25_8_31_8_if_end:
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_FitSchema_mc_24_87_32_4_stop:
+    }
+}
+[ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/FitSchema.mc"; @line = 1; ]
+<init> {
+}

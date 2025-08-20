@@ -5,14 +5,14 @@ using Toybox.Lang;
 // Helper module for safe vibration with capability checks
 class Haptics {
     
-    private var mVibrateSupported as Boolean;
+    private var mVibrateSupported as Lang.Boolean;
     
     function initialize() {
         // Check if vibration is supported
         mVibrateSupported = checkVibrateSupport();
     }
     
-    private function checkVibrateSupport() as Boolean {
+    private function checkVibrateSupport() as Lang.Boolean {
         var deviceSettings = System.getDeviceSettings();
         
         // Check if Attention module is available

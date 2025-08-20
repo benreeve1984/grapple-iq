@@ -1,0 +1,89 @@
+[ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Alerts.mc"; @line = 1; @symbol_usingdef<0> = [Toybox,1,6,12]; @symbol_usingdef<1> = [WatchUi,1,13,20]; ]
+using Toybox.WatchUi;
+[ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Alerts.mc"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [Lang,2,13,17]; ]
+using Toybox.Lang;
+[ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Alerts.mc"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [System,3,13,19]; ]
+using Toybox.System;
+[ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Alerts.mc"; @line = 6; @symbol_classdef = [Alerts,6,6,12]; ]
+class Alerts {
+    [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Alerts.mc"; @line = 6; ]
+    <init> {
+    }
+    [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Alerts.mc"; @line = 6; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Alerts.mc"; @line = 8; @position = 16; @symbol_vardef = [mAlertsSupported,8,16,32]; @symbol_type<0> = [Lang,8,36,40]; @symbol_type<1> = [Boolean,8,41,48]; ]
+    private
+    var mAlertsSupported as Lang.Boolean;
+    [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Alerts.mc"; @line = 10; @symbol_functiondef = [initialize,10,13,23]; ]
+    function initialize() as Void {
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Alerts_mc_10_26_13_4_start:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Alerts.mc" 12 8 ]
+        %tmp.1 = self;
+        symbol [ checkAlertSupport %tmp.2 12 27 44 ];
+        %tmp.2 = getv function %tmp.1 :checkAlertSupport;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        symbol [ mAlertsSupported ? 12 8 24 ];
+        putv self :mAlertsSupported %tmp.3;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Alerts_mc_10_26_13_4_stop:
+    }
+    [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Alerts.mc"; @line = 15; @symbol_functiondef = [checkAlertSupport,15,21,38]; @symbol_return<0> = [Lang,15,44,48]; @symbol_return<1> = [Boolean,15,49,56]; ]
+    private
+    function checkAlertSupport() as Lang.Boolean {
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Alerts_mc_15_57_21_4_start:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Alerts.mc" 17 8 ]
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Alerts_mc_17_8_19_8_if_stmt:
+        symbol [ WatchUi %tmp.1 17 12 19 ];
+        %tmp.1 = getm $.Toybox.WatchUi;
+        %tmp.3 = const :DataFieldAlert;
+        symbol [ DataFieldAlert %tmp.3 17 25 39 const ];
+        %tmp.4 = canhazplz %tmp.1 %tmp.3;
+        bf %tmp.4 @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Alerts_mc_17_8_19_8_if_end;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Alerts_mc_17_8_19_8_if_true:
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Alerts_mc_17_41_19_8_start:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Alerts.mc" 18 12 ]
+        %tmp.5 = true;
+        ret %tmp.5;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Alerts_mc_17_41_19_8_stop:
+        goto @_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Alerts_mc_17_8_19_8_if_end;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Alerts_mc_17_8_19_8_if_end:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Alerts.mc" 20 8 ]
+        %tmp.6 = false;
+        ret %tmp.6;
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Alerts_mc_15_57_21_4_stop:
+    }
+    [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Alerts.mc"; @line = 24; @symbol_functiondef = [showBanner,24,13,23]; @symbol_param<0> = [text,24,24,28]; @symbol_param<0>_type<0> = [Lang,24,32,36]; @symbol_param<0>_type<1> = [String,24,37,43]; ]
+    function showBanner(text as Lang.String) as Void {
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Alerts_mc_24_53_28_4_start:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Alerts.mc" 27 8 ]
+        symbol [ System %tmp.1 27 8 14 ];
+        %tmp.1 = getm $.Toybox.System;
+        symbol [ println %tmp.2 27 15 22 ];
+        %tmp.2 = getv function %tmp.1 :println;
+        %tmp.3 = "Alert: ";
+        %tmp.4 = lgetv %text;
+        symbol [ text %tmp.4 27 35 39 ];
+        %tmp.5 = add %tmp.3 %tmp.4;
+        invoke %tmp.1 %tmp.2(%tmp.5);
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Alerts_mc_24_53_28_4_stop:
+    }
+    [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Alerts.mc"; @line = 31; @symbol_functiondef = [showBannerWithDuration,31,13,35]; @symbol_param<0> = [text,31,36,40]; @symbol_param<0>_type<0> = [Lang,31,44,48]; @symbol_param<0>_type<1> = [String,31,49,55]; @symbol_param<1> = [durationMs,31,57,67]; @symbol_param<1>_type<0> = [Lang,31,71,75]; @symbol_param<1>_type<1> = [Number,31,76,82]; ]
+    function showBannerWithDuration(text as Lang.String, durationMs as Lang.Number) as Void {
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Alerts_mc_31_92_34_4_start:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Alerts.mc" 33 8 ]
+        symbol [ System %tmp.1 33 8 14 ];
+        %tmp.1 = getm $.Toybox.System;
+        symbol [ println %tmp.2 33 15 22 ];
+        %tmp.2 = getv function %tmp.1 :println;
+        %tmp.3 = "Alert: ";
+        %tmp.4 = lgetv %text;
+        symbol [ text %tmp.4 33 35 39 ];
+        %tmp.5 = add %tmp.3 %tmp.4;
+        invoke %tmp.1 %tmp.2(%tmp.5);
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_source_Alerts_mc_31_92_34_4_stop:
+    }
+}
+[ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/source/Alerts.mc"; @line = 1; ]
+<init> {
+}

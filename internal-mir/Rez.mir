@@ -1,36 +1,36 @@
-[ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+[ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
 import Toybox.Lang;
-[ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [WatchUi,2,13,20]; ]
+[ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [WatchUi,2,13,20]; ]
 using Toybox.WatchUi;
-[ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [WatchUi,3,13,20]; @symbol_usingAlias = [Ui,3,24,26]; ]
+[ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [WatchUi,3,13,20]; @symbol_usingAlias = [Ui,3,24,26]; ]
 using Toybox.WatchUi as :Ui;
-[ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen"; @line = 4; @symbol_usingdef<0> = [Toybox,4,6,12]; @symbol_usingdef<1> = [Graphics,4,13,21]; ]
+[ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 4; @symbol_usingdef<0> = [Toybox,4,6,12]; @symbol_usingdef<1> = [Graphics,4,13,21]; ]
 using Toybox.Graphics;
-[ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen"; @line = 5; @symbol_usingdef<0> = [Toybox,5,6,12]; @symbol_usingdef<1> = [Graphics,5,13,21]; @symbol_usingAlias = [Gfx,5,25,28]; ]
+[ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 5; @symbol_usingdef<0> = [Toybox,5,6,12]; @symbol_usingdef<1> = [Graphics,5,13,21]; @symbol_usingAlias = [Gfx,5,25,28]; ]
 using Toybox.Graphics as :Gfx;
-[ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen"; @line = 7; @symbol_moduledef = [Rez,7,7,10]; ]
+[ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 7; @symbol_moduledef = [Rez,7,7,10]; ]
 module Rez {
-    [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen"; @line = 7; ]
+    [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 7; ]
     <init> {
     }
-    [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen"; @line = 8; @symbol_moduledef = [Drawables,8,11,20]; ]
+    [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 8; @symbol_moduledef = [Drawables,8,11,20]; ]
     module Drawables {
-        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen"; @line = 8; ]
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 8; ]
         <init> {
         }
-        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen"; @line = 9; @position = 27; initialized = true; @symbol_vardef = [LauncherIcon,9,27,39]; @symbol_type<0> = [ResourceId,9,43,53]; ]
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 9; @position = 27; initialized = true; @symbol_vardef = [LauncherIcon,9,27,39]; @symbol_type<0> = [ResourceId,9,43,53]; ]
         var LauncherIcon as ResourceId;
     }
-    [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen"; @line = 12; @symbol_moduledef = [Layouts,12,11,18]; ]
+    [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 12; @symbol_moduledef = [Layouts,12,11,18]; ]
     module Layouts {
-        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen"; @line = 12; ]
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 12; ]
         <init> {
         }
-        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen"; @line = 13; @symbol_functiondef = [Layout,13,17,23]; @symbol_param<0> = [dc,13,24,26]; @symbol_param<0>_type<0> = [Graphics,13,30,38]; @symbol_param<0>_type<1> = [Dc,13,39,41]; @symbol_return<0> = [Array,13,46,51]; @symbol_return<1> = [WatchUi,13,52,59]; @symbol_return<2> = [Drawable,13,60,68]; ]
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 13; @symbol_functiondef = [Layout,13,17,23]; @symbol_param<0> = [dc,13,24,26]; @symbol_param<0>_type<0> = [Graphics,13,30,38]; @symbol_param<0>_type<1> = [Dc,13,39,41]; @symbol_return<0> = [Array,13,46,51]; @symbol_return<1> = [WatchUi,13,52,59]; @symbol_return<2> = [Drawable,13,60,68]; ]
         function Layout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_Rez_mcgen_13_70_23_8_start:
-[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen" 14 12 ]
-            [ "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_Rez_mcgen_13_70_23_8_start" "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_Rez_mcgen_13_70_23_8_stop" ]
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_006_B3906_00_source_Rez_mcgen_13_70_23_8_start:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen" 14 12 ]
+            [ "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_006_B3906_00_source_Rez_mcgen_13_70_23_8_start" "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_006_B3906_00_source_Rez_mcgen_13_70_23_8_stop" ]
             %rez_cmp_local_var_dc_getHeight.1 = local;
             symbol [ rez_cmp_local_var_dc_getHeight %rez_cmp_local_var_dc_getHeight.1 14 16 46 ];
             %tmp.1 = lgetv %dc;
@@ -40,8 +40,8 @@ _Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_R
             %tmp.3 = invoke %tmp.1 %tmp.2();
             lputv %rez_cmp_local_var_dc_getHeight.1 %tmp.3;
             symbol [ rez_cmp_local_var_dc_getHeight %rez_cmp_local_var_dc_getHeight.1 14 16 46 ];
-[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen" 16 12 ]
-            [ "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_Rez_mcgen_13_70_23_8_start" "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_Rez_mcgen_13_70_23_8_stop" ]
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen" 16 12 ]
+            [ "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_006_B3906_00_source_Rez_mcgen_13_70_23_8_start" "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_006_B3906_00_source_Rez_mcgen_13_70_23_8_stop" ]
             %rez_cmp_local_var_dc_getWidth.2 = local;
             symbol [ rez_cmp_local_var_dc_getWidth %rez_cmp_local_var_dc_getWidth.2 16 16 45 ];
             %tmp.4 = lgetv %dc;
@@ -51,8 +51,8 @@ _Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_R
             %tmp.6 = invoke %tmp.4 %tmp.5();
             lputv %rez_cmp_local_var_dc_getWidth.2 %tmp.6;
             symbol [ rez_cmp_local_var_dc_getWidth %rez_cmp_local_var_dc_getWidth.2 16 16 45 ];
-[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen" 18 12 ]
-            [ "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_Rez_mcgen_13_70_23_8_start" "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_Rez_mcgen_13_70_23_8_stop" ]
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen" 18 12 ]
+            [ "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_006_B3906_00_source_Rez_mcgen_13_70_23_8_start" "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_006_B3906_00_source_Rez_mcgen_13_70_23_8_stop" ]
             %rez_cmp_local_text_label.3 = local;
             symbol [ rez_cmp_local_text_label %rez_cmp_local_text_label.3 18 16 40 ];
             symbol [ WatchUi %tmp.9 18 47 54 ];
@@ -110,8 +110,8 @@ _Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_R
             %tmp.7 = newc %tmp.10 (%tmp.50);
             lputv %rez_cmp_local_text_label.3 %tmp.7;
             symbol [ rez_cmp_local_text_label %rez_cmp_local_text_label.3 18 16 40 ];
-[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen" 20 12 ]
-            [ "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_Rez_mcgen_13_70_23_8_start" "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_Rez_mcgen_13_70_23_8_stop" ]
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen" 20 12 ]
+            [ "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_006_B3906_00_source_Rez_mcgen_13_70_23_8_start" "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_006_B3906_00_source_Rez_mcgen_13_70_23_8_stop" ]
             %rez_cmp_local_text_value.4 = local;
             symbol [ rez_cmp_local_text_value %rez_cmp_local_text_value.4 20 16 40 ];
             symbol [ WatchUi %tmp.53 20 47 54 ];
@@ -177,7 +177,7 @@ _Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_R
             %tmp.51 = newc %tmp.54 (%tmp.98);
             lputv %rez_cmp_local_text_value.4 %tmp.51;
             symbol [ rez_cmp_local_text_value %rez_cmp_local_text_value.4 20 16 40 ];
-[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen" 22 12 ]
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen" 22 12 ]
             %tmp.99 = newa 2 Array<WatchUi.Drawable>;
             symbol [ Array %tmp.99 22 75 80 ];
             symbol [ WatchUi %tmp.99 22 81 88 ];
@@ -191,13 +191,13 @@ _Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_R
             %tmp.104 = dup %tmp.102;
             %tmp.105 = aputv %tmp.104 1 %tmp.103;
             ret %tmp.105;
-_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_Rez_mcgen_13_70_23_8_stop:
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_006_B3906_00_source_Rez_mcgen_13_70_23_8_stop:
         }
-        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen"; @line = 25; @symbol_functiondef = [LayoutSingle,25,17,29]; @symbol_param<0> = [dc,25,30,32]; @symbol_param<0>_type<0> = [Graphics,25,36,44]; @symbol_param<0>_type<1> = [Dc,25,45,47]; @symbol_return<0> = [Array,25,52,57]; @symbol_return<1> = [WatchUi,25,58,65]; @symbol_return<2> = [Drawable,25,66,74]; ]
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 25; @symbol_functiondef = [LayoutSingle,25,17,29]; @symbol_param<0> = [dc,25,30,32]; @symbol_param<0>_type<0> = [Graphics,25,36,44]; @symbol_param<0>_type<1> = [Dc,25,45,47]; @symbol_return<0> = [Array,25,52,57]; @symbol_return<1> = [WatchUi,25,58,65]; @symbol_return<2> = [Drawable,25,66,74]; ]
         function LayoutSingle(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_Rez_mcgen_25_76_35_8_start:
-[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen" 26 12 ]
-            [ "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_Rez_mcgen_25_76_35_8_start" "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_Rez_mcgen_25_76_35_8_stop" ]
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_006_B3906_00_source_Rez_mcgen_25_76_35_8_start:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen" 26 12 ]
+            [ "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_006_B3906_00_source_Rez_mcgen_25_76_35_8_start" "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_006_B3906_00_source_Rez_mcgen_25_76_35_8_stop" ]
             %rez_cmp_local_var_dc_getHeight.1 = local;
             symbol [ rez_cmp_local_var_dc_getHeight %rez_cmp_local_var_dc_getHeight.1 26 16 46 ];
             %tmp.1 = lgetv %dc;
@@ -207,8 +207,8 @@ _Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_R
             %tmp.3 = invoke %tmp.1 %tmp.2();
             lputv %rez_cmp_local_var_dc_getHeight.1 %tmp.3;
             symbol [ rez_cmp_local_var_dc_getHeight %rez_cmp_local_var_dc_getHeight.1 26 16 46 ];
-[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen" 28 12 ]
-            [ "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_Rez_mcgen_25_76_35_8_start" "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_Rez_mcgen_25_76_35_8_stop" ]
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen" 28 12 ]
+            [ "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_006_B3906_00_source_Rez_mcgen_25_76_35_8_start" "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_006_B3906_00_source_Rez_mcgen_25_76_35_8_stop" ]
             %rez_cmp_local_var_dc_getWidth.2 = local;
             symbol [ rez_cmp_local_var_dc_getWidth %rez_cmp_local_var_dc_getWidth.2 28 16 45 ];
             %tmp.4 = lgetv %dc;
@@ -218,8 +218,8 @@ _Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_R
             %tmp.6 = invoke %tmp.4 %tmp.5();
             lputv %rez_cmp_local_var_dc_getWidth.2 %tmp.6;
             symbol [ rez_cmp_local_var_dc_getWidth %rez_cmp_local_var_dc_getWidth.2 28 16 45 ];
-[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen" 30 12 ]
-            [ "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_Rez_mcgen_25_76_35_8_start" "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_Rez_mcgen_25_76_35_8_stop" ]
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen" 30 12 ]
+            [ "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_006_B3906_00_source_Rez_mcgen_25_76_35_8_start" "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_006_B3906_00_source_Rez_mcgen_25_76_35_8_stop" ]
             %rez_cmp_local_text_label.3 = local;
             symbol [ rez_cmp_local_text_label %rez_cmp_local_text_label.3 30 16 40 ];
             symbol [ WatchUi %tmp.9 30 47 54 ];
@@ -277,8 +277,8 @@ _Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_R
             %tmp.7 = newc %tmp.10 (%tmp.50);
             lputv %rez_cmp_local_text_label.3 %tmp.7;
             symbol [ rez_cmp_local_text_label %rez_cmp_local_text_label.3 30 16 40 ];
-[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen" 32 12 ]
-            [ "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_Rez_mcgen_25_76_35_8_start" "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_Rez_mcgen_25_76_35_8_stop" ]
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen" 32 12 ]
+            [ "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_006_B3906_00_source_Rez_mcgen_25_76_35_8_start" "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_006_B3906_00_source_Rez_mcgen_25_76_35_8_stop" ]
             %rez_cmp_local_text_value.4 = local;
             symbol [ rez_cmp_local_text_value %rez_cmp_local_text_value.4 32 16 40 ];
             symbol [ WatchUi %tmp.53 32 47 54 ];
@@ -344,7 +344,7 @@ _Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_R
             %tmp.51 = newc %tmp.54 (%tmp.98);
             lputv %rez_cmp_local_text_value.4 %tmp.51;
             symbol [ rez_cmp_local_text_value %rez_cmp_local_text_value.4 32 16 40 ];
-[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen" 34 12 ]
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen" 34 12 ]
             %tmp.99 = newa 2 Array<WatchUi.Drawable>;
             symbol [ Array %tmp.99 34 75 80 ];
             symbol [ WatchUi %tmp.99 34 81 88 ];
@@ -358,13 +358,13 @@ _Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_R
             %tmp.104 = dup %tmp.102;
             %tmp.105 = aputv %tmp.104 1 %tmp.103;
             ret %tmp.105;
-_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_Rez_mcgen_25_76_35_8_stop:
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_006_B3906_00_source_Rez_mcgen_25_76_35_8_stop:
         }
-        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen"; @line = 37; @symbol_functiondef = [Layout2Field,37,17,29]; @symbol_param<0> = [dc,37,30,32]; @symbol_param<0>_type<0> = [Graphics,37,36,44]; @symbol_param<0>_type<1> = [Dc,37,45,47]; @symbol_return<0> = [Array,37,52,57]; @symbol_return<1> = [WatchUi,37,58,65]; @symbol_return<2> = [Drawable,37,66,74]; ]
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 37; @symbol_functiondef = [Layout2Field,37,17,29]; @symbol_param<0> = [dc,37,30,32]; @symbol_param<0>_type<0> = [Graphics,37,36,44]; @symbol_param<0>_type<1> = [Dc,37,45,47]; @symbol_return<0> = [Array,37,52,57]; @symbol_return<1> = [WatchUi,37,58,65]; @symbol_return<2> = [Drawable,37,66,74]; ]
         function Layout2Field(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_Rez_mcgen_37_76_47_8_start:
-[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen" 38 12 ]
-            [ "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_Rez_mcgen_37_76_47_8_start" "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_Rez_mcgen_37_76_47_8_stop" ]
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_006_B3906_00_source_Rez_mcgen_37_76_47_8_start:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen" 38 12 ]
+            [ "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_006_B3906_00_source_Rez_mcgen_37_76_47_8_start" "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_006_B3906_00_source_Rez_mcgen_37_76_47_8_stop" ]
             %rez_cmp_local_var_dc_getHeight.1 = local;
             symbol [ rez_cmp_local_var_dc_getHeight %rez_cmp_local_var_dc_getHeight.1 38 16 46 ];
             %tmp.1 = lgetv %dc;
@@ -374,8 +374,8 @@ _Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_R
             %tmp.3 = invoke %tmp.1 %tmp.2();
             lputv %rez_cmp_local_var_dc_getHeight.1 %tmp.3;
             symbol [ rez_cmp_local_var_dc_getHeight %rez_cmp_local_var_dc_getHeight.1 38 16 46 ];
-[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen" 40 12 ]
-            [ "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_Rez_mcgen_37_76_47_8_start" "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_Rez_mcgen_37_76_47_8_stop" ]
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen" 40 12 ]
+            [ "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_006_B3906_00_source_Rez_mcgen_37_76_47_8_start" "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_006_B3906_00_source_Rez_mcgen_37_76_47_8_stop" ]
             %rez_cmp_local_var_dc_getWidth.2 = local;
             symbol [ rez_cmp_local_var_dc_getWidth %rez_cmp_local_var_dc_getWidth.2 40 16 45 ];
             %tmp.4 = lgetv %dc;
@@ -385,8 +385,8 @@ _Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_R
             %tmp.6 = invoke %tmp.4 %tmp.5();
             lputv %rez_cmp_local_var_dc_getWidth.2 %tmp.6;
             symbol [ rez_cmp_local_var_dc_getWidth %rez_cmp_local_var_dc_getWidth.2 40 16 45 ];
-[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen" 42 12 ]
-            [ "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_Rez_mcgen_37_76_47_8_start" "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_Rez_mcgen_37_76_47_8_stop" ]
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen" 42 12 ]
+            [ "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_006_B3906_00_source_Rez_mcgen_37_76_47_8_start" "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_006_B3906_00_source_Rez_mcgen_37_76_47_8_stop" ]
             %rez_cmp_local_text_label.3 = local;
             symbol [ rez_cmp_local_text_label %rez_cmp_local_text_label.3 42 16 40 ];
             symbol [ WatchUi %tmp.9 42 47 54 ];
@@ -444,8 +444,8 @@ _Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_R
             %tmp.7 = newc %tmp.10 (%tmp.50);
             lputv %rez_cmp_local_text_label.3 %tmp.7;
             symbol [ rez_cmp_local_text_label %rez_cmp_local_text_label.3 42 16 40 ];
-[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen" 44 12 ]
-            [ "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_Rez_mcgen_37_76_47_8_start" "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_Rez_mcgen_37_76_47_8_stop" ]
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen" 44 12 ]
+            [ "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_006_B3906_00_source_Rez_mcgen_37_76_47_8_start" "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_006_B3906_00_source_Rez_mcgen_37_76_47_8_stop" ]
             %rez_cmp_local_text_value.4 = local;
             symbol [ rez_cmp_local_text_value %rez_cmp_local_text_value.4 44 16 40 ];
             symbol [ WatchUi %tmp.53 44 47 54 ];
@@ -503,7 +503,7 @@ _Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_R
             %tmp.51 = newc %tmp.54 (%tmp.94);
             lputv %rez_cmp_local_text_value.4 %tmp.51;
             symbol [ rez_cmp_local_text_value %rez_cmp_local_text_value.4 44 16 40 ];
-[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen" 46 12 ]
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen" 46 12 ]
             %tmp.95 = newa 2 Array<WatchUi.Drawable>;
             symbol [ Array %tmp.95 46 75 80 ];
             symbol [ WatchUi %tmp.95 46 81 88 ];
@@ -517,13 +517,13 @@ _Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_R
             %tmp.100 = dup %tmp.98;
             %tmp.101 = aputv %tmp.100 1 %tmp.99;
             ret %tmp.101;
-_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_Rez_mcgen_37_76_47_8_stop:
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_006_B3906_00_source_Rez_mcgen_37_76_47_8_stop:
         }
-        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen"; @line = 49; @symbol_functiondef = [Layout3Field,49,17,29]; @symbol_param<0> = [dc,49,30,32]; @symbol_param<0>_type<0> = [Graphics,49,36,44]; @symbol_param<0>_type<1> = [Dc,49,45,47]; @symbol_return<0> = [Array,49,52,57]; @symbol_return<1> = [WatchUi,49,58,65]; @symbol_return<2> = [Drawable,49,66,74]; ]
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 49; @symbol_functiondef = [Layout3Field,49,17,29]; @symbol_param<0> = [dc,49,30,32]; @symbol_param<0>_type<0> = [Graphics,49,36,44]; @symbol_param<0>_type<1> = [Dc,49,45,47]; @symbol_return<0> = [Array,49,52,57]; @symbol_return<1> = [WatchUi,49,58,65]; @symbol_return<2> = [Drawable,49,66,74]; ]
         function Layout3Field(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_Rez_mcgen_49_76_59_8_start:
-[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen" 50 12 ]
-            [ "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_Rez_mcgen_49_76_59_8_start" "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_Rez_mcgen_49_76_59_8_stop" ]
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_006_B3906_00_source_Rez_mcgen_49_76_59_8_start:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen" 50 12 ]
+            [ "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_006_B3906_00_source_Rez_mcgen_49_76_59_8_start" "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_006_B3906_00_source_Rez_mcgen_49_76_59_8_stop" ]
             %rez_cmp_local_var_dc_getHeight.1 = local;
             symbol [ rez_cmp_local_var_dc_getHeight %rez_cmp_local_var_dc_getHeight.1 50 16 46 ];
             %tmp.1 = lgetv %dc;
@@ -533,8 +533,8 @@ _Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_R
             %tmp.3 = invoke %tmp.1 %tmp.2();
             lputv %rez_cmp_local_var_dc_getHeight.1 %tmp.3;
             symbol [ rez_cmp_local_var_dc_getHeight %rez_cmp_local_var_dc_getHeight.1 50 16 46 ];
-[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen" 52 12 ]
-            [ "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_Rez_mcgen_49_76_59_8_start" "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_Rez_mcgen_49_76_59_8_stop" ]
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen" 52 12 ]
+            [ "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_006_B3906_00_source_Rez_mcgen_49_76_59_8_start" "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_006_B3906_00_source_Rez_mcgen_49_76_59_8_stop" ]
             %rez_cmp_local_var_dc_getWidth.2 = local;
             symbol [ rez_cmp_local_var_dc_getWidth %rez_cmp_local_var_dc_getWidth.2 52 16 45 ];
             %tmp.4 = lgetv %dc;
@@ -544,8 +544,8 @@ _Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_R
             %tmp.6 = invoke %tmp.4 %tmp.5();
             lputv %rez_cmp_local_var_dc_getWidth.2 %tmp.6;
             symbol [ rez_cmp_local_var_dc_getWidth %rez_cmp_local_var_dc_getWidth.2 52 16 45 ];
-[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen" 54 12 ]
-            [ "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_Rez_mcgen_49_76_59_8_start" "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_Rez_mcgen_49_76_59_8_stop" ]
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen" 54 12 ]
+            [ "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_006_B3906_00_source_Rez_mcgen_49_76_59_8_start" "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_006_B3906_00_source_Rez_mcgen_49_76_59_8_stop" ]
             %rez_cmp_local_text_label.3 = local;
             symbol [ rez_cmp_local_text_label %rez_cmp_local_text_label.3 54 16 40 ];
             symbol [ WatchUi %tmp.9 54 47 54 ];
@@ -603,8 +603,8 @@ _Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_R
             %tmp.7 = newc %tmp.10 (%tmp.50);
             lputv %rez_cmp_local_text_label.3 %tmp.7;
             symbol [ rez_cmp_local_text_label %rez_cmp_local_text_label.3 54 16 40 ];
-[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen" 56 12 ]
-            [ "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_Rez_mcgen_49_76_59_8_start" "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_Rez_mcgen_49_76_59_8_stop" ]
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen" 56 12 ]
+            [ "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_006_B3906_00_source_Rez_mcgen_49_76_59_8_start" "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_006_B3906_00_source_Rez_mcgen_49_76_59_8_stop" ]
             %rez_cmp_local_text_value.4 = local;
             symbol [ rez_cmp_local_text_value %rez_cmp_local_text_value.4 56 16 40 ];
             symbol [ WatchUi %tmp.53 56 47 54 ];
@@ -662,7 +662,7 @@ _Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_R
             %tmp.51 = newc %tmp.54 (%tmp.94);
             lputv %rez_cmp_local_text_value.4 %tmp.51;
             symbol [ rez_cmp_local_text_value %rez_cmp_local_text_value.4 56 16 40 ];
-[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen" 58 12 ]
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen" 58 12 ]
             %tmp.95 = newa 2 Array<WatchUi.Drawable>;
             symbol [ Array %tmp.95 58 75 80 ];
             symbol [ WatchUi %tmp.95 58 81 88 ];
@@ -676,13 +676,13 @@ _Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_R
             %tmp.100 = dup %tmp.98;
             %tmp.101 = aputv %tmp.100 1 %tmp.99;
             ret %tmp.101;
-_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_Rez_mcgen_49_76_59_8_stop:
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_006_B3906_00_source_Rez_mcgen_49_76_59_8_stop:
         }
-        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen"; @line = 61; @symbol_functiondef = [Layout4Field,61,17,29]; @symbol_param<0> = [dc,61,30,32]; @symbol_param<0>_type<0> = [Graphics,61,36,44]; @symbol_param<0>_type<1> = [Dc,61,45,47]; @symbol_return<0> = [Array,61,52,57]; @symbol_return<1> = [WatchUi,61,58,65]; @symbol_return<2> = [Drawable,61,66,74]; ]
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 61; @symbol_functiondef = [Layout4Field,61,17,29]; @symbol_param<0> = [dc,61,30,32]; @symbol_param<0>_type<0> = [Graphics,61,36,44]; @symbol_param<0>_type<1> = [Dc,61,45,47]; @symbol_return<0> = [Array,61,52,57]; @symbol_return<1> = [WatchUi,61,58,65]; @symbol_return<2> = [Drawable,61,66,74]; ]
         function Layout4Field(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_Rez_mcgen_61_76_65_8_start:
-[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen" 62 12 ]
-            [ "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_Rez_mcgen_61_76_65_8_start" "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_Rez_mcgen_61_76_65_8_stop" ]
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_006_B3906_00_source_Rez_mcgen_61_76_65_8_start:
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen" 62 12 ]
+            [ "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_006_B3906_00_source_Rez_mcgen_61_76_65_8_start" "_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_006_B3906_00_source_Rez_mcgen_61_76_65_8_stop" ]
             %rez_cmp_local_text_value.1 = local;
             symbol [ rez_cmp_local_text_value %rez_cmp_local_text_value.1 62 16 40 ];
             symbol [ WatchUi %tmp.3 62 47 54 ];
@@ -754,7 +754,7 @@ _Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_R
             %tmp.1 = newc %tmp.4 (%tmp.52);
             lputv %rez_cmp_local_text_value.1 %tmp.1;
             symbol [ rez_cmp_local_text_value %rez_cmp_local_text_value.1 62 16 40 ];
-[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen" 64 12 ]
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen" 64 12 ]
             %tmp.53 = newa 1 Array<WatchUi.Drawable>;
             symbol [ Array %tmp.53 64 49 54 ];
             symbol [ WatchUi %tmp.53 64 55 62 ];
@@ -764,40 +764,1443 @@ _Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_R
             %tmp.55 = dup %tmp.53;
             %tmp.56 = aputv %tmp.55 0 %tmp.54;
             ret %tmp.56;
-_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_no_device_source_Rez_mcgen_61_76_65_8_stop:
+_Users_reeve_Documents_Business_Dev_grapple_iq_grapple_iq_gen_006_B3906_00_source_Rez_mcgen_61_76_65_8_stop:
         }
     }
-    [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen"; @line = 68; @symbol_moduledef = [Strings,68,11,18]; ]
+    [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 68; @symbol_moduledef = [Strings,68,11,18]; ]
     module Strings {
-        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen"; @line = 68; ]
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 68; ]
         <init> {
         }
-        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen"; @line = 69; @position = 27; initialized = true; @symbol_vardef = [GoalModeTitle,69,27,40]; @symbol_type<0> = [ResourceId,69,44,54]; ]
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 69; @position = 27; initialized = true; @symbol_vardef = [GoalModeTitle,69,27,40]; @symbol_type<0> = [ResourceId,69,44,54]; ]
         var GoalModeTitle as ResourceId;
-        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen"; @line = 70; @position = 27; initialized = true; @symbol_vardef = [GoalModePrompt,70,27,41]; @symbol_type<0> = [ResourceId,70,45,55]; ]
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 70; @position = 27; initialized = true; @symbol_vardef = [GoalModePrompt,70,27,41]; @symbol_type<0> = [ResourceId,70,45,55]; ]
         var GoalModePrompt as ResourceId;
-        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen"; @line = 71; @position = 27; initialized = true; @symbol_vardef = [GoalModeDrill,71,27,40]; @symbol_type<0> = [ResourceId,71,44,54]; ]
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 71; @position = 27; initialized = true; @symbol_vardef = [GoalModeDrill,71,27,40]; @symbol_type<0> = [ResourceId,71,44,54]; ]
         var GoalModeDrill as ResourceId;
-        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen"; @line = 72; @position = 27; initialized = true; @symbol_vardef = [GoalModeHybrid,72,27,41]; @symbol_type<0> = [ResourceId,72,45,55]; ]
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 72; @position = 27; initialized = true; @symbol_vardef = [GoalModeHybrid,72,27,41]; @symbol_type<0> = [ResourceId,72,45,55]; ]
         var GoalModeHybrid as ResourceId;
-        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen"; @line = 73; @position = 27; initialized = true; @symbol_vardef = [HrCapPrompt,73,27,38]; @symbol_type<0> = [ResourceId,73,42,52]; ]
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 73; @position = 27; initialized = true; @symbol_vardef = [HrCapPrompt,73,27,38]; @symbol_type<0> = [ResourceId,73,42,52]; ]
         var HrCapPrompt as ResourceId;
-        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen"; @line = 74; @position = 27; initialized = true; @symbol_vardef = [GoalModeCombat,74,27,41]; @symbol_type<0> = [ResourceId,74,45,55]; ]
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 74; @position = 27; initialized = true; @symbol_vardef = [GoalModeCombat,74,27,41]; @symbol_type<0> = [ResourceId,74,45,55]; ]
         var GoalModeCombat as ResourceId;
-        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen"; @line = 75; @position = 27; initialized = true; @symbol_vardef = [ModeCombat,75,27,37]; @symbol_type<0> = [ResourceId,75,41,51]; ]
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 75; @position = 27; initialized = true; @symbol_vardef = [ModeCombat,75,27,37]; @symbol_type<0> = [ResourceId,75,41,51]; ]
         var ModeCombat as ResourceId;
-        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen"; @line = 76; @position = 27; initialized = true; @symbol_vardef = [Z1TargetTitle,76,27,40]; @symbol_type<0> = [ResourceId,76,44,54]; ]
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 76; @position = 27; initialized = true; @symbol_vardef = [Z1TargetTitle,76,27,40]; @symbol_type<0> = [ResourceId,76,44,54]; ]
         var Z1TargetTitle as ResourceId;
-        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen"; @line = 77; @position = 27; initialized = true; @symbol_vardef = [ModeDrill,77,27,36]; @symbol_type<0> = [ResourceId,77,40,50]; ]
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 77; @position = 27; initialized = true; @symbol_vardef = [ModeDrill,77,27,36]; @symbol_type<0> = [ResourceId,77,40,50]; ]
         var ModeDrill as ResourceId;
-        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen"; @line = 78; @position = 27; initialized = true; @symbol_vardef = [HrCapTitle,78,27,37]; @symbol_type<0> = [ResourceId,78,41,51]; ]
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 78; @position = 27; initialized = true; @symbol_vardef = [HrCapTitle,78,27,37]; @symbol_type<0> = [ResourceId,78,41,51]; ]
         var HrCapTitle as ResourceId;
-        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen"; @line = 79; @position = 27; initialized = true; @symbol_vardef = [AppName,79,27,34]; @symbol_type<0> = [ResourceId,79,38,48]; ]
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 79; @position = 27; initialized = true; @symbol_vardef = [AppName,79,27,34]; @symbol_type<0> = [ResourceId,79,38,48]; ]
         var AppName as ResourceId;
-        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen"; @line = 80; @position = 27; initialized = true; @symbol_vardef = [Z1TargetPrompt,80,27,41]; @symbol_type<0> = [ResourceId,80,45,55]; ]
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 80; @position = 27; initialized = true; @symbol_vardef = [Z1TargetPrompt,80,27,41]; @symbol_type<0> = [ResourceId,80,45,55]; ]
         var Z1TargetPrompt as ResourceId;
     }
+    [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 83; @symbol_moduledef = [Styles,83,11,17]; ]
+    module Styles {
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 83; ]
+        <init> {
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 84; @symbol_moduledef = [prompt_font_enhanced_readability__body_with_title,84,15,64]; ]
+        module prompt_font_enhanced_readability__body_with_title {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 84; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 85; @position = 18; @symbol_constdef = [exclude,85,18,25]; @symbol_type<0> = [Boolean,85,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 88; @symbol_moduledef = [system_size__menu_header,88,15,39]; ]
+        module system_size__menu_header {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 88; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 89; @position = 18; @symbol_constdef = [width,89,18,23]; @symbol_type<0> = [Number,89,27,33]; ]
+            const width as Number = 260;
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 90; @position = 18; @symbol_constdef = [height,90,18,24]; @symbol_type<0> = [Number,90,28,34]; ]
+            const height as Number = 81;
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 93; @symbol_moduledef = [system_loc__hint_button_left_bottom,93,15,50]; ]
+        module system_loc__hint_button_left_bottom {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 93; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 94; @position = 18; @symbol_constdef = [x,94,18,19]; @symbol_type<0> = [Number,94,23,29]; ]
+            const x as Number = 10;
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 95; @position = 18; @symbol_constdef = [y,95,18,19]; @symbol_type<0> = [Number,95,23,29]; ]
+            const y as Number = 172;
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 98; @symbol_moduledef = [prompt_font_enhanced_readability__body_no_title,98,15,62]; ]
+        module prompt_font_enhanced_readability__body_no_title {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 98; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 99; @position = 18; @symbol_constdef = [exclude,99,18,25]; @symbol_type<0> = [Boolean,99,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 102; @symbol_moduledef = [prompt_loc__body_no_title,102,15,40]; ]
+        module prompt_loc__body_no_title {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 102; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 103; @position = 18; @symbol_constdef = [x,103,18,19]; @symbol_type<0> = [Number,103,23,29]; ]
+            const x as Number = 26;
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 104; @position = 18; @symbol_constdef = [y,104,18,19]; @symbol_type<0> = [Number,104,23,29]; ]
+            const y as Number = 26;
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 107; @symbol_moduledef = [system_icon_dark__about,107,15,38]; ]
+        module system_icon_dark__about {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 107; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 108; @position = 18; @symbol_constdef = [filename,108,18,26]; @symbol_type<0> = [String,108,30,36]; ]
+            const filename as String = "/Users/reeve/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_dark__about.svg";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 109; @position = 18; @symbol_constdef = [compress,109,18,26]; @symbol_type<0> = [String,109,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 110; @position = 18; @symbol_constdef = [dithering,110,18,27]; @symbol_type<0> = [String,110,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 111; @position = 18; @symbol_constdef = [automaticPalette,111,18,34]; @symbol_type<0> = [String,111,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 114; @symbol_moduledef = [system_icon_light__question,114,15,42]; ]
+        module system_icon_light__question {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 114; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 115; @position = 18; @symbol_constdef = [filename,115,18,26]; @symbol_type<0> = [String,115,30,36]; ]
+            const filename as String = "/Users/reeve/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_light__question.svg";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 116; @position = 18; @symbol_constdef = [dithering,116,18,27]; @symbol_type<0> = [String,116,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 119; @symbol_moduledef = [system_loc__hint_button_left_top,119,15,47]; ]
+        module system_loc__hint_button_left_top {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 119; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 120; @position = 18; @symbol_constdef = [exclude,120,18,25]; @symbol_type<0> = [Boolean,120,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 123; @symbol_moduledef = [prompt_font__title,123,15,33]; ]
+        module prompt_font__title {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 123; ]
+            <init> {
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen" 124 18 ]
+                symbol [ Graphics %tmp.57 124 34 42 ];
+                %tmp.57 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.58 124 43 62 ];
+                %tmp.58 = getv %tmp.57 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.59 124 63 71 ];
+                %tmp.59 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.60 124 72 92 ];
+                %tmp.60 = getv %tmp.59 :TEXT_JUSTIFY_VCENTER;
+                %tmp.61 = bitor %tmp.58 %tmp.60;
+                putv self :justification %tmp.61;
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen" 125 18 ]
+                symbol [ Graphics %tmp.62 125 25 33 ];
+                %tmp.62 = getm $.Toybox.Graphics;
+                symbol [ FONT_XTINY %tmp.63 125 34 44 ];
+                %tmp.63 = getv %tmp.62 :FONT_XTINY;
+                putv self :font %tmp.63;
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 124; @position = 18; @symbol_constdef = [justification,124,18,31]; ]
+            const justification;
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 125; @position = 18; @symbol_constdef = [font,125,18,22]; ]
+            const font;
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 128; @symbol_moduledef = [system_icon_dark__discard,128,15,40]; ]
+        module system_icon_dark__discard {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 128; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 129; @position = 18; @symbol_constdef = [filename,129,18,26]; @symbol_type<0> = [String,129,30,36]; ]
+            const filename as String = "/Users/reeve/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_dark__discard.svg";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 130; @position = 18; @symbol_constdef = [compress,130,18,26]; @symbol_type<0> = [String,130,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 131; @position = 18; @symbol_constdef = [dithering,131,18,27]; @symbol_type<0> = [String,131,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 132; @position = 18; @symbol_constdef = [automaticPalette,132,18,34]; @symbol_type<0> = [String,132,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 135; @symbol_moduledef = [system_size__menu_item,135,15,37]; ]
+        module system_size__menu_item {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 135; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 136; @position = 18; @symbol_constdef = [width,136,18,23]; @symbol_type<0> = [Number,136,27,33]; ]
+            const width as Number = 260;
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 137; @position = 18; @symbol_constdef = [height,137,18,24]; @symbol_type<0> = [Number,137,28,34]; ]
+            const height as Number = 68;
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 140; @symbol_moduledef = [system_color_dark__text,140,15,38]; ]
+        module system_color_dark__text {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 140; ]
+            <init> {
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen" 142 18 ]
+                symbol [ Graphics %tmp.64 142 31 39 ];
+                %tmp.64 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.65 142 40 57 ];
+                %tmp.65 = getv %tmp.64 :COLOR_TRANSPARENT;
+                putv self :background %tmp.65;
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 141; @position = 18; @symbol_constdef = [color,141,18,23]; @symbol_type<0> = [Number,141,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 142; @position = 18; @symbol_constdef = [background,142,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 145; @symbol_moduledef = [system_icon_destructive__discard,145,15,47]; ]
+        module system_icon_destructive__discard {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 145; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 146; @position = 18; @symbol_constdef = [filename,146,18,26]; @symbol_type<0> = [String,146,30,36]; ]
+            const filename as String = "/Users/reeve/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_destructive__discard.svg";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 147; @position = 18; @symbol_constdef = [dithering,147,18,27]; @symbol_type<0> = [String,147,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 150; @symbol_moduledef = [system_icon_dark__hint_action_menu,150,15,49]; ]
+        module system_icon_dark__hint_action_menu {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 150; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 151; @position = 18; @symbol_constdef = [filename,151,18,26]; @symbol_type<0> = [String,151,30,36]; ]
+            const filename as String = "/Users/reeve/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_dark__hint_button_right_top.svg";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 152; @position = 18; @symbol_constdef = [dithering,152,18,27]; @symbol_type<0> = [String,152,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 155; @symbol_moduledef = [prompt_size__title,155,15,33]; ]
+        module prompt_size__title {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 155; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 156; @position = 18; @symbol_constdef = [width,156,18,23]; @symbol_type<0> = [Number,156,27,33]; ]
+            const width as Number = 208;
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 157; @position = 18; @symbol_constdef = [height,157,18,24]; @symbol_type<0> = [Number,157,28,34]; ]
+            const height as Number = 39;
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 160; @symbol_moduledef = [confirmation_font__body,160,15,38]; ]
+        module confirmation_font__body {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 160; ]
+            <init> {
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen" 161 18 ]
+                symbol [ Graphics %tmp.66 161 34 42 ];
+                %tmp.66 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.67 161 43 62 ];
+                %tmp.67 = getv %tmp.66 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.68 161 63 71 ];
+                %tmp.68 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.69 161 72 92 ];
+                %tmp.69 = getv %tmp.68 :TEXT_JUSTIFY_VCENTER;
+                %tmp.70 = bitor %tmp.67 %tmp.69;
+                putv self :justification %tmp.70;
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen" 162 18 ]
+                symbol [ Graphics %tmp.71 162 25 33 ];
+                %tmp.71 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.72 162 34 43 ];
+                %tmp.72 = getv %tmp.71 :FONT_TINY;
+                putv self :font %tmp.72;
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 161; @position = 18; @symbol_constdef = [justification,161,18,31]; ]
+            const justification;
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 162; @position = 18; @symbol_constdef = [font,162,18,22]; ]
+            const font;
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 165; @symbol_moduledef = [system_color_dark__background,165,15,44]; ]
+        module system_color_dark__background {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 165; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 166; @position = 18; @symbol_constdef = [color,166,18,23]; @symbol_type<0> = [Number,166,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 167; @position = 18; @symbol_constdef = [background,167,18,28]; @symbol_type<0> = [Number,167,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 170; @symbol_moduledef = [system_icon_destructive__hint_button_left_top,170,15,60]; ]
+        module system_icon_destructive__hint_button_left_top {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 170; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 171; @position = 18; @symbol_constdef = [filename,171,18,26]; @symbol_type<0> = [String,171,30,36]; ]
+            const filename as String = "/Users/reeve/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_destructive__hint_button_left_top.svg";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 172; @position = 18; @symbol_constdef = [dithering,172,18,27]; @symbol_type<0> = [String,172,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 175; @symbol_moduledef = [system_size__launch_icon,175,15,39]; ]
+        module system_size__launch_icon {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 175; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 176; @position = 18; @symbol_constdef = [scaleX,176,18,24]; @symbol_type<0> = [Number,176,28,34]; ]
+            const scaleX as Number = 40;
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 177; @position = 18; @symbol_constdef = [scaleY,177,18,24]; @symbol_type<0> = [Number,177,28,34]; ]
+            const scaleY as Number = 40;
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 178; @position = 18; @symbol_constdef = [scaleRelativeTo,178,18,33]; @symbol_type<0> = [String,178,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 181; @symbol_moduledef = [confirmation_input__confirm,181,15,42]; ]
+        module confirmation_input__confirm {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 181; ]
+            <init> {
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen" 182 18 ]
+                symbol [ WatchUi %tmp.73 182 27 34 ];
+                %tmp.73 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.74 182 35 44 ];
+                %tmp.74 = getv %tmp.73 :KEY_ENTER;
+                putv self :button %tmp.74;
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 182; @position = 18; @symbol_constdef = [button,182,18,24]; ]
+            const button;
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 185; @symbol_moduledef = [prompt_font__body_with_title,185,15,43]; ]
+        module prompt_font__body_with_title {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 185; ]
+            <init> {
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen" 186 18 ]
+                symbol [ Graphics %tmp.75 186 34 42 ];
+                %tmp.75 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.76 186 43 62 ];
+                %tmp.76 = getv %tmp.75 :TEXT_JUSTIFY_CENTER;
+                putv self :justification %tmp.76;
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen" 187 18 ]
+                symbol [ Graphics %tmp.77 187 25 33 ];
+                %tmp.77 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.78 187 34 43 ];
+                %tmp.78 = getv %tmp.77 :FONT_TINY;
+                putv self :font %tmp.78;
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 186; @position = 18; @symbol_constdef = [justification,186,18,31]; ]
+            const justification;
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 187; @position = 18; @symbol_constdef = [font,187,18,22]; ]
+            const font;
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 190; @symbol_moduledef = [confirmation_loc__body,190,15,37]; ]
+        module confirmation_loc__body {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 190; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 191; @position = 18; @symbol_constdef = [x,191,18,19]; @symbol_type<0> = [Number,191,23,29]; ]
+            const x as Number = 52;
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 192; @position = 18; @symbol_constdef = [y,192,18,19]; @symbol_type<0> = [Number,192,23,29]; ]
+            const y as Number = 52;
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 195; @symbol_moduledef = [system_icon_destructive__hint_button_left_bottom,195,15,63]; ]
+        module system_icon_destructive__hint_button_left_bottom {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 195; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 196; @position = 18; @symbol_constdef = [filename,196,18,26]; @symbol_type<0> = [String,196,30,36]; ]
+            const filename as String = "/Users/reeve/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_destructive__hint_button_left_bottom.svg";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 197; @position = 18; @symbol_constdef = [dithering,197,18,27]; @symbol_type<0> = [String,197,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 200; @symbol_moduledef = [prompt_color_dark__background,200,15,44]; ]
+        module prompt_color_dark__background {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 200; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 201; @position = 18; @symbol_constdef = [color,201,18,23]; @symbol_type<0> = [Number,201,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 202; @position = 18; @symbol_constdef = [background,202,18,28]; @symbol_type<0> = [Number,202,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 205; @symbol_moduledef = [system_icon_destructive__hint_action_menu,205,15,56]; ]
+        module system_icon_destructive__hint_action_menu {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 205; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 206; @position = 18; @symbol_constdef = [filename,206,18,26]; @symbol_type<0> = [String,206,30,36]; ]
+            const filename as String = "/Users/reeve/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_destructive__hint_button_right_top.svg";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 207; @position = 18; @symbol_constdef = [dithering,207,18,27]; @symbol_type<0> = [String,207,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 210; @symbol_moduledef = [system_loc__hint_action_menu,210,15,43]; ]
+        module system_loc__hint_action_menu {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 210; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 211; @position = 18; @symbol_constdef = [x,211,18,19]; @symbol_type<0> = [Number,211,23,29]; ]
+            const x as Number = 225;
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 212; @position = 18; @symbol_constdef = [y,212,18,19]; @symbol_type<0> = [Number,212,23,29]; ]
+            const y as Number = 48;
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 215; @symbol_moduledef = [confirmation_icon__hint_confirm,215,15,46]; ]
+        module confirmation_icon__hint_confirm {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 215; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 216; @position = 18; @symbol_constdef = [filename,216,18,26]; @symbol_type<0> = [String,216,30,36]; ]
+            const filename as String = "/Users/reeve/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/confirmation_icon__hint_completion.svg";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 217; @position = 18; @symbol_constdef = [dithering,217,18,27]; @symbol_type<0> = [String,217,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 220; @symbol_moduledef = [system_loc__hint_button_left_middle,220,15,50]; ]
+        module system_loc__hint_button_left_middle {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 220; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 221; @position = 18; @symbol_constdef = [x,221,18,19]; @symbol_type<0> = [Number,221,23,29]; ]
+            const x as Number = 3;
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 222; @position = 18; @symbol_constdef = [y,222,18,19]; @symbol_type<0> = [Number,222,23,29]; ]
+            const y as Number = 108;
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 225; @symbol_moduledef = [prompt_size__body_no_title,225,15,41]; ]
+        module prompt_size__body_no_title {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 225; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 226; @position = 18; @symbol_constdef = [width,226,18,23]; @symbol_type<0> = [Number,226,27,33]; ]
+            const width as Number = 208;
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 227; @position = 18; @symbol_constdef = [height,227,18,24]; @symbol_type<0> = [Number,227,28,34]; ]
+            const height as Number = 208;
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 230; @symbol_moduledef = [system_icon_light__hint_button_left_top,230,15,54]; ]
+        module system_icon_light__hint_button_left_top {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 230; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 231; @position = 18; @symbol_constdef = [filename,231,18,26]; @symbol_type<0> = [String,231,30,36]; ]
+            const filename as String = "/Users/reeve/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_light__hint_button_left_top.svg";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 232; @position = 18; @symbol_constdef = [dithering,232,18,27]; @symbol_type<0> = [String,232,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 235; @symbol_moduledef = [prompt_color_light__background,235,15,45]; ]
+        module prompt_color_light__background {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 235; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 236; @position = 18; @symbol_constdef = [color,236,18,23]; @symbol_type<0> = [Number,236,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 237; @position = 18; @symbol_constdef = [background,237,18,28]; @symbol_type<0> = [Number,237,32,38]; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 240; @symbol_moduledef = [confirmation_input__delete,240,15,41]; ]
+        module confirmation_input__delete {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 240; ]
+            <init> {
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen" 241 18 ]
+                symbol [ WatchUi %tmp.79 241 27 34 ];
+                %tmp.79 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.80 241 35 44 ];
+                %tmp.80 = getv %tmp.79 :KEY_ENTER;
+                putv self :button %tmp.80;
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 241; @position = 18; @symbol_constdef = [button,241,18,24]; ]
+            const button;
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 244; @symbol_moduledef = [system_icon_dark__hint_button_left_top,244,15,53]; ]
+        module system_icon_dark__hint_button_left_top {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 244; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 245; @position = 18; @symbol_constdef = [filename,245,18,26]; @symbol_type<0> = [String,245,30,36]; ]
+            const filename as String = "/Users/reeve/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_dark__hint_button_left_top.svg";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 246; @position = 18; @symbol_constdef = [dithering,246,18,27]; @symbol_type<0> = [String,246,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 249; @symbol_moduledef = [system_input__action_menu,249,15,40]; ]
+        module system_input__action_menu {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 249; ]
+            <init> {
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen" 250 18 ]
+                symbol [ WatchUi %tmp.81 250 27 34 ];
+                %tmp.81 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.82 250 35 44 ];
+                %tmp.82 = getv %tmp.81 :KEY_ENTER;
+                putv self :button %tmp.82;
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 250; @position = 18; @symbol_constdef = [button,250,18,24]; ]
+            const button;
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 253; @symbol_moduledef = [system_icon_light__save,253,15,38]; ]
+        module system_icon_light__save {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 253; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 254; @position = 18; @symbol_constdef = [filename,254,18,26]; @symbol_type<0> = [String,254,30,36]; ]
+            const filename as String = "/Users/reeve/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_light__save.svg";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 255; @position = 18; @symbol_constdef = [dithering,255,18,27]; @symbol_type<0> = [String,255,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 258; @symbol_moduledef = [prompt_color_light__body,258,15,39]; ]
+        module prompt_color_light__body {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 258; ]
+            <init> {
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen" 260 18 ]
+                symbol [ Graphics %tmp.83 260 31 39 ];
+                %tmp.83 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.84 260 40 57 ];
+                %tmp.84 = getv %tmp.83 :COLOR_TRANSPARENT;
+                putv self :background %tmp.84;
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 259; @position = 18; @symbol_constdef = [color,259,18,23]; @symbol_type<0> = [Number,259,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 260; @position = 18; @symbol_constdef = [background,260,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 263; @symbol_moduledef = [system_loc__subwindow,263,15,36]; ]
+        module system_loc__subwindow {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 263; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 264; @position = 18; @symbol_constdef = [exclude,264,18,25]; @symbol_type<0> = [Boolean,264,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 267; @symbol_moduledef = [system_icon_light__warning,267,15,41]; ]
+        module system_icon_light__warning {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 267; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 268; @position = 18; @symbol_constdef = [filename,268,18,26]; @symbol_type<0> = [String,268,30,36]; ]
+            const filename as String = "/Users/reeve/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_light__warning.svg";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 269; @position = 18; @symbol_constdef = [dithering,269,18,27]; @symbol_type<0> = [String,269,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 272; @symbol_moduledef = [confirmation_color_light__body,272,15,45]; ]
+        module confirmation_color_light__body {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 272; ]
+            <init> {
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen" 274 18 ]
+                symbol [ Graphics %tmp.85 274 31 39 ];
+                %tmp.85 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.86 274 40 57 ];
+                %tmp.86 = getv %tmp.85 :COLOR_TRANSPARENT;
+                putv self :background %tmp.86;
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 273; @position = 18; @symbol_constdef = [color,273,18,23]; @symbol_type<0> = [Number,273,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 274; @position = 18; @symbol_constdef = [background,274,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 277; @symbol_moduledef = [confirmation_icon_light__hint_keep,277,15,49]; ]
+        module confirmation_icon_light__hint_keep {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 277; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 278; @position = 18; @symbol_constdef = [filename,278,18,26]; @symbol_type<0> = [String,278,30,36]; ]
+            const filename as String = "/Users/reeve/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/confirmation_icon__hint_keep.svg";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 279; @position = 18; @symbol_constdef = [dithering,279,18,27]; @symbol_type<0> = [String,279,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 282; @symbol_moduledef = [activity_color_light__background,282,15,47]; ]
+        module activity_color_light__background {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 282; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 283; @position = 18; @symbol_constdef = [color,283,18,23]; @symbol_type<0> = [Number,283,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 284; @position = 18; @symbol_constdef = [background,284,18,28]; @symbol_type<0> = [Number,284,32,38]; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 287; @symbol_moduledef = [system_icon_positive__hint_button_right_top,287,15,58]; ]
+        module system_icon_positive__hint_button_right_top {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 287; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 288; @position = 18; @symbol_constdef = [filename,288,18,26]; @symbol_type<0> = [String,288,30,36]; ]
+            const filename as String = "/Users/reeve/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_positive__hint_button_right_top.svg";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 289; @position = 18; @symbol_constdef = [dithering,289,18,27]; @symbol_type<0> = [String,289,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 292; @symbol_moduledef = [system_size__screen,292,15,34]; ]
+        module system_size__screen {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 292; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 293; @position = 18; @symbol_constdef = [width,293,18,23]; @symbol_type<0> = [Number,293,27,33]; ]
+            const width as Number = 260;
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 294; @position = 18; @symbol_constdef = [height,294,18,24]; @symbol_type<0> = [Number,294,28,34]; ]
+            const height as Number = 260;
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 297; @symbol_moduledef = [system_icon_destructive__hint_button_right_bottom,297,15,64]; ]
+        module system_icon_destructive__hint_button_right_bottom {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 297; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 298; @position = 18; @symbol_constdef = [filename,298,18,26]; @symbol_type<0> = [String,298,30,36]; ]
+            const filename as String = "/Users/reeve/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_destructive__hint_button_right_bottom.svg";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 299; @position = 18; @symbol_constdef = [dithering,299,18,27]; @symbol_type<0> = [String,299,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 302; @symbol_moduledef = [system_color_light__background,302,15,45]; ]
+        module system_color_light__background {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 302; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 303; @position = 18; @symbol_constdef = [color,303,18,23]; @symbol_type<0> = [Number,303,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 304; @position = 18; @symbol_constdef = [background,304,18,28]; @symbol_type<0> = [Number,304,32,38]; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 307; @symbol_moduledef = [system_icon_destructive__hint_button_right_top,307,15,61]; ]
+        module system_icon_destructive__hint_button_right_top {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 307; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 308; @position = 18; @symbol_constdef = [filename,308,18,26]; @symbol_type<0> = [String,308,30,36]; ]
+            const filename as String = "/Users/reeve/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_destructive__hint_button_right_top.svg";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 309; @position = 18; @symbol_constdef = [dithering,309,18,27]; @symbol_type<0> = [String,309,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 312; @symbol_moduledef = [confirmation_loc__hint_confirm,312,15,45]; ]
+        module confirmation_loc__hint_confirm {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 312; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 313; @position = 18; @symbol_constdef = [x,313,18,19]; @symbol_type<0> = [Number,313,23,29]; ]
+            const x as Number = 210;
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 314; @position = 18; @symbol_constdef = [y,314,18,19]; @symbol_type<0> = [Number,314,23,29]; ]
+            const y as Number = 48;
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 317; @symbol_moduledef = [activity_color_dark__text,317,15,40]; ]
+        module activity_color_dark__text {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 317; ]
+            <init> {
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen" 319 18 ]
+                symbol [ Graphics %tmp.87 319 31 39 ];
+                %tmp.87 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.88 319 40 57 ];
+                %tmp.88 = getv %tmp.87 :COLOR_TRANSPARENT;
+                putv self :background %tmp.88;
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 318; @position = 18; @symbol_constdef = [color,318,18,23]; @symbol_type<0> = [Number,318,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 319; @position = 18; @symbol_constdef = [background,319,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 322; @symbol_moduledef = [confirmation_input__keep,322,15,39]; ]
+        module confirmation_input__keep {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 322; ]
+            <init> {
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen" 323 18 ]
+                symbol [ WatchUi %tmp.89 323 27 34 ];
+                %tmp.89 = getm $.Toybox.WatchUi;
+                symbol [ KEY_DOWN %tmp.90 323 35 43 ];
+                %tmp.90 = getv %tmp.89 :KEY_DOWN;
+                putv self :button %tmp.90;
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 323; @position = 18; @symbol_constdef = [button,323,18,24]; ]
+            const button;
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 326; @symbol_moduledef = [prompt_loc__body_with_title,326,15,42]; ]
+        module prompt_loc__body_with_title {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 326; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 327; @position = 18; @symbol_constdef = [x,327,18,19]; @symbol_type<0> = [Number,327,23,29]; ]
+            const x as Number = 26;
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 328; @position = 18; @symbol_constdef = [y,328,18,19]; @symbol_type<0> = [Number,328,23,29]; ]
+            const y as Number = 78;
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 331; @symbol_moduledef = [system_icon_dark__search,331,15,39]; ]
+        module system_icon_dark__search {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 331; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 332; @position = 18; @symbol_constdef = [filename,332,18,26]; @symbol_type<0> = [String,332,30,36]; ]
+            const filename as String = "/Users/reeve/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_dark__search.svg";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 333; @position = 18; @symbol_constdef = [compress,333,18,26]; @symbol_type<0> = [String,333,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 334; @position = 18; @symbol_constdef = [dithering,334,18,27]; @symbol_type<0> = [String,334,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 335; @position = 18; @symbol_constdef = [automaticPalette,335,18,34]; @symbol_type<0> = [String,335,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 338; @symbol_moduledef = [activity_color_light__text,338,15,41]; ]
+        module activity_color_light__text {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 338; ]
+            <init> {
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen" 340 18 ]
+                symbol [ Graphics %tmp.91 340 31 39 ];
+                %tmp.91 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.92 340 40 57 ];
+                %tmp.92 = getv %tmp.91 :COLOR_TRANSPARENT;
+                putv self :background %tmp.92;
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 339; @position = 18; @symbol_constdef = [color,339,18,23]; @symbol_type<0> = [Number,339,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 340; @position = 18; @symbol_constdef = [background,340,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 343; @symbol_moduledef = [confirmation_icon__hint_keep,343,15,43]; ]
+        module confirmation_icon__hint_keep {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 343; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 344; @position = 18; @symbol_constdef = [filename,344,18,26]; @symbol_type<0> = [String,344,30,36]; ]
+            const filename as String = "/Users/reeve/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/confirmation_icon__hint_keep.svg";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 345; @position = 18; @symbol_constdef = [dithering,345,18,27]; @symbol_type<0> = [String,345,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 348; @symbol_moduledef = [system_icon_dark__save,348,15,37]; ]
+        module system_icon_dark__save {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 348; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 349; @position = 18; @symbol_constdef = [filename,349,18,26]; @symbol_type<0> = [String,349,30,36]; ]
+            const filename as String = "/Users/reeve/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_dark__save.svg";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 350; @position = 18; @symbol_constdef = [compress,350,18,26]; @symbol_type<0> = [String,350,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 351; @position = 18; @symbol_constdef = [dithering,351,18,27]; @symbol_type<0> = [String,351,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 352; @position = 18; @symbol_constdef = [automaticPalette,352,18,34]; @symbol_type<0> = [String,352,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 355; @symbol_moduledef = [system_icon_destructive__hint_button_left_middle,355,15,63]; ]
+        module system_icon_destructive__hint_button_left_middle {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 355; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 356; @position = 18; @symbol_constdef = [filename,356,18,26]; @symbol_type<0> = [String,356,30,36]; ]
+            const filename as String = "/Users/reeve/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_destructive__hint_button_left_middle.svg";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 357; @position = 18; @symbol_constdef = [dithering,357,18,27]; @symbol_type<0> = [String,357,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 360; @symbol_moduledef = [system_icon_light__search,360,15,40]; ]
+        module system_icon_light__search {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 360; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 361; @position = 18; @symbol_constdef = [filename,361,18,26]; @symbol_type<0> = [String,361,30,36]; ]
+            const filename as String = "/Users/reeve/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_light__search.svg";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 362; @position = 18; @symbol_constdef = [dithering,362,18,27]; @symbol_type<0> = [String,362,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 365; @symbol_moduledef = [system_icon_dark__hint_button_left_bottom,365,15,56]; ]
+        module system_icon_dark__hint_button_left_bottom {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 365; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 366; @position = 18; @symbol_constdef = [filename,366,18,26]; @symbol_type<0> = [String,366,30,36]; ]
+            const filename as String = "/Users/reeve/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_dark__hint_button_left_bottom.svg";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 367; @position = 18; @symbol_constdef = [dithering,367,18,27]; @symbol_type<0> = [String,367,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 370; @symbol_moduledef = [system_icon_positive__hint_button_left_top,370,15,57]; ]
+        module system_icon_positive__hint_button_left_top {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 370; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 371; @position = 18; @symbol_constdef = [filename,371,18,26]; @symbol_type<0> = [String,371,30,36]; ]
+            const filename as String = "/Users/reeve/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_positive__hint_button_left_top.svg";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 372; @position = 18; @symbol_constdef = [dithering,372,18,27]; @symbol_type<0> = [String,372,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 375; @symbol_moduledef = [system_loc__hint_button_right_bottom,375,15,51]; ]
+        module system_loc__hint_button_right_bottom {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 375; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 376; @position = 18; @symbol_constdef = [x,376,18,19]; @symbol_type<0> = [Number,376,23,29]; ]
+            const x as Number = 225;
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 377; @position = 18; @symbol_constdef = [y,377,18,19]; @symbol_type<0> = [Number,377,23,29]; ]
+            const y as Number = 172;
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 380; @symbol_moduledef = [confirmation_icon_dark__hint_reject,380,15,50]; ]
+        module confirmation_icon_dark__hint_reject {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 380; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 381; @position = 18; @symbol_constdef = [filename,381,18,26]; @symbol_type<0> = [String,381,30,36]; ]
+            const filename as String = "/Users/reeve/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/confirmation_icon__hint_reject.svg";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 382; @position = 18; @symbol_constdef = [dithering,382,18,27]; @symbol_type<0> = [String,382,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 385; @symbol_moduledef = [confirmation_color_dark__body,385,15,44]; ]
+        module confirmation_color_dark__body {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 385; ]
+            <init> {
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen" 387 18 ]
+                symbol [ Graphics %tmp.93 387 31 39 ];
+                %tmp.93 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.94 387 40 57 ];
+                %tmp.94 = getv %tmp.93 :COLOR_TRANSPARENT;
+                putv self :background %tmp.94;
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 386; @position = 18; @symbol_constdef = [color,386,18,23]; @symbol_type<0> = [Number,386,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 387; @position = 18; @symbol_constdef = [background,387,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 390; @symbol_moduledef = [confirmation_icon_light__hint_confirm,390,15,52]; ]
+        module confirmation_icon_light__hint_confirm {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 390; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 391; @position = 18; @symbol_constdef = [filename,391,18,26]; @symbol_type<0> = [String,391,30,36]; ]
+            const filename as String = "/Users/reeve/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/confirmation_icon__hint_completion.svg";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 392; @position = 18; @symbol_constdef = [dithering,392,18,27]; @symbol_type<0> = [String,392,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 395; @symbol_moduledef = [prompt_color_dark__title,395,15,39]; ]
+        module prompt_color_dark__title {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 395; ]
+            <init> {
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen" 397 18 ]
+                symbol [ Graphics %tmp.95 397 31 39 ];
+                %tmp.95 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.96 397 40 57 ];
+                %tmp.96 = getv %tmp.95 :COLOR_TRANSPARENT;
+                putv self :background %tmp.96;
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 396; @position = 18; @symbol_constdef = [color,396,18,23]; @symbol_type<0> = [Number,396,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 397; @position = 18; @symbol_constdef = [background,397,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 400; @symbol_moduledef = [system_icon_destructive__cancel,400,15,46]; ]
+        module system_icon_destructive__cancel {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 400; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 401; @position = 18; @symbol_constdef = [filename,401,18,26]; @symbol_type<0> = [String,401,30,36]; ]
+            const filename as String = "/Users/reeve/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_destructive__cancel.svg";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 402; @position = 18; @symbol_constdef = [dithering,402,18,27]; @symbol_type<0> = [String,402,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 405; @symbol_moduledef = [system_icon_light__hint_button_right_bottom,405,15,58]; ]
+        module system_icon_light__hint_button_right_bottom {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 405; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 406; @position = 18; @symbol_constdef = [filename,406,18,26]; @symbol_type<0> = [String,406,30,36]; ]
+            const filename as String = "/Users/reeve/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_light__hint_button_right_bottom.svg";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 407; @position = 18; @symbol_constdef = [dithering,407,18,27]; @symbol_type<0> = [String,407,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 410; @symbol_moduledef = [prompt_loc__title,410,15,32]; ]
+        module prompt_loc__title {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 410; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 411; @position = 18; @symbol_constdef = [x,411,18,19]; @symbol_type<0> = [Number,411,23,29]; ]
+            const x as Number = 26;
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 412; @position = 18; @symbol_constdef = [y,412,18,19]; @symbol_type<0> = [Number,412,23,29]; ]
+            const y as Number = 19;
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 415; @symbol_moduledef = [confirmation_font_enhanced_readability__body,415,15,59]; ]
+        module confirmation_font_enhanced_readability__body {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 415; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 416; @position = 18; @symbol_constdef = [exclude,416,18,25]; @symbol_type<0> = [Boolean,416,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 419; @symbol_moduledef = [prompt_color_light__title,419,15,40]; ]
+        module prompt_color_light__title {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 419; ]
+            <init> {
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen" 421 18 ]
+                symbol [ Graphics %tmp.97 421 31 39 ];
+                %tmp.97 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.98 421 40 57 ];
+                %tmp.98 = getv %tmp.97 :COLOR_TRANSPARENT;
+                putv self :background %tmp.98;
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 420; @position = 18; @symbol_constdef = [color,420,18,23]; @symbol_type<0> = [Number,420,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 421; @position = 18; @symbol_constdef = [background,421,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 424; @symbol_moduledef = [system_icon_dark__hint_button_right_top,424,15,54]; ]
+        module system_icon_dark__hint_button_right_top {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 424; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 425; @position = 18; @symbol_constdef = [filename,425,18,26]; @symbol_type<0> = [String,425,30,36]; ]
+            const filename as String = "/Users/reeve/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_dark__hint_button_right_top.svg";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 426; @position = 18; @symbol_constdef = [dithering,426,18,27]; @symbol_type<0> = [String,426,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 429; @symbol_moduledef = [system_icon_dark__hint_button_left_middle,429,15,56]; ]
+        module system_icon_dark__hint_button_left_middle {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 429; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 430; @position = 18; @symbol_constdef = [filename,430,18,26]; @symbol_type<0> = [String,430,30,36]; ]
+            const filename as String = "/Users/reeve/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_dark__hint_button_left_middle.svg";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 431; @position = 18; @symbol_constdef = [dithering,431,18,27]; @symbol_type<0> = [String,431,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 434; @symbol_moduledef = [confirmation_icon_dark__hint_keep,434,15,48]; ]
+        module confirmation_icon_dark__hint_keep {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 434; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 435; @position = 18; @symbol_constdef = [filename,435,18,26]; @symbol_type<0> = [String,435,30,36]; ]
+            const filename as String = "/Users/reeve/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/confirmation_icon__hint_keep.svg";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 436; @position = 18; @symbol_constdef = [dithering,436,18,27]; @symbol_type<0> = [String,436,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 439; @symbol_moduledef = [system_icon_light__cancel,439,15,40]; ]
+        module system_icon_light__cancel {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 439; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 440; @position = 18; @symbol_constdef = [filename,440,18,26]; @symbol_type<0> = [String,440,30,36]; ]
+            const filename as String = "/Users/reeve/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_light__cancel.svg";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 441; @position = 18; @symbol_constdef = [dithering,441,18,27]; @symbol_type<0> = [String,441,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 444; @symbol_moduledef = [confirmation_icon_light__hint_reject,444,15,51]; ]
+        module confirmation_icon_light__hint_reject {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 444; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 445; @position = 18; @symbol_constdef = [filename,445,18,26]; @symbol_type<0> = [String,445,30,36]; ]
+            const filename as String = "/Users/reeve/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/confirmation_icon__hint_reject.svg";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 446; @position = 18; @symbol_constdef = [dithering,446,18,27]; @symbol_type<0> = [String,446,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 449; @symbol_moduledef = [system_icon_light__about,449,15,39]; ]
+        module system_icon_light__about {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 449; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 450; @position = 18; @symbol_constdef = [filename,450,18,26]; @symbol_type<0> = [String,450,30,36]; ]
+            const filename as String = "/Users/reeve/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_light__about.svg";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 451; @position = 18; @symbol_constdef = [dithering,451,18,27]; @symbol_type<0> = [String,451,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 454; @symbol_moduledef = [system_size__toast_icon,454,15,38]; ]
+        module system_size__toast_icon {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 454; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 455; @position = 18; @symbol_constdef = [scaleX,455,18,24]; @symbol_type<0> = [Number,455,28,34]; ]
+            const scaleX as Number = 40;
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 456; @position = 18; @symbol_constdef = [scaleY,456,18,24]; @symbol_type<0> = [Number,456,28,34]; ]
+            const scaleY as Number = 40;
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 457; @position = 18; @symbol_constdef = [scaleRelativeTo,457,18,33]; @symbol_type<0> = [String,457,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 460; @symbol_moduledef = [system_icon_dark__hint_button_right_middle,460,15,57]; ]
+        module system_icon_dark__hint_button_right_middle {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 460; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 461; @position = 18; @symbol_constdef = [exclude,461,18,25]; @symbol_type<0> = [Boolean,461,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 464; @symbol_moduledef = [confirmation_icon__hint_reject,464,15,45]; ]
+        module confirmation_icon__hint_reject {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 464; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 465; @position = 18; @symbol_constdef = [filename,465,18,26]; @symbol_type<0> = [String,465,30,36]; ]
+            const filename as String = "/Users/reeve/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/confirmation_icon__hint_reject.svg";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 466; @position = 18; @symbol_constdef = [dithering,466,18,27]; @symbol_type<0> = [String,466,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 469; @symbol_moduledef = [system_icon_light__hint_action_menu,469,15,50]; ]
+        module system_icon_light__hint_action_menu {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 469; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 470; @position = 18; @symbol_constdef = [filename,470,18,26]; @symbol_type<0> = [String,470,30,36]; ]
+            const filename as String = "/Users/reeve/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_light__hint_button_right_top.svg";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 471; @position = 18; @symbol_constdef = [dithering,471,18,27]; @symbol_type<0> = [String,471,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 474; @symbol_moduledef = [system_icon_light__hint_button_right_middle,474,15,58]; ]
+        module system_icon_light__hint_button_right_middle {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 474; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 475; @position = 18; @symbol_constdef = [exclude,475,18,25]; @symbol_type<0> = [Boolean,475,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 478; @symbol_moduledef = [system_icon_destructive__hint_button_right_middle,478,15,64]; ]
+        module system_icon_destructive__hint_button_right_middle {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 478; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 479; @position = 18; @symbol_constdef = [exclude,479,18,25]; @symbol_type<0> = [Boolean,479,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 482; @symbol_moduledef = [confirmation_loc__hint_reject,482,15,44]; ]
+        module confirmation_loc__hint_reject {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 482; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 483; @position = 18; @symbol_constdef = [x,483,18,19]; @symbol_type<0> = [Number,483,23,29]; ]
+            const x as Number = 10;
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 484; @position = 18; @symbol_constdef = [y,484,18,19]; @symbol_type<0> = [Number,484,23,29]; ]
+            const y as Number = 172;
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 485; @position = 18; @symbol_constdef = [horizontalJustification,485,18,41]; @symbol_type<0> = [String,485,45,51]; ]
+            const horizontalJustification as String = "left";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 488; @symbol_moduledef = [confirmation_icon_dark__hint_delete,488,15,50]; ]
+        module confirmation_icon_dark__hint_delete {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 488; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 489; @position = 18; @symbol_constdef = [filename,489,18,26]; @symbol_type<0> = [String,489,30,36]; ]
+            const filename as String = "/Users/reeve/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/confirmation_icon__hint_delete.svg";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 490; @position = 18; @symbol_constdef = [dithering,490,18,27]; @symbol_type<0> = [String,490,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 493; @symbol_moduledef = [activity_color_dark__background,493,15,46]; ]
+        module activity_color_dark__background {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 493; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 494; @position = 18; @symbol_constdef = [color,494,18,23]; @symbol_type<0> = [Number,494,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 495; @position = 18; @symbol_constdef = [background,495,18,28]; @symbol_type<0> = [Number,495,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 498; @symbol_moduledef = [system_icon_light__hint_button_left_bottom,498,15,57]; ]
+        module system_icon_light__hint_button_left_bottom {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 498; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 499; @position = 18; @symbol_constdef = [filename,499,18,26]; @symbol_type<0> = [String,499,30,36]; ]
+            const filename as String = "/Users/reeve/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_light__hint_button_left_bottom.svg";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 500; @position = 18; @symbol_constdef = [dithering,500,18,27]; @symbol_type<0> = [String,500,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 503; @symbol_moduledef = [system_icon_positive__hint_button_left_middle,503,15,60]; ]
+        module system_icon_positive__hint_button_left_middle {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 503; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 504; @position = 18; @symbol_constdef = [filename,504,18,26]; @symbol_type<0> = [String,504,30,36]; ]
+            const filename as String = "/Users/reeve/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_positive__hint_button_left_middle.svg";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 505; @position = 18; @symbol_constdef = [dithering,505,18,27]; @symbol_type<0> = [String,505,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 508; @symbol_moduledef = [system_size__menu_icon,508,15,37]; ]
+        module system_size__menu_icon {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 508; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 509; @position = 18; @symbol_constdef = [scaleX,509,18,24]; @symbol_type<0> = [Number,509,28,34]; ]
+            const scaleX as Number = 40;
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 510; @position = 18; @symbol_constdef = [scaleY,510,18,24]; @symbol_type<0> = [Number,510,28,34]; ]
+            const scaleY as Number = 40;
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 511; @position = 18; @symbol_constdef = [scaleRelativeTo,511,18,33]; @symbol_type<0> = [String,511,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 514; @symbol_moduledef = [system_icon_destructive__warning,514,15,47]; ]
+        module system_icon_destructive__warning {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 514; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 515; @position = 18; @symbol_constdef = [filename,515,18,26]; @symbol_type<0> = [String,515,30,36]; ]
+            const filename as String = "/Users/reeve/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_destructive__warning.svg";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 516; @position = 18; @symbol_constdef = [dithering,516,18,27]; @symbol_type<0> = [String,516,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 519; @symbol_moduledef = [system_loc__hint_button_right_middle,519,15,51]; ]
+        module system_loc__hint_button_right_middle {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 519; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 520; @position = 18; @symbol_constdef = [exclude,520,18,25]; @symbol_type<0> = [Boolean,520,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 523; @symbol_moduledef = [system_icon_dark__cancel,523,15,39]; ]
+        module system_icon_dark__cancel {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 523; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 524; @position = 18; @symbol_constdef = [filename,524,18,26]; @symbol_type<0> = [String,524,30,36]; ]
+            const filename as String = "/Users/reeve/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_dark__cancel.svg";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 525; @position = 18; @symbol_constdef = [compress,525,18,26]; @symbol_type<0> = [String,525,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 526; @position = 18; @symbol_constdef = [dithering,526,18,27]; @symbol_type<0> = [String,526,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 527; @position = 18; @symbol_constdef = [automaticPalette,527,18,34]; @symbol_type<0> = [String,527,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 530; @symbol_moduledef = [prompt_size__body_with_title,530,15,43]; ]
+        module prompt_size__body_with_title {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 530; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 531; @position = 18; @symbol_constdef = [width,531,18,23]; @symbol_type<0> = [Number,531,27,33]; ]
+            const width as Number = 208;
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 532; @position = 18; @symbol_constdef = [height,532,18,24]; @symbol_type<0> = [Number,532,28,34]; ]
+            const height as Number = 156;
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 535; @symbol_moduledef = [system_loc__hint_button_right_top,535,15,48]; ]
+        module system_loc__hint_button_right_top {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 535; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 536; @position = 18; @symbol_constdef = [x,536,18,19]; @symbol_type<0> = [Number,536,23,29]; ]
+            const x as Number = 225;
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 537; @position = 18; @symbol_constdef = [y,537,18,19]; @symbol_type<0> = [Number,537,23,29]; ]
+            const y as Number = 48;
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 540; @symbol_moduledef = [system_color_light__text,540,15,39]; ]
+        module system_color_light__text {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 540; ]
+            <init> {
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen" 542 18 ]
+                symbol [ Graphics %tmp.99 542 31 39 ];
+                %tmp.99 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.100 542 40 57 ];
+                %tmp.100 = getv %tmp.99 :COLOR_TRANSPARENT;
+                putv self :background %tmp.100;
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 541; @position = 18; @symbol_constdef = [color,541,18,23]; @symbol_type<0> = [Number,541,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 542; @position = 18; @symbol_constdef = [background,542,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 545; @symbol_moduledef = [system_icon_light__check,545,15,39]; ]
+        module system_icon_light__check {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 545; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 546; @position = 18; @symbol_constdef = [filename,546,18,26]; @symbol_type<0> = [String,546,30,36]; ]
+            const filename as String = "/Users/reeve/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_light__check.svg";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 547; @position = 18; @symbol_constdef = [dithering,547,18,27]; @symbol_type<0> = [String,547,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 550; @symbol_moduledef = [confirmation_input__reject,550,15,41]; ]
+        module confirmation_input__reject {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 550; ]
+            <init> {
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen" 551 18 ]
+                symbol [ WatchUi %tmp.101 551 27 34 ];
+                %tmp.101 = getm $.Toybox.WatchUi;
+                symbol [ KEY_DOWN %tmp.102 551 35 43 ];
+                %tmp.102 = getv %tmp.101 :KEY_DOWN;
+                putv self :button %tmp.102;
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 551; @position = 18; @symbol_constdef = [button,551,18,24]; ]
+            const button;
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 554; @symbol_moduledef = [system_icon_light__revert,554,15,40]; ]
+        module system_icon_light__revert {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 554; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 555; @position = 18; @symbol_constdef = [filename,555,18,26]; @symbol_type<0> = [String,555,30,36]; ]
+            const filename as String = "/Users/reeve/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_light__revert.svg";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 556; @position = 18; @symbol_constdef = [dithering,556,18,27]; @symbol_type<0> = [String,556,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 559; @symbol_moduledef = [system_size__subwindow,559,15,37]; ]
+        module system_size__subwindow {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 559; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 560; @position = 18; @symbol_constdef = [exclude,560,18,25]; @symbol_type<0> = [Boolean,560,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 563; @symbol_moduledef = [system_icon_positive__hint_button_left_bottom,563,15,60]; ]
+        module system_icon_positive__hint_button_left_bottom {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 563; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 564; @position = 18; @symbol_constdef = [filename,564,18,26]; @symbol_type<0> = [String,564,30,36]; ]
+            const filename as String = "/Users/reeve/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_positive__hint_button_left_bottom.svg";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 565; @position = 18; @symbol_constdef = [dithering,565,18,27]; @symbol_type<0> = [String,565,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 568; @symbol_moduledef = [system_icon_dark__check,568,15,38]; ]
+        module system_icon_dark__check {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 568; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 569; @position = 18; @symbol_constdef = [filename,569,18,26]; @symbol_type<0> = [String,569,30,36]; ]
+            const filename as String = "/Users/reeve/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_dark__check.svg";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 570; @position = 18; @symbol_constdef = [compress,570,18,26]; @symbol_type<0> = [String,570,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 571; @position = 18; @symbol_constdef = [dithering,571,18,27]; @symbol_type<0> = [String,571,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 572; @position = 18; @symbol_constdef = [automaticPalette,572,18,34]; @symbol_type<0> = [String,572,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 575; @symbol_moduledef = [confirmation_loc__hint_keep,575,15,42]; ]
+        module confirmation_loc__hint_keep {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 575; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 576; @position = 18; @symbol_constdef = [x,576,18,19]; @symbol_type<0> = [Number,576,23,29]; ]
+            const x as Number = 10;
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 577; @position = 18; @symbol_constdef = [y,577,18,19]; @symbol_type<0> = [Number,577,23,29]; ]
+            const y as Number = 172;
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 578; @position = 18; @symbol_constdef = [horizontalJustification,578,18,41]; @symbol_type<0> = [String,578,45,51]; ]
+            const horizontalJustification as String = "left";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 581; @symbol_moduledef = [confirmation_loc__hint_delete,581,15,44]; ]
+        module confirmation_loc__hint_delete {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 581; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 582; @position = 18; @symbol_constdef = [x,582,18,19]; @symbol_type<0> = [Number,582,23,29]; ]
+            const x as Number = 210;
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 583; @position = 18; @symbol_constdef = [y,583,18,19]; @symbol_type<0> = [Number,583,23,29]; ]
+            const y as Number = 48;
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 586; @symbol_moduledef = [system_icon_positive__hint_action_menu,586,15,53]; ]
+        module system_icon_positive__hint_action_menu {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 586; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 587; @position = 18; @symbol_constdef = [filename,587,18,26]; @symbol_type<0> = [String,587,30,36]; ]
+            const filename as String = "/Users/reeve/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_positive__hint_button_right_top.svg";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 588; @position = 18; @symbol_constdef = [dithering,588,18,27]; @symbol_type<0> = [String,588,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 591; @symbol_moduledef = [system_icon_positive__hint_button_right_middle,591,15,61]; ]
+        module system_icon_positive__hint_button_right_middle {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 591; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 592; @position = 18; @symbol_constdef = [exclude,592,18,25]; @symbol_type<0> = [Boolean,592,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 595; @symbol_moduledef = [system_icon_light__hint_button_left_middle,595,15,57]; ]
+        module system_icon_light__hint_button_left_middle {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 595; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 596; @position = 18; @symbol_constdef = [filename,596,18,26]; @symbol_type<0> = [String,596,30,36]; ]
+            const filename as String = "/Users/reeve/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_light__hint_button_left_middle.svg";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 597; @position = 18; @symbol_constdef = [dithering,597,18,27]; @symbol_type<0> = [String,597,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 600; @symbol_moduledef = [system_icon_dark__hint_button_right_bottom,600,15,57]; ]
+        module system_icon_dark__hint_button_right_bottom {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 600; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 601; @position = 18; @symbol_constdef = [filename,601,18,26]; @symbol_type<0> = [String,601,30,36]; ]
+            const filename as String = "/Users/reeve/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_dark__hint_button_right_bottom.svg";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 602; @position = 18; @symbol_constdef = [dithering,602,18,27]; @symbol_type<0> = [String,602,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 605; @symbol_moduledef = [system_icon_positive__hint_button_right_bottom,605,15,61]; ]
+        module system_icon_positive__hint_button_right_bottom {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 605; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 606; @position = 18; @symbol_constdef = [filename,606,18,26]; @symbol_type<0> = [String,606,30,36]; ]
+            const filename as String = "/Users/reeve/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_positive__hint_button_right_bottom.svg";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 607; @position = 18; @symbol_constdef = [dithering,607,18,27]; @symbol_type<0> = [String,607,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 610; @symbol_moduledef = [system_icon_dark__revert,610,15,39]; ]
+        module system_icon_dark__revert {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 610; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 611; @position = 18; @symbol_constdef = [filename,611,18,26]; @symbol_type<0> = [String,611,30,36]; ]
+            const filename as String = "/Users/reeve/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_dark__revert.svg";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 612; @position = 18; @symbol_constdef = [compress,612,18,26]; @symbol_type<0> = [String,612,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 613; @position = 18; @symbol_constdef = [dithering,613,18,27]; @symbol_type<0> = [String,613,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 614; @position = 18; @symbol_constdef = [automaticPalette,614,18,34]; @symbol_type<0> = [String,614,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 617; @symbol_moduledef = [confirmation_icon_light__hint_delete,617,15,51]; ]
+        module confirmation_icon_light__hint_delete {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 617; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 618; @position = 18; @symbol_constdef = [filename,618,18,26]; @symbol_type<0> = [String,618,30,36]; ]
+            const filename as String = "/Users/reeve/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/confirmation_icon__hint_delete.svg";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 619; @position = 18; @symbol_constdef = [dithering,619,18,27]; @symbol_type<0> = [String,619,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 622; @symbol_moduledef = [system_icon_dark__question,622,15,41]; ]
+        module system_icon_dark__question {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 622; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 623; @position = 18; @symbol_constdef = [filename,623,18,26]; @symbol_type<0> = [String,623,30,36]; ]
+            const filename as String = "/Users/reeve/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_dark__question.svg";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 624; @position = 18; @symbol_constdef = [compress,624,18,26]; @symbol_type<0> = [String,624,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 625; @position = 18; @symbol_constdef = [dithering,625,18,27]; @symbol_type<0> = [String,625,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 626; @position = 18; @symbol_constdef = [automaticPalette,626,18,34]; @symbol_type<0> = [String,626,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 629; @symbol_moduledef = [system_icon_light__discard,629,15,41]; ]
+        module system_icon_light__discard {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 629; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 630; @position = 18; @symbol_constdef = [filename,630,18,26]; @symbol_type<0> = [String,630,30,36]; ]
+            const filename as String = "/Users/reeve/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_light__discard.svg";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 631; @position = 18; @symbol_constdef = [dithering,631,18,27]; @symbol_type<0> = [String,631,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 634; @symbol_moduledef = [device_info,634,15,26]; ]
+        module device_info {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 634; ]
+            <init> {
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen" 636 18 ]
+                symbol [ Toybox %tmp.104 636 32 38 ];
+                %tmp.104 = getv ? :Toybox;
+                symbol [ System %tmp.105 636 39 45 ];
+                %tmp.105 = getv %tmp.104 :System;
+                symbol [ SCREEN_SHAPE_ROUND %tmp.106 636 46 64 ];
+                %tmp.106 = getv %tmp.105 :SCREEN_SHAPE_ROUND;
+                putv self :screenShape %tmp.106;
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 635; @position = 18; @symbol_constdef = [screenWidth,635,18,29]; @symbol_type<0> = [Number,635,33,39]; ]
+            const screenWidth as Number = 260;
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 636; @position = 18; @symbol_constdef = [screenShape,636,18,29]; ]
+            const screenShape;
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 637; @position = 18; @symbol_constdef = [hasNightMode,637,18,30]; @symbol_type<0> = [Boolean,637,34,41]; ]
+            const hasNightMode as Boolean = false;
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 638; @position = 18; @symbol_constdef = [hasGpu,638,18,24]; @symbol_type<0> = [Boolean,638,28,35]; ]
+            const hasGpu as Boolean = true;
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 639; @position = 18; @symbol_constdef = [screenHeight,639,18,30]; @symbol_type<0> = [Number,639,34,40]; ]
+            const screenHeight as Number = 260;
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 640; @position = 18; @symbol_constdef = [hasTouchScreen,640,18,32]; @symbol_type<0> = [Boolean,640,36,43]; ]
+            const hasTouchScreen as Boolean = true;
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 641; @position = 18; @symbol_constdef = [hasEnhancedReadabilityMode,641,18,44]; @symbol_type<0> = [Boolean,641,48,55]; ]
+            const hasEnhancedReadabilityMode as Boolean = false;
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 644; @symbol_moduledef = [confirmation_icon_dark__hint_confirm,644,15,51]; ]
+        module confirmation_icon_dark__hint_confirm {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 644; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 645; @position = 18; @symbol_constdef = [filename,645,18,26]; @symbol_type<0> = [String,645,30,36]; ]
+            const filename as String = "/Users/reeve/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/confirmation_icon__hint_completion.svg";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 646; @position = 18; @symbol_constdef = [dithering,646,18,27]; @symbol_type<0> = [String,646,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 649; @symbol_moduledef = [prompt_font__body_no_title,649,15,41]; ]
+        module prompt_font__body_no_title {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 649; ]
+            <init> {
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen" 650 18 ]
+                symbol [ Graphics %tmp.107 650 34 42 ];
+                %tmp.107 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.108 650 43 62 ];
+                %tmp.108 = getv %tmp.107 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.109 650 63 71 ];
+                %tmp.109 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.110 650 72 92 ];
+                %tmp.110 = getv %tmp.109 :TEXT_JUSTIFY_VCENTER;
+                %tmp.111 = bitor %tmp.108 %tmp.110;
+                putv self :justification %tmp.111;
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen" 651 18 ]
+                symbol [ Graphics %tmp.112 651 25 33 ];
+                %tmp.112 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.113 651 34 43 ];
+                %tmp.113 = getv %tmp.112 :FONT_TINY;
+                putv self :font %tmp.113;
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 650; @position = 18; @symbol_constdef = [justification,650,18,31]; ]
+            const justification;
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 651; @position = 18; @symbol_constdef = [font,651,18,22]; ]
+            const font;
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 654; @symbol_moduledef = [prompt_size__title_icon,654,15,38]; ]
+        module prompt_size__title_icon {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 654; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 655; @position = 18; @symbol_constdef = [scaleX,655,18,24]; @symbol_type<0> = [Float,655,28,33]; ]
+            const scaleX as Float = 0.15;
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 656; @position = 18; @symbol_constdef = [scaleRelativeTo,656,18,33]; @symbol_type<0> = [String,656,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 659; @symbol_moduledef = [system_icon_dark__warning,659,15,40]; ]
+        module system_icon_dark__warning {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 659; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 660; @position = 18; @symbol_constdef = [filename,660,18,26]; @symbol_type<0> = [String,660,30,36]; ]
+            const filename as String = "/Users/reeve/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_dark__warning.svg";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 661; @position = 18; @symbol_constdef = [compress,661,18,26]; @symbol_type<0> = [String,661,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 662; @position = 18; @symbol_constdef = [dithering,662,18,27]; @symbol_type<0> = [String,662,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 663; @position = 18; @symbol_constdef = [automaticPalette,663,18,34]; @symbol_type<0> = [String,663,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 666; @symbol_moduledef = [prompt_loc__title_icon,666,15,37]; ]
+        module prompt_loc__title_icon {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 666; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 667; @position = 18; @symbol_constdef = [x,667,18,19]; @symbol_type<0> = [Number,667,23,29]; ]
+            const x as Number = 130;
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 668; @position = 18; @symbol_constdef = [y,668,18,19]; @symbol_type<0> = [Number,668,23,29]; ]
+            const y as Number = 39;
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 669; @position = 18; @symbol_constdef = [horizontalJustification,669,18,41]; @symbol_type<0> = [String,669,45,51]; ]
+            const horizontalJustification as String = "center";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 670; @position = 18; @symbol_constdef = [verticalJustification,670,18,39]; @symbol_type<0> = [String,670,43,49]; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 673; @symbol_moduledef = [prompt_font_enhanced_readability__title,673,15,54]; ]
+        module prompt_font_enhanced_readability__title {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 673; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 674; @position = 18; @symbol_constdef = [exclude,674,18,25]; @symbol_type<0> = [Boolean,674,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 677; @symbol_moduledef = [prompt_color_dark__body,677,15,38]; ]
+        module prompt_color_dark__body {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 677; ]
+            <init> {
+[ "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen" 679 18 ]
+                symbol [ Graphics %tmp.114 679 31 39 ];
+                %tmp.114 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.115 679 40 57 ];
+                %tmp.115 = getv %tmp.114 :COLOR_TRANSPARENT;
+                putv self :background %tmp.115;
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 678; @position = 18; @symbol_constdef = [color,678,18,23]; @symbol_type<0> = [Number,678,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 679; @position = 18; @symbol_constdef = [background,679,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 682; @symbol_moduledef = [confirmation_icon__hint_delete,682,15,45]; ]
+        module confirmation_icon__hint_delete {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 682; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 683; @position = 18; @symbol_constdef = [filename,683,18,26]; @symbol_type<0> = [String,683,30,36]; ]
+            const filename as String = "/Users/reeve/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/confirmation_icon__hint_delete.svg";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 684; @position = 18; @symbol_constdef = [dithering,684,18,27]; @symbol_type<0> = [String,684,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 687; @symbol_moduledef = [system_icon_light__hint_button_right_top,687,15,55]; ]
+        module system_icon_light__hint_button_right_top {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 687; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 688; @position = 18; @symbol_constdef = [filename,688,18,26]; @symbol_type<0> = [String,688,30,36]; ]
+            const filename as String = "/Users/reeve/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_light__hint_button_right_top.svg";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 689; @position = 18; @symbol_constdef = [dithering,689,18,27]; @symbol_type<0> = [String,689,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 692; @symbol_moduledef = [confirmation_size__body,692,15,38]; ]
+        module confirmation_size__body {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 692; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 693; @position = 18; @symbol_constdef = [width,693,18,23]; @symbol_type<0> = [Number,693,27,33]; ]
+            const width as Number = 156;
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 694; @position = 18; @symbol_constdef = [height,694,18,24]; @symbol_type<0> = [Number,694,28,34]; ]
+            const height as Number = 156;
+        }
+        [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 697; @symbol_moduledef = [system_icon_positive__check,697,15,42]; ]
+        module system_icon_positive__check {
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 697; ]
+            <init> {
+            }
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 698; @position = 18; @symbol_constdef = [filename,698,18,26]; @symbol_type<0> = [String,698,30,36]; ]
+            const filename as String = "/Users/reeve/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_positive__check.svg";
+            [ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 699; @position = 18; @symbol_constdef = [dithering,699,18,27]; @symbol_type<0> = [String,699,31,37]; ]
+            const dithering as String = "none";
+        }
+    }
 }
-[ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/no-device/source/Rez.mcgen"; @line = 1; ]
+[ @file = "/Users/reeve/Documents/Business/Dev/grapple-iq/grapple-iq/gen/006-B3906-00/source/Rez.mcgen"; @line = 1; ]
 <init> {
 }
